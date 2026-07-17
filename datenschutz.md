@@ -47,8 +47,20 @@ Da alle App-Daten ausschließlich auf Ihrem Gerät liegen und der Anbieter keine
 
 ## 5. Diese Website
 
-Diese Website wird über **GitHub Pages** (GitHub, Inc.) gehostet. Sie ist statisch, setzt **keine Cookies** und enthält **kein Tracking**. Beim Aufruf verarbeitet GitHub als Hosting-Anbieter technisch notwendige Verbindungsdaten (insbesondere die IP-Adresse) in Server-Logs. Näheres im [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+Diese Website wird über **GitHub Pages** gehostet, einen Dienst der GitHub, Inc. mit Sitz in den USA. Die Website ist statisch, setzt **keine Cookies** und enthält **kein Tracking**. Beim Aufruf verarbeitet GitHub als Hosting-Anbieter technisch notwendige Verbindungsdaten (insbesondere die IP-Adresse) in Server-Logs.
 
-## 6. Haftungsausschluss / Disclaimer
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist der sichere und stabile Betrieb der Website.
+- **Drittlandübermittlung:** Da GitHub, Inc. in den USA sitzt, findet eine Übermittlung in ein Drittland statt. GitHub ist nach eigenen Angaben unter dem **EU-US Data Privacy Framework** zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO).
+- Näheres im [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+
+## 6. Speicherdauer
+
+Alle in der App eingegebenen Daten verbleiben auf Ihrem Gerät, bis Sie sie in der App löschen oder die App deinstallieren — der Anbieter selbst speichert keine personenbezogenen Daten und kann daher auch keine löschen. Die Speicherdauer der bei Open Food Facts bzw. GitHub anfallenden technischen Daten (IP-Adresse in Server-Logs) richtet sich nach den Richtlinien dieser Anbieter (siehe deren oben verlinkte Datenschutzhinweise).
+
+## 7. Keine automatisierte Entscheidungsfindung
+
+Es findet keine automatisierte Entscheidungsfindung einschließlich Profiling im Sinne von Art. 22 DSGVO statt.
+
+## 8. Haftungsausschluss / Disclaimer
 
 Die App dient ausschließlich der Organisation und Dokumentation von Trainingseinheiten. Sie ersetzt keine medizinische Beratung oder professionelle Betreuung. Die Nutzung der App erfolgt auf eigenes Risiko. Vor Beginn oder Änderung eines Trainingsprogramms wird empfohlen, ärztlichen Rat einzuholen. Der Anbieter übernimmt keine Haftung für Verletzungen, Schäden oder Nachteile, die durch die Nutzung entstehen.
