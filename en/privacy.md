@@ -47,8 +47,20 @@ Since all app data resides exclusively on your device and the provider stores no
 
 ## 5. This website
 
-This website is hosted on **GitHub Pages** (GitHub, Inc.). It is static, sets **no cookies**, and contains **no tracking**. When you visit, GitHub as the hosting provider processes technically necessary connection data (in particular your IP address) in server logs. See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) for details.
+This website is hosted on **GitHub Pages**, a service of GitHub, Inc., based in the USA. The website is static, sets **no cookies**, and contains **no tracking**. When you visit, GitHub as the hosting provider processes technically necessary connection data (in particular your IP address) in server logs.
 
-## 6. Disclaimer
+- **Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest is the secure and stable operation of this website.
+- **Third-country transfer:** Since GitHub, Inc. is based in the USA, data is transferred to a third country. According to its own statements, GitHub is certified under the **EU-US Data Privacy Framework**, which is covered by an adequacy decision of the European Commission (Art. 45 GDPR).
+- See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) for details.
+
+## 6. Storage period
+
+All data entered in the app remains on your device until you delete it in the app or uninstall the app — the provider itself stores no personal data and therefore cannot delete any. The storage period of the technical data arising at Open Food Facts and GitHub (IP address in server logs) is governed by those providers' policies (see their privacy notices linked above).
+
+## 7. No automated decision-making
+
+No automated decision-making, including profiling within the meaning of Art. 22 GDPR, takes place.
+
+## 8. Disclaimer
 
 This app is intended solely as a tool to organize and document workouts. It does not provide medical advice and is not a substitute for professional coaching or healthcare services. Use of this app and its content is entirely at your own risk. Before starting or changing any exercise program, it is recommended to consult a physician. The provider assumes no liability for injuries, damages, or disadvantages resulting from the use of this app.
