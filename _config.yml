@@ -1,0 +1,15 @@
+title: Sparta Island
+description: Die Lokal-First-Trainings-App — Workouts, Rekorde, Ernährung und Planung, komplett offline.
+lang: de
+theme: minima
+url: "https://delorienc.github.io"
+baseurl: "/spartaisland-website"
+
+header_pages:
+  - handbuch/index.md
+  - support.md
+  - datenschutz.md
+  - impressum.md
+  - en/index.md
+
+show_excerpts: false
