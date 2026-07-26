@@ -8,7 +8,7 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung
 
-**Stand: 17. Juli 2026**
+**Stand: 26. Juli 2026**
 
 ## 1. Verantwortlicher
 
@@ -20,7 +20,7 @@ E-Mail: [contact@spartaisland.de](mailto:contact@spartaisland.de)
 
 ## 2. Grundprinzip: Ihre Daten bleiben auf Ihrem Gerät
 
-Sparta Island ist bewusst als **lokale App** gestaltet. Alle Daten, die Sie in der App eingeben — Trainingseinheiten, persönliche Rekorde, Körperdaten, Ernährungstagebuch, Trainingspläne —, werden **ausschließlich lokal auf Ihrem Gerät** gespeichert (SQLite-Datenbank).
+Sparta Island ist bewusst als **lokale App** gestaltet. Alle Daten, die Sie in der App eingeben — Trainingseinheiten, persönliche Rekorde, Körper- und Gesundheitsdaten (Gewicht, Bauchumfang, Körpergröße), Ernährungstagebuch, Trainingspläne —, werden **ausschließlich lokal auf Ihrem Gerät** gespeichert (SQLite-Datenbank). Das gilt insbesondere auch für die Körper- und Gesundheitsdaten: Sie werden zu keinem Zeitpunkt an den Anbieter oder Dritte übertragen.
 
 - Es gibt **keine Registrierung und kein Benutzerkonto**.
 - Es werden **keine Daten an den Anbieter übertragen**.
@@ -43,7 +43,7 @@ Die abgerufenen Nährwertdaten werden anschließend lokal auf Ihrem Gerät gespe
 
 Sie haben nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) sowie ein Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde (Art. 77 DSGVO).
 
-Da alle App-Daten ausschließlich auf Ihrem Gerät liegen und der Anbieter keine personenbezogenen Daten von Ihnen speichert, üben Sie die Kontrolle über Ihre Daten unmittelbar selbst aus: Durch Löschen der App werden sämtliche Daten unwiderruflich entfernt.
+Da alle App-Daten ausschließlich auf Ihrem Gerät liegen und der Anbieter keine personenbezogenen Daten von Ihnen speichert, üben Sie die Kontrolle über Ihre Daten unmittelbar selbst aus: In der App gelöschte Einträge werden aus allen Ansichten und Auswertungen ausgeblendet; durch Löschen der App werden sämtliche Daten unwiderruflich entfernt.
 
 ## 5. Diese Website
 
