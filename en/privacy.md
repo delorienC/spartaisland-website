@@ -8,7 +8,7 @@ permalink: /en/privacy/
 
 # Privacy Policy
 
-**Last updated: July 17, 2026**
+**Last updated: July 26, 2026**
 
 ## 1. Controller
 
@@ -20,7 +20,7 @@ Email: [contact@spartaisland.de](mailto:contact@spartaisland.de)
 
 ## 2. Core principle: your data stays on your device
 
-Sparta Island is deliberately designed as a **local app**. All data you enter — training sessions, personal records, body data, nutrition diary, training plans — is stored **exclusively on your device** (SQLite database).
+Sparta Island is deliberately designed as a **local app**. All data you enter — training sessions, personal records, body and health data (weight, waist circumference, height), nutrition diary, training plans — is stored **exclusively on your device** (SQLite database). This applies in particular to body and health data: it is never transmitted to the provider or any third party.
 
 - There is **no registration and no user account**.
 - **No data is transmitted to the provider.**
@@ -43,7 +43,7 @@ The retrieved nutrition facts are then stored locally on your device. If you do 
 
 Under the GDPR you have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20), and objection (Art. 21), as well as the right to lodge a complaint with a data protection supervisory authority (Art. 77 GDPR).
 
-Since all app data resides exclusively on your device and the provider stores no personal data about you, you exercise control over your data directly: deleting the app irrevocably removes all data.
+Since all app data resides exclusively on your device and the provider stores no personal data about you, you exercise control over your data directly: entries you delete in the app are hidden from all views and statistics; deleting the app irrevocably removes all data.
 
 ## 5. This website
 
