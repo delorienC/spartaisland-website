@@ -8,7 +8,7 @@ permalink: /en/privacy/
 
 # Privacy Policy
 
-**Last updated: July 26, 2026**
+**Last updated: August 17, 2026**
 
 ## 1. Controller
 
@@ -39,13 +39,22 @@ When you actively use the **barcode scanner** in the nutrition feature, the app 
 
 The retrieved nutrition facts are then stored locally on your device. If you do not use the barcode scanner, no data is transmitted at all.
 
-## 4. Your rights
+## 4. Camera and microphone
+
+The app accesses the camera and the microphone **only when you trigger it yourself** — never in the background and never merely because you opened a section.
+
+- **Camera:** when scanning a barcode in the nutrition feature, and when capturing a training moment as a photo or a video in the diary.
+- **Microphone:** only when recording a training video, so that the sound of the recording is preserved.
+- **Where it stays:** photos and videos you capture are stored locally on your device like every other entry and are **never transmitted**. During a barcode scan only the recognised barcode leaves the device (see section 3), never the camera image.
+- **Permission:** your device asks for permission the first time you use the respective function. If you decline, the rest of the app remains fully usable — you can still choose a medium from your photo library.
+
+## 5. Your rights
 
 Under the GDPR you have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20), and objection (Art. 21), as well as the right to lodge a complaint with a data protection supervisory authority (Art. 77 GDPR).
 
 Since all app data resides exclusively on your device and the provider stores no personal data about you, you exercise control over your data directly: entries you delete in the app are hidden from all views and statistics; deleting the app irrevocably removes all data.
 
-## 5. This website
+## 6. This website
 
 This website is hosted on **GitHub Pages**, a service of GitHub, Inc., based in the USA. The website is static, sets **no cookies**, and contains **no tracking**. When you visit, GitHub as the hosting provider processes technically necessary connection data (in particular your IP address) in server logs.
 
@@ -53,14 +62,14 @@ This website is hosted on **GitHub Pages**, a service of GitHub, Inc., based in 
 - **Third-country transfer:** Since GitHub, Inc. is based in the USA, data is transferred to a third country. According to its own statements, GitHub is certified under the **EU-US Data Privacy Framework**, which is covered by an adequacy decision of the European Commission (Art. 45 GDPR).
 - See the [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) for details.
 
-## 6. Storage period
+## 7. Storage period
 
 All data entered in the app remains on your device until you delete it in the app or uninstall the app — the provider itself stores no personal data and therefore cannot delete any. The storage period of the technical data arising at Open Food Facts and GitHub (IP address in server logs) is governed by those providers' policies (see their privacy notices linked above).
 
-## 7. No automated decision-making
+## 8. No automated decision-making
 
 No automated decision-making, including profiling within the meaning of Art. 22 GDPR, takes place.
 
-## 8. Disclaimer
+## 9. Disclaimer
 
 This app is intended solely as a tool to organize and document workouts. It does not provide medical advice and is not a substitute for professional coaching or healthcare services. Use of this app and its content is entirely at your own risk. Before starting or changing any exercise program, it is recommended to consult a physician. The provider assumes no liability for injuries, damages, or disadvantages resulting from the use of this app.
