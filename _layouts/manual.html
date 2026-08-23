@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% comment %}
+  Mermaid is served from this repository, not from a CDN. The site explains that
+  Sparta Island sends nothing anywhere; a manual page that quietly loads a
+  script from a third party would contradict its own privacy policy.
+
+  Only manual chapters use this layout, so the other pages stay lightweight.
+{% endcomment %}
+<script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
+<script>
+  (function () {
+    // Kramdown renders ```mermaid as <pre><code class="language-mermaid">.
+    // Mermaid expects the source in an element of its own, so move it over.
+    var blocks = document.querySelectorAll('pre > code.language-mermaid');
+    for (var i = 0; i < blocks.length; i++) {
+      var pre = blocks[i].parentNode;
+      var host = document.createElement('pre');
+      host.className = 'mermaid';
+      host.textContent = blocks[i].textContent;
+      pre.parentNode.replaceChild(host, pre);
+    }
+    if (blocks.length > 0) {
+      mermaid.initialize({ startOnLoad: true, securityLevel: 'strict' });
+    }
+  })();
+</script>

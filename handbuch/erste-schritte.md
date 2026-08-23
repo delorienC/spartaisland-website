@@ -1,0 +1,89 @@
+---
+layout: manual
+title: Erste Schritte
+permalink: /handbuch/erste-schritte/
+---
+
+[Zurück zum Handbuch]({{ "/handbuch/" | relative_url }}) · [English version]({{ "/en/manual/getting-started/" | relative_url }})
+
+# Erste Schritte
+
+## Wofür dieses Kapitel da ist
+
+Sparta Island besteht aus fünf Bereichen, die alle auf dieselben Daten schauen: Training, Ernährung, Planer, Verlauf und Körper. Wer die Aufteilung einmal verstanden hat, findet danach alles Weitere von selbst. Dieses Kapitel erklärt den Aufbau, das Profil, die Einstellungen — und was mit deinen Daten geschieht.
+
+## Der erste Start
+
+Beim allerersten Öffnen fragt die App in beiden Sprachen, ob du sie auf Deutsch oder Englisch benutzen willst. Die Frage steht bewusst zweisprachig da, weil zu diesem Zeitpunkt noch niemand weiß, welche Sprache du liest. Deine Wahl gilt sofort für die ganze App und lässt sich später jederzeit unter *Optionen* ändern.
+
+Danach steht die App leer vor dir. Das ist beabsichtigt: Es gibt keine Beispieldaten, keinen Musternutzer und keine vorgefertigte Trainingswoche. Der erste Eintrag, den du siehst, ist deiner.
+
+## So ist die App aufgebaut
+
+Unten liegt eine Leiste mit vier Zielen und einer runden Schaltfläche in der Mitte.
+
+| Ziel | Was dort passiert | Kapitel |
+|---|---|---|
+| **Home** | Startseite: deine Bestleistungen, der Einstieg ins Training, die nächste geplante Einheit | dieses |
+| **Ernährung** | Der Tag mit allem, was du gegessen hast | [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}) |
+| **Plan** | Kalender mit den Einheiten, die noch kommen | [Planer]({{ "/handbuch/planner/" | relative_url }}) |
+| **Verlauf** | Was war: Karten, Rekorde und eigene Momente | [Verlauf und Tagebuch]({{ "/handbuch/tagebuch/" | relative_url }}) |
+| **Runde Schaltfläche** | Schnelleingabe — Quick Workout, Mahlzeit, Körpergewicht, Tagebucheintrag | — |
+
+Die Schnelleingabe in der Mitte ist die Abkürzung für alles, was zwischendurch passiert: Du willst *jetzt* trainieren, hast *gerade* gegessen, stehst *eben* auf der Waage. Sie bringt dich direkt an die Stelle, an der du eintragen kannst, statt dich erst durch die Bereiche navigieren zu lassen. Der Eintrag *Gesundheit* ist dort bereits sichtbar, aber noch nicht belegt — er ist für spätere Werte wie Blutdruck und Puls vorgesehen.
+
+Von der Startseite aus erreichst du zwei weitere Bereiche als Kacheln: **Gewichtstraining** führt zu deinen Workouts, **Dashboard** zu den Zahlen über längere Zeiträume. Der Körper-Bereich liegt hinter der Schnelleingabe und hinter der Körper-Kachel im Dashboard.
+
+```mermaid
+flowchart TD
+  Home["Home"] --> Strength["Gewichtstraining"]
+  Home --> Dash["Dashboard"]
+  Quick["Schnelleingabe"] --> QW["Quick Workout"]
+  Quick --> Meal["Mahlzeit"]
+  Quick --> Body["Koerper"]
+  Quick --> Note["Tagebucheintrag"]
+  Tabs["Untere Leiste"] --> Home
+  Tabs --> Nutri["Ernaehrung"]
+  Tabs --> Plan["Plan"]
+  Tabs --> Log["Verlauf"]
+  Tabs --> Quick
+```
+
+## Die Touren
+
+Auf den meisten Bildschirmen sitzt oben ein Fragezeichen. Es startet eine kurze Tour, die dir zeigt, wo auf *diesem* Bildschirm was liegt. Die Touren sind der schnellere Weg zur Bedienung; dieses Handbuch erklärt dafür die Zusammenhänge zwischen den Bildschirmen. Du kannst jede Tour beliebig oft wieder aufrufen — sie merkt sich nur, ob sie beim ersten Besuch schon einmal von selbst erschienen ist.
+
+## Dein Profil
+
+Im Profil stehen Name, Größe, Geburtstag, Geschlecht und dein Aktivitätslevel. Diese Angaben sind keine Pflicht, aber sie haben eine Aufgabe: Aus ihnen berechnet die App deinen geschätzten Tagesbedarf an Kalorien, den du in den Ernährungszielen mit einem Tippen übernehmen kannst.
+
+Zwei Dinge sind dort wichtig:
+
+- **Das Einheitensystem** — metrisch oder imperial — schaltet nur die Anzeige um. Gespeichert wird immer in Kilogramm und Zentimetern, deshalb kannst du jederzeit wechseln, ohne dass sich eine deiner Zahlen verändert.
+- **Dein Gewicht** trägst du nicht im Profil ein, sondern im Bereich [Körper]({{ "/handbuch/koerper/" | relative_url }}). Dort ist es ein Verlauf statt eines einzelnen Werts, und genau diesen Verlauf brauchen die Auswertungen.
+
+## Die Einstellungen
+
+Unter *Optionen* liegen vier Gruppen:
+
+- **Farbschema und Anzeigemodus** — mehrere Paletten sowie hell, dunkel oder der Systemvorgabe folgend.
+- **Wochenbeginn** — Montag oder Sonntag. Die Einstellung entscheidet nur, welche Tage das Dashboard als „diese Woche" zusammenfasst. Deine Pläne und Termine verschieben sich dadurch nicht.
+- **Sprache** — Deutsch oder Englisch, jederzeit umschaltbar.
+- **Daten** — Export, Import und das vollständige Löschen.
+
+## Deine Daten
+
+Alles bleibt auf dem Gerät. Es gibt kein Konto, keinen Server und keine Übertragung deiner Einträge. Das hat eine Kehrseite, die du kennen solltest: **Wenn du die App löschst, sind die Daten weg.** Ein Backup gibt es nur, wenn du es selbst anlegst.
+
+Dafür ist der Export da. Er schreibt deine Einträge, die Medien deiner Tagebuchmomente und deine Anzeigeeinstellungen in eine Datei, die du speichern oder weitergeben kannst. Der Import liest so eine Datei wieder ein — **er ergänzt, was da ist, und überschreibt nie**. Einträge, die es schon gibt, werden übersprungen.
+
+Zwei Stellen verlassen das Gerät, und nur diese:
+
+- **Der Barcode-Scan** fragt bei Open Food Facts nach den Nährwerten eines Produkts. Übertragen wird die Nummer des Barcodes, sonst nichts.
+- **Das Teilen** einer Verlaufskarte oder einer Trainingszusammenfassung — aber nur, wenn du es selbst auslöst.
+
+Die Kamera wird ausschließlich benutzt, während du scannst oder ein Foto für einen Tagebuchmoment aufnimmst. Die vollständige Erklärung steht in der [Datenschutzerklärung]({{ "/datenschutz/" | relative_url }}).
+
+## Zusammenspiel
+
+Das Profil liefert die Grundlage für die Kalorienschätzung in der [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}), der Wochenbeginn prägt das [Dashboard]({{ "/handbuch/dashboard/" | relative_url }}), und dein Gewicht kommt aus dem [Körper]({{ "/handbuch/koerper/" | relative_url }}). Der nächste Schritt für die meisten ist das [Training]({{ "/handbuch/training/" | relative_url }}).
