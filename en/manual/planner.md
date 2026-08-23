@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: page
 title: Planner
 permalink: /en/manual/planner/
 ---
@@ -48,21 +48,6 @@ When you delete a recurring session, the app asks what you mean:
 - **Delete this and all future ones** — the series ends here, the past stays as it is.
 
 Important, and intentional: **a deleted appointment takes nothing with it.** Neither your workout nor the sets you trained that day disappear. The planner manages intentions, not training data.
-
-```mermaid
-stateDiagram-v2
-  [*] --> Planned
-  Planned --> Completed: ticked off
-  Completed --> Planned: tick taken back
-  Planned --> Missed: date passed
-  Missed --> Completed: ticked off later
-  Planned --> Removed: deleted from the plan
-  Missed --> Removed: deleted from the plan
-  Completed --> [*]
-  Removed --> [*]
-```
-
-*Training data does not appear in this diagram — it belongs to the session, not to the appointment.*
 
 ## When something does not work
 

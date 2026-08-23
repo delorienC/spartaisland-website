@@ -68,7 +68,7 @@ while read -r hit; do
   [ -n "$hit" ] || continue
   note "still says unfinished: $hit"
 done <<EOF
-$(grep -rniE 'im aufbau|under construction' --include='*.md' .)
+$(grep -rniE 'im aufbau|under construction' --include='*.md' handbuch en)
 EOF
 echo
 if [ "$fail" -eq 0 ]; then

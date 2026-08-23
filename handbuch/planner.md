@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: page
 title: Planer
 permalink: /handbuch/planner/
 ---
@@ -48,21 +48,6 @@ Beim Löschen einer wiederkehrenden Einheit fragt die App, was gemeint ist:
 - **Diesen und alle künftigen löschen** — die Serie endet hier, die Vergangenheit bleibt stehen.
 
 Wichtig, und beabsichtigt: **Ein gelöschter Termin nimmt nichts mit.** Weder dein Workout noch die Sätze, die du an diesem Tag trainiert hast, verschwinden dadurch. Der Planer verwaltet Vorsätze, nicht Trainingsdaten.
-
-```mermaid
-stateDiagram-v2
-  [*] --> Geplant
-  Geplant --> Erledigt: abgehakt
-  Erledigt --> Geplant: Haken zurueckgenommen
-  Geplant --> Verpasst: Datum verstrichen
-  Verpasst --> Erledigt: nachtraeglich abgehakt
-  Geplant --> Entfernt: aus dem Plan geloescht
-  Verpasst --> Entfernt: aus dem Plan geloescht
-  Erledigt --> [*]
-  Entfernt --> [*]
-```
-
-*Die Trainingsdaten kommen in diesem Diagramm nicht vor — sie hängen an der Einheit, nicht am Termin.*
 
 ## Wenn etwas nicht klappt
 

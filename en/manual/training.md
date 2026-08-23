@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: page
 title: Training
 permalink: /en/manual/training/
 ---
@@ -52,20 +52,6 @@ Six things are worth knowing:
 - **Finishing takes three seconds on purpose.** The finish button has to be held, so that no stray tap in the middle of a session ends everything.
 
 If you cancel instead of finishing, the app asks what should happen to the sets you already entered. And if the app crashes or the phone dies, you are asked on the next start whether to resume the unfinished session, log it as completed, or discard it.
-
-```mermaid
-stateDiagram-v2
-  [*] --> Prepared
-  Prepared --> Running: start workout
-  Running --> Finished: hold finish for three seconds
-  Running --> Cancelled: cancel confirmed
-  Running --> Interrupted: app ends unexpectedly
-  Interrupted --> Running: resume
-  Interrupted --> Finished: log as completed
-  Interrupted --> Cancelled: discard
-  Finished --> [*]
-  Cancelled --> [*]
-```
 
 ## The summary
 

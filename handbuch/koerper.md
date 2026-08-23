@@ -35,19 +35,14 @@ Im Profil steht dein Gewicht nur noch als Hinweis mit einem Verweis hierher. Der
 Daraus folgt eine Bequemlichkeit: **Jedes neu eingetragene Gewicht rechnet deine Makroziele neu**, sofern du sie über Gramm je Kilogramm Körpergewicht eingestellt hast. Die App sagt dir kurz, dass sie das getan hat. Du musst die Zielseite dafür nicht öffnen.
 
 ```mermaid
-sequenceDiagram
-  participant Du
-  participant Koerper as Koerper
-  participant Ziele as Ernaehrungsziele
-  participant Tag as Tagesbilanz
-  Du->>Koerper: neues Gewicht eintragen
-  Koerper->>Koerper: Messung speichern und Kurve ergaenzen
-  Koerper->>Ziele: Faktoren je Kilogramm neu rechnen
-  Ziele-->>Du: Hinweis, dass die Ziele angepasst wurden
-  Ziele->>Tag: neue Zielwerte fuer den laufenden Tag
+flowchart LR
+  Eintrag["Neues Gewicht"] --> Kurve["Kurve im Koerper-Bereich"]
+  Eintrag --> Rechnung["Gramm je Kilogramm neu gerechnet"]
+  Rechnung --> Ziele["Makroziele"]
+  Ziele --> Tag["Tagesbilanz in der Ernaehrung"]
 ```
 
-*Modelltyp: UML-Sequenzdiagramm — was ein einziger Gewichtseintrag auslöst.*
+*Ein einziger Eintrag wirkt an drei Stellen.*
 
 ## Die Historie
 

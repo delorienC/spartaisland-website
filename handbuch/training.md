@@ -1,5 +1,5 @@
 ---
-layout: manual
+layout: page
 title: Training
 permalink: /handbuch/training/
 ---
@@ -52,20 +52,6 @@ Sechs Dinge lohnt es sich zu wissen:
 - **Beenden dauert absichtlich drei Sekunden.** Die Abschluss-Schaltfläche muss gehalten werden, damit kein versehentliches Tippen mitten in der Einheit alles beendet.
 
 Brichst du ab, statt zu beenden, fragt die App, was mit den bereits eingetragenen Sätzen geschehen soll. Und wenn die App abstürzt oder das Telefon ausgeht, wirst du beim nächsten Start gefragt, ob du die unfertige Einheit fortsetzen, als beendet eintragen oder verwerfen willst.
-
-```mermaid
-stateDiagram-v2
-  [*] --> Vorbereitet
-  Vorbereitet --> Laufend: Workout starten
-  Laufend --> Beendet: Abschluss drei Sekunden halten
-  Laufend --> Abgebrochen: Abbruch bestaetigt
-  Laufend --> Unterbrochen: App beendet sich unerwartet
-  Unterbrochen --> Laufend: Fortsetzen
-  Unterbrochen --> Beendet: Als beendet eintragen
-  Unterbrochen --> Abgebrochen: Verwerfen
-  Beendet --> [*]
-  Abgebrochen --> [*]
-```
 
 ## Die Zusammenfassung
 

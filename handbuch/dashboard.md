@@ -63,17 +63,14 @@ Es **zeigt** deine Serie und die Kalorien, die dir heute noch bleiben. Und es **
 Ein Widget rechnet nicht selbst. Es liest einen Stand, den die App hinterlegt hat — immer dann, wenn du die App verlässt oder zu ihr zurückkehrst. Genau das ist der richtige Moment, denn angeschaut wird ein Widget nur, während die App geschlossen ist. Deshalb steht auf dem Widget auch dazu, von wann sein Stand ist. Erscheint dir eine Zahl veraltet: App kurz öffnen und wieder schließen.
 
 ```mermaid
-sequenceDiagram
-  participant App
-  participant Ablage as Gemeinsame Ablage
-  participant Widget
-  App->>Ablage: Stand schreiben beim Verlassen der App
-  Widget->>Ablage: Stand lesen
-  Widget-->>App: Tippen oeffnet die passende Stelle
-  App->>Ablage: Stand schreiben bei Rueckkehr
+flowchart LR
+  App["App wird verlassen"] --> Stand["Stand wird hinterlegt"]
+  Stand --> Widget["Widget zeigt den Stand"]
+  Widget --> Tippen["Tippen oeffnet die App an der passenden Stelle"]
+  Tippen --> App
 ```
 
-*Modelltyp: UML-Sequenzdiagramm — warum das Widget aktuell ist, obwohl es nichts berechnet.*
+*Deshalb ist das Widget aktuell, obwohl es selbst nichts rechnet.*
 
 ## Wenn etwas nicht klappt
 

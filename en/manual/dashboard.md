@@ -63,17 +63,14 @@ It **shows** your streak and the calories you have left today. And it **opens** 
 A widget does not calculate anything itself. It reads a snapshot the app has left for it — written every time you leave the app and every time you come back. That is precisely the right moment, because a widget is only ever looked at while the app is closed. It is also why the widget prints how old its snapshot is. If a number looks stale: open the app briefly and close it again.
 
 ```mermaid
-sequenceDiagram
-  participant App
-  participant Store as Shared store
-  participant Widget
-  App->>Store: write snapshot when leaving the app
-  Widget->>Store: read snapshot
-  Widget-->>App: a tap opens the matching place
-  App->>Store: write snapshot on return
+flowchart LR
+  App["You leave the app"] --> Snap["Snapshot is stored"]
+  Snap --> Widget["Widget shows the snapshot"]
+  Widget --> Tap["A tap opens the app at the matching place"]
+  Tap --> App
 ```
 
-*Model type: UML sequence diagram — why the widget is current although it computes nothing.*
+*That is why the widget is current although it computes nothing itself.*
 
 ## When something does not work
 

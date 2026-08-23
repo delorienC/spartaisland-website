@@ -35,19 +35,14 @@ In the profile your weight is now only a note pointing here. The reason is simpl
 From that follows a convenience: **every newly logged weight recalculates your macro targets**, provided you set them via grams per kilogram of body weight. The app briefly tells you it has done so. You do not need to open the targets screen for it.
 
 ```mermaid
-sequenceDiagram
-  participant You
-  participant Body
-  participant Targets as Nutrition targets
-  participant Day as Daily balance
-  You->>Body: log a new weight
-  Body->>Body: store the measurement and extend the curve
-  Body->>Targets: recalculate the per-kilogram factors
-  Targets-->>You: notice that the targets were adjusted
-  Targets->>Day: new target values for the current day
+flowchart LR
+  Entry["New weight"] --> Curve["Curve in the body area"]
+  Entry --> Calc["Grams per kilogram recalculated"]
+  Calc --> Targets["Macro targets"]
+  Targets --> Day["Daily balance under nutrition"]
 ```
 
-*Model type: UML sequence diagram — what a single weight entry sets off.*
+*A single entry takes effect in three places.*
 
 ## The history
 
