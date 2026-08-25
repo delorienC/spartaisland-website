@@ -10,7 +10,7 @@ permalink: /en/manual/diary/
 
 ## What this chapter is for
 
-The **Log** area — the fourth entry in the bottom bar — is the story of your training. It does not answer "how much", that is the [dashboard's]({{ "/en/manual/dashboard/" | relative_url }}) job, but "what happened". Two kinds of content sit there side by side: what the app worked out from your data, and what you recorded yourself.
+The **Log** area — a tile on the start screen — is the story of your training. It does not answer "how much", that is the [dashboard's]({{ "/en/manual/dashboard/" | relative_url }}) job, but "what happened". Two kinds of content sit there side by side: what the app worked out from your data, and what you recorded yourself.
 
 ## The bars at the top
 

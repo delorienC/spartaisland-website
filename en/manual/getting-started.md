@@ -25,27 +25,29 @@ At the bottom sits a bar with four destinations and a round button in the middle
 | Destination | What happens there | Chapter |
 |---|---|---|
 | **Home** | Start screen: your personal bests, the way into training, your next planned session | this one |
-| **Nutrition** | The day with everything you ate | [Nutrition]({{ "/en/manual/nutrition/" | relative_url }}) |
+| **Training** | Your workouts: create, change, start | [Training]({{ "/en/manual/training/" | relative_url }}) |
 | **Plan** | Calendar of the sessions still ahead | [Planner]({{ "/en/manual/planner/" | relative_url }}) |
-| **Log** | What happened: cards, records and your own moments | [Log and journal]({{ "/en/manual/diary/" | relative_url }}) |
+| **Nutrition** | The day with everything you ate | [Nutrition]({{ "/en/manual/nutrition/" | relative_url }}) |
 | **Round button** | Quick add — quick workout, meal, body weight, journal entry | — |
 
 The quick add button in the middle is the shortcut for everything that happens in passing: you want to train *now*, you have *just* eaten, you are *standing* on the scale. It drops you straight where you can enter the value instead of making you navigate there. The *Health* entry is already visible but not yet filled in — it is reserved for later values such as blood pressure and pulse.
 
-From the start screen two further areas are reachable as tiles: **Weight training** leads to your workouts, **Dashboard** to the numbers across longer periods. The body area sits behind the quick add button and behind the body tile on the dashboard.
+From the start screen two further areas are reachable as tiles: **Dashboard** leads to the numbers across longer periods, **Log** to what already happened. The body area sits behind the quick add button and behind the body tile on the dashboard.
+
+Training only got its place in the bar late: it is the core of the app, yet it was the one large area without a fixed spot at the bottom. The log moved up to the start screen in exchange.
 
 ```mermaid
 flowchart TD
-  Home["Home"] --> Strength["Weight training"]
-  Home --> Dash["Dashboard"]
+  Home["Home"] --> Dash["Dashboard"]
+  Home --> Log["Log"]
   Quick["Quick add"] --> QW["Quick workout"]
   Quick --> Meal["Meal"]
   Quick --> Body["Body"]
   Quick --> Note["Journal entry"]
   Tabs["Bottom bar"] --> Home
-  Tabs --> Nutri["Nutrition"]
+  Tabs --> Strength["Training"]
   Tabs --> Plan["Plan"]
-  Tabs --> Log["Log"]
+  Tabs --> Nutri["Nutrition"]
   Tabs --> Quick
 ```
 
@@ -70,6 +72,8 @@ Two things matter there:
 - **Start of the week** — Monday or Sunday. The setting only decides which days the dashboard treats as "this week". Your plans and appointments do not move.
 - **Language** — German or English, switchable at any time.
 - **Data** — export, import and full deletion.
+
+Below them sit privacy and the cloud account that does not exist yet. Both used to be on the start screen; they do not answer the question of where you stand right now, and so they live with the rest of the settings. The consent asked on the very first start stays where it was.
 
 ## Your data
 

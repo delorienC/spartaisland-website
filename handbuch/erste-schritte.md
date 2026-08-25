@@ -25,27 +25,29 @@ Unten liegt eine Leiste mit vier Zielen und einer runden Schaltfläche in der Mi
 | Ziel | Was dort passiert | Kapitel |
 |---|---|---|
 | **Home** | Startseite: deine Bestleistungen, der Einstieg ins Training, die nächste geplante Einheit | dieses |
-| **Ernährung** | Der Tag mit allem, was du gegessen hast | [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}) |
+| **Training** | Deine Workouts: anlegen, ändern, starten | [Training]({{ "/handbuch/training/" | relative_url }}) |
 | **Plan** | Kalender mit den Einheiten, die noch kommen | [Planer]({{ "/handbuch/planner/" | relative_url }}) |
-| **Verlauf** | Was war: Karten, Rekorde und eigene Momente | [Verlauf und Tagebuch]({{ "/handbuch/tagebuch/" | relative_url }}) |
+| **Ernährung** | Der Tag mit allem, was du gegessen hast | [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}) |
 | **Runde Schaltfläche** | Schnelleingabe — Quick Workout, Mahlzeit, Körpergewicht, Tagebucheintrag | — |
 
 Die Schnelleingabe in der Mitte ist die Abkürzung für alles, was zwischendurch passiert: Du willst *jetzt* trainieren, hast *gerade* gegessen, stehst *eben* auf der Waage. Sie bringt dich direkt an die Stelle, an der du eintragen kannst, statt dich erst durch die Bereiche navigieren zu lassen. Der Eintrag *Gesundheit* ist dort bereits sichtbar, aber noch nicht belegt — er ist für spätere Werte wie Blutdruck und Puls vorgesehen.
 
-Von der Startseite aus erreichst du zwei weitere Bereiche als Kacheln: **Gewichtstraining** führt zu deinen Workouts, **Dashboard** zu den Zahlen über längere Zeiträume. Der Körper-Bereich liegt hinter der Schnelleingabe und hinter der Körper-Kachel im Dashboard.
+Von der Startseite aus erreichst du zwei weitere Bereiche als Kacheln: **Dashboard** führt zu den Zahlen über längere Zeiträume, **Verlauf** zu dem, was war. Der Körper-Bereich liegt hinter der Schnelleingabe und hinter der Körper-Kachel im Dashboard.
+
+Das Training hat die Leiste erst spät bekommen — es ist der Kern der App, war aber der einzige große Bereich ohne festen Platz unten. Dafür ist der Verlauf auf die Startseite gerückt.
 
 ```mermaid
 flowchart TD
-  Home["Home"] --> Strength["Gewichtstraining"]
-  Home --> Dash["Dashboard"]
+  Home["Home"] --> Dash["Dashboard"]
+  Home --> Log["Verlauf"]
   Quick["Schnelleingabe"] --> QW["Quick Workout"]
   Quick --> Meal["Mahlzeit"]
   Quick --> Body["Koerper"]
   Quick --> Note["Tagebucheintrag"]
   Tabs["Untere Leiste"] --> Home
-  Tabs --> Nutri["Ernaehrung"]
+  Tabs --> Strength["Training"]
   Tabs --> Plan["Plan"]
-  Tabs --> Log["Verlauf"]
+  Tabs --> Nutri["Ernaehrung"]
   Tabs --> Quick
 ```
 
@@ -70,6 +72,8 @@ Unter *Optionen* liegen vier Gruppen:
 - **Wochenbeginn** — Montag oder Sonntag. Die Einstellung entscheidet nur, welche Tage das Dashboard als „diese Woche" zusammenfasst. Deine Pläne und Termine verschieben sich dadurch nicht.
 - **Sprache** — Deutsch oder Englisch, jederzeit umschaltbar.
 - **Daten** — Export, Import und das vollständige Löschen.
+
+Darunter stehen der Datenschutz und das Cloud-Konto, das noch nicht da ist. Beide lagen früher auf der Startseite; sie beantworten aber nicht die Frage, wo du gerade stehst, und stehen deshalb bei den übrigen Einstellungen. Die Zustimmung beim allerersten Start bleibt, wo sie war.
 
 ## Deine Daten
 

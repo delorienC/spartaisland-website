@@ -10,7 +10,7 @@ permalink: /handbuch/tagebuch/
 
 ## Wofür dieses Kapitel da ist
 
-Der Bereich **Verlauf** — der vierte Eintrag in der unteren Leiste — ist die Erzählung deines Trainings. Er beantwortet nicht „wie viel", das tut das [Dashboard]({{ "/handbuch/dashboard/" | relative_url }}), sondern „was ist passiert". Zwei Sorten Inhalt stehen dort nebeneinander: was die App aus deinen Daten errechnet hat, und was du selbst festgehalten hast.
+Der Bereich **Verlauf** — als Kachel auf der Startseite — ist die Erzählung deines Trainings. Er beantwortet nicht „wie viel", das tut das [Dashboard]({{ "/handbuch/dashboard/" | relative_url }}), sondern „was ist passiert". Zwei Sorten Inhalt stehen dort nebeneinander: was die App aus deinen Daten errechnet hat, und was du selbst festgehalten hast.
 
 ## Die Balken oben
 
