@@ -32,7 +32,11 @@ Es gibt drei Wege, ein Lebensmittel zu erfassen:
 | **Barcode scannen** | Verpackte Produkte |
 | **Manuell eingeben** | Selbstgekochtes und alles ohne Barcode |
 
-Unabhängig vom Weg gibst du am Ende die Menge **in Gramm** an. Alle Nährwerte in der App sind auf 100 g bezogen; die Menge rechnet sie herunter oder hoch.
+Unabhängig vom Weg gibst du am Ende die Menge an — **bei Getränken in Millilitern, sonst in Gramm**. Welches von beidem gilt, entscheidet das Lebensmittel und nicht du: Eine Cola wird gegossen, ein Steak gewogen, und 100 ml Öl wiegen nun einmal 92 g. Beim Scannen übernimmt die App die Angabe direkt vom Produkt.
+
+Alle Nährwerte sind auf 100 g beziehungsweise 100 ml bezogen; die Menge rechnet sie herunter oder hoch.
+
+Hast du unter *Optionen* auf Pfund und Fuß umgestellt, gibst du die Menge in Unzen und Flüssigunzen ein. **Die Nährwerte selbst bleiben in Gramm** — Eiweiß, Kohlenhydrate und Fett stehen auch auf amerikanischen Verpackungen in Gramm.
 
 ### Der Barcode-Scan
 

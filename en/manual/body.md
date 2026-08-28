@@ -18,7 +18,7 @@ You reach it through the quick add button in the middle of the bottom bar, or th
 
 An entry needs a date, a time and **at least one of the two values**. If all you did was step on the scale, enter the weight alone; the waist stays empty and tears no hole in the curve. You can add a note — "morning, before breakfast" is a different number from "evening, after dinner", and in six months you will not remember which was which.
 
-Whether you type kilograms and centimetres or pounds and inches is decided by the unit system in your [profile]({{ "/en/manual/getting-started/" | relative_url }}). Storage is always metric, so you can switch at any time without an old measurement changing.
+Whether you type kilograms and centimetres or pounds and inches is decided by the units under *Options* (see [Getting started]({{ "/en/manual/getting-started/" | relative_url }})). Storage is always metric, so you can switch at any time without an old measurement changing.
 
 ## The two charts
 
@@ -52,7 +52,7 @@ Below the charts the measurements are listed. Individual entries can be deleted,
 
 - **"Not enough data for a chart yet."** There is only one measurement so far. From the second one on you get a line.
 - **The targets do not follow the weight.** Then they are not set via grams per kilogram but entered as fixed numbers. Fixed values are deliberately left alone.
-- **The numbers look wrong.** Check the unit system in your profile — pounds and kilograms look the same in a chart but are not the same size.
+- **The numbers look wrong.** Check the units under *Options* — pounds and kilograms look the same in a chart but are not the same size.
 
 ## How it fits together
 

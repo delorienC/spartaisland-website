@@ -32,7 +32,11 @@ There are three ways to record a food:
 | **Scan a barcode** | Packaged products |
 | **Enter manually** | Home cooking and everything without a barcode |
 
-Whichever way you take, you finish by giving the amount **in grams**. Every nutrition value in the app refers to 100 g; the amount scales it down or up.
+Whichever way you take, you finish by giving the amount — **in millilitres for a drink, in grams for anything else**. Which of the two applies is decided by the food and not by you: a cola is poured, a steak is weighed, and 100 ml of oil weigh 92 g. When you scan a product, the app takes that straight from it.
+
+Every nutrition value refers to 100 g or 100 ml respectively; the amount scales it down or up.
+
+If you switched to pounds and feet under *Options*, you enter the amount in ounces and fluid ounces. **The nutrition values themselves stay in grams** — protein, carbohydrates and fat are given in grams on American packaging too.
 
 ### The barcode scan
 
