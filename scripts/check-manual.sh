@@ -43,7 +43,24 @@ for f in handbuch/*.md en/manual/*.md; do
   esac
 done
 
-echo "2. Internal links"
+# The pages outside the manual that carry legal or service duties. Since the
+# app ships worldwide (#285), a German-only page here means an English visitor
+# is sent to a text they cannot read.
+legal_pairs=(
+  "datenschutz.md:en/privacy.md"
+  "support.md:en/support.md"
+  "impressum.md:en/imprint.md"
+)
+
+echo "2. Legal and service pages"
+for pair in "${legal_pairs[@]}"; do
+  de="${pair%%:*}"
+  en="${pair##*:}"
+  [ -f "$de" ] || note "missing: $de"
+  [ -f "$en" ] || note "missing: $en"
+done
+
+echo "3. Internal links"
 # Collect every permalink the site declares, then check each relative_url link
 # against it. Anchors and the language prefix are stripped before comparing.
 permalinks=$(grep -rh '^permalink:' --include='*.md' . | sed 's/^permalink:[[:space:]]*//')
@@ -63,7 +80,7 @@ $(grep -rho '{{[[:space:]]*"[^"]*"[[:space:]]*|[[:space:]]*relative_url[[:space:
   | sed 's/.*"\(.*\)".*/\1/' | sort -u)
 EOF
 
-echo "3. Leftover construction notices"
+echo "4. Leftover construction notices"
 while read -r hit; do
   [ -n "$hit" ] || continue
   note "still says unfinished: $hit"

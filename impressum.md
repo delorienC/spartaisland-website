@@ -4,6 +4,8 @@ title: Impressum
 permalink: /impressum/
 ---
 
+[English version]({{ "/en/imprint/" | relative_url }})
+
 ## Angaben gemäß § 5 DDG
 
 Dimitrios Chrissostomou
