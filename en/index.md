@@ -22,4 +22,4 @@ permalink: /en/
 - [Manual]({{ "/en/manual/" | relative_url }})
 - [Support & contact]({{ "/en/support/" | relative_url }})
 - [Privacy policy]({{ "/en/privacy/" | relative_url }})
-- [Legal notice (German)]({{ "/impressum/" | relative_url }})
+- [Legal notice]({{ "/en/imprint/" | relative_url }})
