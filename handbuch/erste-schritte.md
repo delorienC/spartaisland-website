@@ -14,7 +14,11 @@ Sparta Island besteht aus fünf Bereichen, die alle auf dieselben Daten schauen:
 
 ## Der erste Start
 
-Beim allerersten Öffnen fragt die App in beiden Sprachen, ob du sie auf Deutsch oder Englisch benutzen willst. Die Frage steht bewusst zweisprachig da, weil zu diesem Zeitpunkt noch niemand weiß, welche Sprache du liest. Deine Wahl gilt sofort für die ganze App und lässt sich später jederzeit unter *Optionen* ändern.
+Beim allerersten Öffnen stellt die App vier Fragen auf einem Bild: die Sprache, die Einheiten, die Schreibweise von Datum und Uhrzeit und den Wochenbeginn. Die Überschrift steht bewusst zweisprachig da, weil zu diesem Zeitpunkt noch niemand weiß, welche Sprache du liest.
+
+Jede Antwort gilt sofort und **jede ist eine Voreinstellung, keine Festlegung** — alle vier stehen später unter *Optionen* und lassen sich jederzeit ändern. Die App rät dabei nichts aus dem Land, in dem dein Telefon steht: Sie fragt lieber einmal, als etwas anzunehmen.
+
+Wenn du die App schon vor dieser Version benutzt hast, siehst du die Fragen nach dem Update einmal — mit dem, was du bisher hattest, bereits ausgewählt. Bestätigen genügt; dann bleibt alles, wie es war.
 
 Danach steht die App leer vor dir. Das ist beabsichtigt: Es gibt keine Beispieldaten, keinen Musternutzer und keine vorgefertigte Trainingswoche. Der erste Eintrag, den du siehst, ist deiner.
 
@@ -25,27 +29,29 @@ Unten liegt eine Leiste mit vier Zielen und einer runden Schaltfläche in der Mi
 | Ziel | Was dort passiert | Kapitel |
 |---|---|---|
 | **Home** | Startseite: deine Bestleistungen, der Einstieg ins Training, die nächste geplante Einheit | dieses |
-| **Ernährung** | Der Tag mit allem, was du gegessen hast | [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}) |
+| **Training** | Deine Workouts: anlegen, ändern, starten | [Training]({{ "/handbuch/training/" | relative_url }}) |
 | **Plan** | Kalender mit den Einheiten, die noch kommen | [Planer]({{ "/handbuch/planner/" | relative_url }}) |
-| **Verlauf** | Was war: Karten, Rekorde und eigene Momente | [Verlauf und Tagebuch]({{ "/handbuch/tagebuch/" | relative_url }}) |
+| **Ernährung** | Der Tag mit allem, was du gegessen hast | [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}) |
 | **Runde Schaltfläche** | Schnelleingabe — Quick Workout, Mahlzeit, Körpergewicht, Tagebucheintrag | — |
 
 Die Schnelleingabe in der Mitte ist die Abkürzung für alles, was zwischendurch passiert: Du willst *jetzt* trainieren, hast *gerade* gegessen, stehst *eben* auf der Waage. Sie bringt dich direkt an die Stelle, an der du eintragen kannst, statt dich erst durch die Bereiche navigieren zu lassen. Der Eintrag *Gesundheit* ist dort bereits sichtbar, aber noch nicht belegt — er ist für spätere Werte wie Blutdruck und Puls vorgesehen.
 
-Von der Startseite aus erreichst du zwei weitere Bereiche als Kacheln: **Gewichtstraining** führt zu deinen Workouts, **Dashboard** zu den Zahlen über längere Zeiträume. Der Körper-Bereich liegt hinter der Schnelleingabe und hinter der Körper-Kachel im Dashboard.
+Von der Startseite aus erreichst du zwei weitere Bereiche als Kacheln: **Dashboard** führt zu den Zahlen über längere Zeiträume, **Verlauf** zu dem, was war. Der Körper-Bereich liegt hinter der Schnelleingabe und hinter der Körper-Kachel im Dashboard.
+
+Das Training hat die Leiste erst spät bekommen — es ist der Kern der App, war aber der einzige große Bereich ohne festen Platz unten. Dafür ist der Verlauf auf die Startseite gerückt.
 
 ```mermaid
 flowchart TD
-  Home["Home"] --> Strength["Gewichtstraining"]
-  Home --> Dash["Dashboard"]
+  Home["Home"] --> Dash["Dashboard"]
+  Home --> Log["Verlauf"]
   Quick["Schnelleingabe"] --> QW["Quick Workout"]
   Quick --> Meal["Mahlzeit"]
   Quick --> Body["Koerper"]
   Quick --> Note["Tagebucheintrag"]
   Tabs["Untere Leiste"] --> Home
-  Tabs --> Nutri["Ernaehrung"]
+  Tabs --> Strength["Training"]
   Tabs --> Plan["Plan"]
-  Tabs --> Log["Verlauf"]
+  Tabs --> Nutri["Ernaehrung"]
   Tabs --> Quick
 ```
 
@@ -57,19 +63,32 @@ Auf den meisten Bildschirmen sitzt oben ein Fragezeichen. Es startet eine kurze 
 
 Im Profil stehen Name, Größe, Geburtstag, Geschlecht und dein Aktivitätslevel. Diese Angaben sind keine Pflicht, aber sie haben eine Aufgabe: Aus ihnen berechnet die App deinen geschätzten Tagesbedarf an Kalorien, den du in den Ernährungszielen mit einem Tippen übernehmen kannst.
 
-Zwei Dinge sind dort wichtig:
+Eines ist dort wichtig: **Dein Gewicht** trägst du nicht im Profil ein, sondern im Bereich [Körper]({{ "/handbuch/koerper/" | relative_url }}). Dort ist es ein Verlauf statt eines einzelnen Werts, und genau diesen Verlauf brauchen die Auswertungen.
 
-- **Das Einheitensystem** — metrisch oder imperial — schaltet nur die Anzeige um. Gespeichert wird immer in Kilogramm und Zentimetern, deshalb kannst du jederzeit wechseln, ohne dass sich eine deiner Zahlen verändert.
-- **Dein Gewicht** trägst du nicht im Profil ein, sondern im Bereich [Körper]({{ "/handbuch/koerper/" | relative_url }}). Dort ist es ein Verlauf statt eines einzelnen Werts, und genau diesen Verlauf brauchen die Auswertungen.
+Die Einheiten haben das Profil verlassen und stehen jetzt bei den übrigen Einstellungen — sie gelten für die ganze App, nicht nur für die zwei Zahlen im Profil.
 
 ## Die Einstellungen
 
-Unter *Optionen* liegen vier Gruppen:
+Unter *Optionen* liegen sechs Gruppen:
 
 - **Farbschema und Anzeigemodus** — mehrere Paletten sowie hell, dunkel oder der Systemvorgabe folgend.
-- **Wochenbeginn** — Montag oder Sonntag. Die Einstellung entscheidet nur, welche Tage das Dashboard als „diese Woche" zusammenfasst. Deine Pläne und Termine verschieben sich dadurch nicht.
 - **Sprache** — Deutsch oder Englisch, jederzeit umschaltbar.
+- **Einheiten** — Kilogramm und Zentimeter, oder Pfund und Fuß. Gilt für Trainingsgewichte, Körpermaße und die Mengen beim Essen.
+- **Datum und Uhrzeit** — die deutsche Schreibweise mit 24-Stunden-Uhr, oder die amerikanische mit Monat zuerst und AM/PM.
+- **Wochenbeginn** — Montag oder Sonntag. Die Einstellung entscheidet nur, welche Tage das Dashboard als „diese Woche" zusammenfasst. Deine Pläne und Termine verschieben sich dadurch nicht.
 - **Daten** — Export, Import und das vollständige Löschen.
+
+Die ersten vier hängen **nicht** voneinander ab. Englisch mit deutschem Datum ist eine sinnvolle Kombination, Deutsch mit Pfund ebenso, und wer die Sprache wechselt, ändert damit weder seine Einheiten noch sein Datumsformat.
+
+## Warum ein Wechsel nichts verändert
+
+Alle drei Umschalter ändern nur, **wie** deine Zahlen dastehen — nie, welche Zahlen es sind. Die App rechnet intern immer in Kilogramm, Zentimetern, Gramm und Millilitern und speichert Zeitpunkte ohne Format. Erst beim Anzeigen entsteht daraus, was du liest.
+
+Das gilt auch rückwirkend: Stellst du heute auf Pfund um, erscheint auch dein Rekord vom letzten Jahr in Pfund, und ein Tagebucheintrag von gestern zeigt sein Datum in der neuen Schreibweise. Und weil nichts umgeschrieben wird, kommst du beim Zurückschalten wieder bei genau der Zahl an, die du eingetragen hattest — 173 cm sind 5′8″ und danach wieder 173 cm, nicht 172,7.
+
+Eine Ausnahme gibt es, und sie ist keine: Was du **in** Pfund oder Zoll einträgst, wird beim Speichern umgerechnet. Das ist dann deine eigene Eingabe.
+
+Darunter stehen der Datenschutz und das Cloud-Konto, das noch nicht da ist. Beide lagen früher auf der Startseite; sie beantworten aber nicht die Frage, wo du gerade stehst, und stehen deshalb bei den übrigen Einstellungen. Die Zustimmung beim allerersten Start bleibt, wo sie war.
 
 ## Deine Daten
 

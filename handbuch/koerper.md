@@ -18,7 +18,7 @@ Du erreichst ihn über die Schnelleingabe in der Mitte der unteren Leiste oder �
 
 Ein Eintrag braucht Datum, Uhrzeit und **mindestens einen der beiden Werte**. Hast du nur gewogen, trägst du nur das Gewicht ein; die Taille bleibt leer und reißt keine Lücke in die Kurve. Eine Notiz kannst du dazuschreiben — „morgens nüchtern" ist eine andere Zahl als „abends nach dem Essen", und in einem halben Jahr weißt du das nicht mehr.
 
-Ob du in Kilogramm und Zentimetern oder in Pfund und Zoll eingibst, entscheidet das Einheitensystem in deinem [Profil]({{ "/handbuch/erste-schritte/" | relative_url }}). Gespeichert wird immer metrisch, deshalb kannst du jederzeit umschalten, ohne dass eine alte Messung sich ändert.
+Ob du in Kilogramm und Zentimetern oder in Pfund und Zoll eingibst, entscheiden die Einheiten unter *Optionen* (siehe [Erste Schritte]({{ "/handbuch/erste-schritte/" | relative_url }})). Gespeichert wird immer metrisch, deshalb kannst du jederzeit umschalten, ohne dass eine alte Messung sich ändert.
 
 ## Die beiden Diagramme
 
@@ -52,7 +52,7 @@ Unter den Diagrammen stehen die Messungen als Liste. Einzelne Einträge lassen s
 
 - **„Noch nicht genug Daten für ein Diagramm."** Es gibt erst eine Messung. Ab der zweiten entsteht eine Linie.
 - **Die Ziele ändern sich nicht mit dem Gewicht.** Dann sind sie nicht über Gramm je Kilogramm eingestellt, sondern fest eingetragen. Feste Werte lässt die App bewusst in Ruhe.
-- **Die Zahlen sehen falsch aus.** Prüfe das Einheitensystem im Profil — Pfund und Kilogramm sehen im Diagramm gleich aus, sind aber verschieden groß.
+- **Die Zahlen sehen falsch aus.** Prüfe die Einheiten unter *Optionen* — Pfund und Kilogramm sehen im Diagramm gleich aus, sind aber verschieden groß.
 
 ## Zusammenspiel
 
