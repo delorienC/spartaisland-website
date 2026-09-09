@@ -20,6 +20,7 @@ permalink: /en/
 ## Learn more
 
 - [Manual]({{ "/en/manual/" | relative_url }})
+- [What has changed]({{ "/en/changes/" | relative_url }})
 - [Support & contact]({{ "/en/support/" | relative_url }})
 - [Privacy policy]({{ "/en/privacy/" | relative_url }})
 - [Legal notice (German)]({{ "/impressum/" | relative_url }})
