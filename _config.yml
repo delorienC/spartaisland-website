@@ -7,6 +7,7 @@ baseurl: "/spartaisland-website"
 
 header_pages:
   - handbuch/index.md
+  - versionen.md
   - support.md
   - datenschutz.md
   - impressum.md

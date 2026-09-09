@@ -19,6 +19,7 @@ title: Start
 ## Mehr erfahren
 
 - [Handbuch]({{ "/handbuch/" | relative_url }})
+- [Was sich geändert hat]({{ "/versionen/" | relative_url }})
 - [Support & Kontakt]({{ "/support/" | relative_url }})
 - [Datenschutzerklärung]({{ "/datenschutz/" | relative_url }})
 - [Impressum]({{ "/impressum/" | relative_url }})

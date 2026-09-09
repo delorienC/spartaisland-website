@@ -87,6 +87,24 @@ while read -r hit; do
 done <<EOF
 $(grep -rniE 'im aufbau|under construction' --include='*.md' handbuch en)
 EOF
+echo "4. Version history"
+# The history is what users read to find out what changed, so both languages
+# must list the same versions in the same order, newest first. Sorting is
+# checked instead of trusted: a section appended at the bottom out of habit is
+# exactly the mistake this catches.
+de_versions=$(grep -oE '^## [0-9]+\.[0-9]+\.[0-9]+' versionen.md 2>/dev/null | sed 's/^## //')
+en_versions=$(grep -oE '^## [0-9]+\.[0-9]+\.[0-9]+' en/changes.md 2>/dev/null | sed 's/^## //')
+[ -f versionen.md ] || note "missing: versionen.md"
+[ -f en/changes.md ] || note "missing: en/changes.md"
+if [ -z "$de_versions" ]; then
+  note "versionen.md lists no version"
+elif [ "$de_versions" != "$en_versions" ]; then
+  note "version history differs between languages (same versions, same order)"
+fi
+if [ -n "$de_versions" ] && [ "$de_versions" != "$(printf '%s\n' "$de_versions" | sort -rV)" ]; then
+  note "version history is not newest first"
+fi
+
 echo
 if [ "$fail" -eq 0 ]; then
   echo "Manual OK."
