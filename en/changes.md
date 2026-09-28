@@ -10,6 +10,14 @@ permalink: /en/changes/
 
 The newest version is at the top. This describes what you notice in the app — not what happened in the code.
 
+## 2.0.2 — September 2026
+
+**More reliable with your data.** If the app couldn't open its database at launch, it used to carry on regardless — with empty lists, and whatever you entered was lost. Now it retries, and if it still can't, it tells you clearly and offers "Try again". Your entries stay on your device.
+
+**Fixed.** The app could freeze right after the first setup questions — now questions, privacy notice and tour follow one after another. Exercise search stays fully usable while the keyboard is open. An exercise you create mid-workout as one-side-at-a-time now records both sides separately straight away, in quick workouts too. A date of birth the app can't read reliably is now rejected instead of producing a wrong age.
+
+**Easier to read.** The light themes were glaring, and some labels were hard to make out. Text now has far more contrast in every colour palette and meets the strictest accessibility level. When you press and hold a button, the whole screen shows what is about to happen — with a countdown before anything is deleted or finished.
+
 ## 2.0.1 — September 2026
 
 **Language, units and date are three separate questions.** Until now the date format was tied to your language, and weights came in kilograms only. Now you decide three times over: work in English and still weigh in kilograms, or the other way round. All three live in the settings and are asked once, together, when you first start the app, instead of in three stacked dialogs.
