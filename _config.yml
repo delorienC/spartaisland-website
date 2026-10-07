@@ -4,7 +4,7 @@ lang: de
 theme: minima
 url: "https://delorienc.github.io"
 baseurl: "/spartaisland-website"
-app_store_url: "https://apps.apple.com/de/app/sparta-island-krafttraining/id6792024826"
+app_store_url: "https://apps.apple.com/app/sparta-island/id6792024826"
 
 header_pages:
   - handbuch/index.md
