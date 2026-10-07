@@ -8,14 +8,14 @@ permalink: /impressum/
 
 ## Angaben gemäß § 5 DDG
 
-Dimitrios Chrissostomou
-Gutleutstr. 351
-60327 Frankfurt am Main
+Dimitrios Chrissostomou<br />
+Gutleutstr. 351<br />
+60327 Frankfurt am Main<br />
 Deutschland
 
 ## Kontakt
 
-Telefon: +49 162 7515936
+Telefon: +49 162 7515936<br />
 E-Mail: [contact@spartaisland.de](mailto:contact@spartaisland.de)
 
 ## Verantwortlich für den Inhalt
