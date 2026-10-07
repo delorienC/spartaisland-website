@@ -8,7 +8,7 @@ permalink: /en/
 
 # Sparta Island
 
-**Sparta Island** is a training app for iOS and Android built strictly **local-first**: all your data — workouts, records, nutrition diary, training plans — stays exclusively on your device. No registration, no account, no tracking.
+**Sparta Island** is a training app for iPhone built strictly **local-first**: your entries — workouts, records, nutrition diary, training plans — stay on your device. Only the optional barcode scan asks Open Food Facts about a product. No registration, no account, no tracking.
 
 ## What the app does
 

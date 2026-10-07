@@ -8,7 +8,7 @@ permalink: /handbuch/
 
 # Handbuch
 
-Sparta Island ist eine Trainings-App, die vollständig auf deinem Gerät arbeitet. Es gibt kein Konto, keine Anmeldung und keinen Server, der deine Daten kennt. Alles, was du einträgst — Workouts, Mahlzeiten, Körpermaße, Tagebuchmomente — liegt in einer Datenbank auf deinem Telefon.
+Sparta Island ist eine Trainings-App, die auf deinem Gerät arbeitet; nur der optionale Barcode-Scan fragt bei Open Food Facts nach. Es gibt kein Konto, keine Anmeldung und keinen Server, der deine Daten kennt. Alles, was du einträgst — Workouts, Mahlzeiten, Körpermaße, Tagebuchmomente — liegt in einer Datenbank auf deinem Telefon.
 
 Dieses Handbuch erklärt, **wozu** die einzelnen Bereiche da sind und **in welcher Reihenfolge** du sie am besten benutzt. Wo *welche* Schaltfläche sitzt, zeigt dir die App selbst: Auf den meisten Bildschirmen findest du oben ein Fragezeichen, das eine kurze geführte Tour startet.
 

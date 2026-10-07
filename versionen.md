@@ -66,4 +66,4 @@ Neu: Körpermaße im Zeitverlauf — Gewicht und Bauchumfang erfassen und den Ve
 
 ## 1.0.1 — Juli 2026
 
-Erstes Release: Sparta Island ist dein privates Trainingstagebuch — Workouts loggen, Training planen, Fortschritt und Ernährung im Blick. 100 % lokal auf deinem iPhone, ohne Konto und ohne Tracking.
+Erstes Release: Sparta Island ist dein privates Trainingstagebuch — Workouts loggen, Training planen, Fortschritt und Ernährung im Blick. Deine Daten bleiben auf deinem iPhone, ohne Konto und ohne Tracking (einzige Ausnahme: der optionale Barcode-Abruf).

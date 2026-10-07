@@ -92,13 +92,13 @@ Darunter stehen der Datenschutz und das Cloud-Konto, das noch nicht da ist. Beid
 
 ## Deine Daten
 
-Alles bleibt auf dem Gerät. Es gibt kein Konto, keinen Server und keine Übertragung deiner Einträge. Das hat eine Kehrseite, die du kennen solltest: **Wenn du die App löschst, sind die Daten weg.** Ein Backup gibt es nur, wenn du es selbst anlegst.
+Deine Einträge bleiben auf dem Gerät. Es gibt kein Konto, keinen eigenen Server und keine Übertragung deiner Einträge. Das hat eine Kehrseite, die du kennen solltest: **Wenn du die App löschst, sind die Daten weg.** Ein Backup gibt es nur, wenn du es selbst anlegst.
 
 Dafür ist der Export da. Er schreibt deine Einträge, die Medien deiner Tagebuchmomente und deine Anzeigeeinstellungen in eine Datei, die du speichern oder weitergeben kannst. Der Import liest so eine Datei wieder ein — **er ergänzt, was da ist, und überschreibt nie**. Einträge, die es schon gibt, werden übersprungen.
 
 Zwei Stellen verlassen das Gerät, und nur diese:
 
-- **Der Barcode-Scan** fragt bei Open Food Facts nach den Nährwerten eines Produkts. Übertragen wird die Nummer des Barcodes, sonst nichts.
+- **Der Barcode-Scan** fragt bei Open Food Facts nach den Nährwerten eines Produkts. Übertragen werden die Nummer des Barcodes und technisch bedingt deine IP-Adresse und eine App-Kennung, nie das Kamerabild ([Datenschutz]({{ "/datenschutz/" | relative_url }})).
 - **Das Teilen** einer Verlaufskarte oder einer Trainingszusammenfassung — aber nur, wenn du es selbst auslöst.
 
 Die Kamera wird ausschließlich benutzt, während du scannst oder ein Foto für einen Tagebuchmoment aufnimmst. Die vollständige Erklärung steht in der [Datenschutzerklärung]({{ "/datenschutz/" | relative_url }}).

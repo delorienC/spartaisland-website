@@ -92,13 +92,13 @@ Below them sit privacy and the cloud account that does not exist yet. Both used 
 
 ## Your data
 
-Everything stays on the device. There is no account, no server and no transfer of your entries. That has a downside worth knowing: **if you delete the app, the data is gone.** A backup exists only if you make one.
+Your entries stay on the device. There is no account, no server of our own and no transfer of your entries. That has a downside worth knowing: **if you delete the app, the data is gone.** A backup exists only if you make one.
 
 That is what the export is for. It writes your entries, the media of your journal moments and your display settings into a file you can store or pass on. The import reads such a file back in — **it adds to what is there and never overwrites**. Entries that already exist are skipped.
 
 Two things leave the device, and only these:
 
-- **The barcode scan** asks Open Food Facts for a product's nutrition facts. What is sent is the barcode number, nothing else.
+- **The barcode scan** asks Open Food Facts for a product's nutrition facts. What is sent is the barcode number and, for technical reasons, your IP address and an app identifier — never the camera image ([privacy]({{ "/en/privacy/" | relative_url }})).
 - **Sharing** a log card or a workout summary — but only when you trigger it yourself.
 
 The camera is used only while you scan or take a photo for a journal moment. The full explanation is in the [privacy policy]({{ "/en/privacy/" | relative_url }}).

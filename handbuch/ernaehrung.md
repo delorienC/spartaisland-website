@@ -40,7 +40,7 @@ Hast du unter *Optionen* auf Pfund und Fuß umgestellt, gibst du die Menge in Un
 
 ### Der Barcode-Scan
 
-Der Scan sucht zuerst auf deinem Gerät. Kennt die App das Produkt nicht, fragt sie bei Open Food Facts nach — dabei verlässt nur die Barcode-Nummer dein Telefon. Das gefundene Produkt wird lokal gespeichert und ist beim nächsten Mal sofort da, auch offline.
+Der Scan sucht zuerst auf deinem Gerät. Kennt die App das Produkt nicht, fragt sie bei Open Food Facts nach — dabei gehen die Barcode-Nummer sowie technisch bedingt deine IP-Adresse und eine App-Kennung an Open Food Facts. Kamerabilder und deine Einträge verlassen das Gerät nicht. Das gefundene Produkt wird lokal gespeichert und ist beim nächsten Mal sofort da, auch offline.
 
 Zwei Fälle brauchen dich:
 
