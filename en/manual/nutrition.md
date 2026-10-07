@@ -40,7 +40,7 @@ If you switched to pounds and feet under *Options*, you enter the amount in ounc
 
 ### The barcode scan
 
-The scan looks on your device first. If the app does not know the product, it asks Open Food Facts — and only the barcode number leaves your phone in the process. The product it finds is stored locally and is there instantly next time, offline included.
+The scan looks on your device first. If the app does not know the product, it asks Open Food Facts — sending the barcode number along with, for technical reasons, your IP address and an app identifier. Camera images and your entries never leave the device. The product it finds is stored locally and is there instantly next time, offline included.
 
 Two cases need you:
 

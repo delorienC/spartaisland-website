@@ -66,4 +66,4 @@ New: track body measurements over time — log weight and waist circumference an
 
 ## 1.0.1 — July 2026
 
-First release: Sparta Island is your private strength training log — log workouts, plan sessions, track progress and nutrition. 100% on-device, no account, no tracking.
+First release: Sparta Island is your private strength training log — log workouts, plan sessions, track progress and nutrition. Your data stays on your iPhone, no account, no tracking (only exception: the optional barcode lookup).

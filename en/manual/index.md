@@ -8,7 +8,7 @@ permalink: /en/manual/
 
 # Manual
 
-Sparta Island is a training app that runs entirely on your device. There is no account, no sign-in and no server that knows your data. Everything you enter — workouts, meals, body measurements, journal moments — lives in a database on your phone.
+Sparta Island is a training app that runs on your device; only the optional barcode scan queries Open Food Facts. There is no account, no sign-in and no server that knows your data. Everything you enter — workouts, meals, body measurements, journal moments — lives in a database on your phone.
 
 This manual explains **what** each area is for and **in which order** you will get the most out of it. *Where* a particular control sits is something the app itself shows you: most screens carry a question mark at the top that starts a short guided tour.
 
