@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{% assign t = site.data.landing[page.lang] %}
+<div class="landing-wrap">
+  <p class="lp-lang"><a href="{{ t.other_url | relative_url }}">{{ t.other_label }}</a></p>
+
+  <section class="lp-hero">
+    <div>
+      <p class="lp-kicker">{{ t.kicker }}</p>
+      <h1>{{ t.title }}</h1>
+      <p class="lp-lead">{{ t.lead }}</p>
+      <div class="lp-cta">
+        <a class="lp-btn" href="{{ site.app_store_url }}" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9-.8 0-2-.9-3.3-.9-1.7 0-3.3 1-4.2 2.5-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8s2 .8 3.3.8c1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.8-1-2.8-4.2zM14 5.3c.7-.8 1.2-2 1-3.1-1 0-2.2.7-2.9 1.5-.6.7-1.2 1.9-1 3 1.1.1 2.2-.6 2.9-1.4z"/></svg>
+          {{ t.cta }}
+        </a>
+        <a class="lp-btn-ghost" href="#funktionen">{{ t.cta_more }}</a>
+      </div>
+      <p class="lp-note">{{ t.note }}</p>
+    </div>
+    <div class="lp-phones" aria-hidden="true">
+      <div class="lp-sun"></div>
+      <div class="lp-phone one"><img src="{{ '/assets/img/ernaehrung.jpg' | relative_url }}" alt="" width="540" height="1113" loading="eager"></div>
+      <div class="lp-phone two"><img src="{{ '/assets/img/home.jpg' | relative_url }}" alt="" width="540" height="1113" loading="eager"></div>
+    </div>
+  </section>
+
+  <section class="lp-section" id="funktionen">
+    <h2>{{ t.features_title }}</h2>
+    <p class="lp-sub">{{ t.features_sub }}</p>
+    <div class="lp-features">
+      {% for f in t.features %}
+      <div class="lp-card">
+        <div class="lp-icon">{% include landing-icon.html name=f.icon %}</div>
+        <h3>{{ f.title }}</h3>
+        <p>{{ f.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="lp-section">
+    <h2>{{ t.shots_title }}</h2>
+    <p class="lp-sub">{{ t.shots_sub }}</p>
+    <div class="lp-shots">
+      {% for s in t.shots %}
+      <figure>
+        <img src="{{ s.img | prepend: '/assets/img/' | relative_url }}" alt="{{ s.alt }}" width="540" height="1113" loading="lazy">
+        <figcaption>{{ s.caption }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="lp-section lp-privacy">
+    <img src="{{ '/assets/img/crest.png' | relative_url }}" alt="{{ t.crest_alt }}" width="300" height="432" loading="lazy">
+    <div>
+      <h2>{{ t.privacy_title }}</h2>
+      <p class="lp-sub">{{ t.privacy_sub }}</p>
+      <ul class="lp-checks">
+        {% for c in t.privacy_points %}<li>{{ c }}</li>{% endfor %}
+      </ul>
+      <p class="lp-exception">{{ t.privacy_exception }} <a href="{{ t.privacy_url | relative_url }}">{{ t.privacy_link }}</a></p>
+    </div>
+  </section>
+
+  <section class="lp-final">
+    <img src="{{ '/assets/img/icon.png' | relative_url }}" alt="" width="84" height="84">
+    <h2>{{ t.final_title }}</h2>
+    <p class="lp-sub" style="margin: 0 auto 28px;">{{ t.final_sub }}</p>
+    <div class="lp-cta"><a class="lp-btn" href="{{ site.app_store_url }}" rel="noopener">{{ t.cta }}</a></div>
+    <p class="lp-links">
+      {% for l in t.links %}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}
+    </p>
+  </section>
+</div>

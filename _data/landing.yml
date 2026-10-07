@@ -1,0 +1,132 @@
+de:
+  other_url: /en/
+  other_label: English version
+  kicker: Krafttraining · Ernährung · Planung
+  title: Dein Trainingstagebuch, das dich nicht ausspioniert.
+  lead: Sparta Island hält Workouts, Rekorde, Ernährung und deinen Trainingsplan an einem Ort fest. Ohne Konto, ohne Tracking, ohne Werbung. Deine Trainings-, Ernährungs- und Körperdaten bleiben auf deinem iPhone.
+  cta: Im App Store ansehen
+  cta_more: Was die App kann
+  note: Für iPhone · Deutsch und Englisch
+  features_title: Alles, was dein Training braucht.
+  features_sub: Direkt an der Maschine eintragen, die Woche planen, sehen, wie du stärker wirst.
+  features:
+    - icon: dumbbell
+      title: Workouts & Rekorde
+      text: Sätze, Wiederholungen und Gewichte in Sekunden erfassen. Bestleistungen erkennt die App von selbst.
+    - icon: plan
+      title: Planen
+      text: Eigene Routinen bauen, Trainingstage festlegen und an fällige Einheiten erinnert werden.
+    - icon: food
+      title: Ernährung
+      text: Mahlzeiten und Makros im Blick, Ziele pro Kilo Körpergewicht, Lebensmittel per Barcode-Scan.
+    - icon: chart
+      title: Fortschritt
+      text: Dashboard mit Streak, Volumen und Verläufen für Kraft, Gewicht und Ernährung.
+  shots_title: So sieht es aus.
+  shots_sub: Echte Bildschirme aus der App, ohne Retusche.
+  shots:
+    - img: home.jpg
+      alt: Startbildschirm mit Bestleistungen und nächster Einheit
+      caption: Dein Überblick
+    - img: routine.jpg
+      alt: Liste eigener Workouts
+      caption: Eigene Routinen
+    - img: training.jpg
+      alt: Laufendes Training mit Gewichts- und Wiederholungsauswahl
+      caption: Training an der Maschine
+    - img: ernaehrung.jpg
+      alt: Tagesübersicht Ernährung mit Kalorien und Makros
+      caption: Ernährung am Tag
+    - img: ziele.jpg
+      alt: Makroziele pro Kilogramm Körpergewicht einstellen
+      caption: Deine Ziele
+  crest_alt: Wappen von Sparta Island
+  privacy_title: Wir verdienen an der App, nicht an deinen Daten.
+  privacy_sub: Sparta Island hat keinen eigenen Server, der deine Einträge kennt. Sie liegen in einer Datenbank auf deinem Telefon.
+  privacy_points:
+    - Kein Konto, keine Anmeldung
+    - Kein Tracking, keine Analyse-Dienste, keine Werbung
+    - Deine Trainings-, Ernährungs- und Körperdaten verlassen dein Gerät nicht
+    - Fotos und Videos aus dem Tagebuch bleiben auf dem iPhone
+  privacy_exception: "<strong>Einzige Ausnahme:</strong> Beim optionalen Barcode-Scan fragt die App die Nährwerte bei Open Food Facts ab. Dabei gehen die Barcode-Nummer sowie technisch bedingt deine IP-Adresse und eine App-Kennung dorthin."
+  privacy_url: /datenschutz/
+  privacy_link: Zur Datenschutzerklärung
+  final_title: Bereit für dein nächstes Training?
+  final_sub: Sparta Island gibt es im App Store für iPhone.
+  links:
+    - url: /handbuch/
+      label: Handbuch
+    - url: /versionen/
+      label: Versionen
+    - url: /support/
+      label: Support
+    - url: /datenschutz/
+      label: Datenschutz
+    - url: /impressum/
+      label: Impressum
+en:
+  other_url: /
+  other_label: Deutsche Version
+  kicker: Strength training · Nutrition · Planning
+  title: Your training log that doesn't spy on you.
+  lead: Sparta Island keeps your workouts, records, nutrition and training plan in one place. No account, no tracking, no ads. Your training, nutrition and body data stay on your iPhone.
+  cta: View on the App Store
+  cta_more: What the app does
+  note: For iPhone · English and German
+  features_title: Everything your training needs.
+  features_sub: Log right at the machine, plan your week, watch yourself get stronger.
+  features:
+    - icon: dumbbell
+      title: Workouts & records
+      text: Log sets, reps and weights in seconds. The app spots your personal bests on its own.
+    - icon: plan
+      title: Planning
+      text: Build your own routines, set training days and get reminded of sessions that are due.
+    - icon: food
+      title: Nutrition
+      text: Meals and macros at a glance, goals per kilogram of body weight, foods via barcode scan.
+    - icon: chart
+      title: Progress
+      text: Dashboard with streak, volume and trends for strength, weight and nutrition.
+  shots_title: See it in action.
+  shots_sub: Real screens from the app, untouched.
+  shots:
+    - img: home.jpg
+      alt: Home screen with personal bests and next session
+      caption: Your overview
+    - img: routine.jpg
+      alt: List of custom workouts
+      caption: Custom routines
+    - img: training.jpg
+      alt: Running workout with weight and rep picker
+      caption: Training at the machine
+    - img: ernaehrung.jpg
+      alt: Daily nutrition overview with calories and macros
+      caption: Nutrition by day
+    - img: ziele.jpg
+      alt: Setting macro goals per kilogram of body weight
+      caption: Your goals
+  crest_alt: Sparta Island crest
+  privacy_title: We earn from the app, not from your data.
+  privacy_sub: Sparta Island has no server of its own that knows your entries. They live in a database on your phone.
+  privacy_points:
+    - No account, no sign-in
+    - No tracking, no analytics, no ads
+    - Your training, nutrition and body data never leave your device
+    - Photos and videos from your journal stay on your iPhone
+  privacy_exception: "<strong>The only exception:</strong> the optional barcode scan asks Open Food Facts for nutrition facts. It sends the barcode number and, for technical reasons, your IP address and an app identifier."
+  privacy_url: /en/privacy/
+  privacy_link: Read the privacy policy
+  final_title: Ready for your next workout?
+  final_sub: Sparta Island is available on the App Store for iPhone.
+  links:
+    - url: /en/manual/
+      label: Manual
+    - url: /en/changes/
+      label: Changes
+    - url: /en/support/
+      label: Support
+    - url: /en/privacy/
+      label: Privacy
+    - url: /en/imprint/
+      label: Imprint
