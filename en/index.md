@@ -1,26 +1,6 @@
 ---
-layout: page
+layout: landing
 title: English
+lang: en
 permalink: /en/
 ---
-
-[Deutsche Version]({{ "/" | relative_url }})
-
-# Sparta Island
-
-**Sparta Island** is a training app for iPhone built strictly **local-first**: your entries — workouts, records, nutrition diary, training plans — stay on your device. Only the optional barcode scan asks Open Food Facts about a product. No registration, no account, no tracking.
-
-## What the app does
-
-- **Workouts & records** — log training sessions and track personal bests
-- **Nutrition & barcode scan** — record meals and fetch nutrition facts via Open Food Facts
-- **Planner & diary** — plan your training weeks and keep a journal
-- **Dashboard & statistics** — your progress at a glance
-
-## Learn more
-
-- [Manual]({{ "/en/manual/" | relative_url }})
-- [What has changed]({{ "/en/changes/" | relative_url }})
-- [Support & contact]({{ "/en/support/" | relative_url }})
-- [Privacy policy]({{ "/en/privacy/" | relative_url }})
-- [Legal notice]({{ "/en/imprint/" | relative_url }})
