@@ -23,11 +23,11 @@ Email: [contact@spartaisland.de](mailto:contact@spartaisland.de)
 Sparta Island is deliberately designed as a **local app**. All data you enter — training sessions, personal records, body and health data (weight, waist circumference, height), nutrition diary, training plans — is stored **locally on your device** (SQLite database). This applies in particular to body and health data: it is never transmitted to the provider or any third party.
 
 - There is **no registration and no user account**.
-- **No data is transmitted to the provider.** The only transfer to a third party is the optional barcode scan (section 3).
+- **No data is transmitted to the provider.** Transfers to a third party happen only with the optional barcode scan and the optional search at Open Food Facts (section 3).
 - The app contains **no tracking, no analytics services, and no crash reporting**.
 - Apart from the optional barcode scan, the app works **offline**.
 
-## 3. The single exception: nutrition lookup via Open Food Facts
+## 3. Exception: nutrition lookup and search via Open Food Facts
 
 When you actively use the **barcode scanner** in the nutrition feature, the app fetches nutrition facts for the scanned product from the **Open Food Facts** database (`world.openfoodfacts.org`).
 
@@ -40,7 +40,11 @@ When you actively use the **barcode scanner** in the nutrition feature, the app 
 - **Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest is to provide the nutrition lookup you trigger yourself.
 - **Objection and voluntariness:** You can object under Art. 21 GDPR by not using the barcode scanner. Using it is voluntary; without it the app remains fully usable, and foods can be added by hand.
 
-The retrieved nutrition facts are then stored locally on your device. They come from a community, have not been verified by the provider, and are published under the Open Database License (ODbL 1.0), individual contents under the Database Contents License. If you do not use the barcode scanner, no data is transmitted at all.
+The retrieved nutrition facts are then stored locally on your device. They come from a community, have not been verified by the provider, and are published under the Open Database License (ODbL 1.0), individual contents under the Database Contents License. 
+
+**Search at Open Food Facts:** When you tap "Search Open Food Facts" in the food search, the search term, your device's IP address, the time and the same app identifier go to the Open Food Facts search service (`search.openfoodfacts.org`). One request is sent per tap, never while you type. Recipient, purpose, legal basis, objection and storage period are the same as for the barcode scan; you can object by not using the search.
+
+If you neither scan nor search at Open Food Facts, no data is transmitted at all.
 
 ## 4. Camera and microphone
 

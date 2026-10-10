@@ -53,6 +53,8 @@ Two cases need you:
 
 **If Open Food Facts cannot be reached**, the app tells you so and lets you create the food yourself. It does not ask again on its own.
 
+**Search at Open Food Facts.** If the search does not find a product on your device, you can look it up at Open Food Facts. Only the search term and, for technical reasons, your IP address go to Open Food Facts, and only once you explicitly start that search — not while you type. A product found there is stored locally like a scanned one.
+
 A food of your own can be created with both a German and an English name. It then shows up under the right name in either language.
 
 ## Your targets
