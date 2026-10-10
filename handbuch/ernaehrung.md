@@ -53,8 +53,6 @@ Zwei Fälle brauchen dich:
 
 **Ist Open Food Facts nicht erreichbar**, sagt dir die App das und lässt dich das Lebensmittel selbst anlegen. Sie fragt nicht von selbst erneut nach.
 
-**Suche bei Open Food Facts.** Findet die Suche ein Produkt nicht auf deinem Gerät, kannst du es bei Open Food Facts nachschlagen. Dabei gehen nur der Suchbegriff und technisch bedingt deine IP-Adresse an Open Food Facts, und zwar erst, wenn du die Suche dort ausdrücklich startest — nicht schon beim Tippen. Ein gefundenes Produkt wird wie ein gescanntes lokal gespeichert.
-
 Ein eigenes Lebensmittel kannst du mit deutschem und englischem Namen anlegen. Es taucht dann in beiden Sprachen unter dem richtigen Namen auf.
 
 ## Deine Ziele

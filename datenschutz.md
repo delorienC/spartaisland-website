@@ -23,11 +23,11 @@ E-Mail: [contact@spartaisland.de](mailto:contact@spartaisland.de)
 Sparta Island ist bewusst als **lokale App** gestaltet. Alle Daten, die Sie in der App eingeben — Trainingseinheiten, persönliche Rekorde, Körper- und Gesundheitsdaten (Gewicht, Bauchumfang, Körpergröße), Ernährungstagebuch, Trainingspläne —, werden **lokal auf Ihrem Gerät** gespeichert (SQLite-Datenbank). Das gilt insbesondere auch für die Körper- und Gesundheitsdaten: Sie werden zu keinem Zeitpunkt an den Anbieter oder Dritte übertragen.
 
 - Es gibt **keine Registrierung und kein Benutzerkonto**.
-- Es werden **keine Daten an den Anbieter übertragen**. Übertragungen an Dritte gibt es nur beim optionalen Barcode-Scan und bei der optionalen Suche bei Open Food Facts (Abschnitt 3).
+- Es werden **keine Daten an den Anbieter übertragen**. Die einzige Übertragung an Dritte ist der optionale Barcode-Scan (Abschnitt 3).
 - Die App enthält **kein Tracking, keine Analyse-Dienste und kein Crash-Reporting**.
 - Die App ist bis auf den optionalen Barcode-Scan **offline nutzbar**.
 
-## 3. Ausnahme: Nährwertabruf und Suche über Open Food Facts
+## 3. Einzige Ausnahme: Nährwertabruf über Open Food Facts
 
 Wenn Sie in der Ernährungsfunktion aktiv den **Barcode-Scan** nutzen, ruft die App die Nährwertdaten des gescannten Produkts von der Datenbank **Open Food Facts** ab (`world.openfoodfacts.org`).
 
@@ -40,11 +40,7 @@ Wenn Sie in der Ernährungsfunktion aktiv den **Barcode-Scan** nutzen, ruft die 
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist es, Ihnen die von Ihnen selbst ausgelöste Nährwertabfrage bereitzustellen.
 - **Widerspruch und Freiwilligkeit:** Sie können der Verarbeitung nach Art. 21 DSGVO widersprechen, indem Sie den Barcode-Scan nicht nutzen. Die Nutzung ist freiwillig; ohne Barcode-Scan bleibt die App voll nutzbar, Lebensmittel lassen sich auch von Hand anlegen.
 
-Die abgerufenen Nährwertdaten werden anschließend lokal auf Ihrem Gerät gespeichert. Sie stammen von der Community, sind vom Anbieter nicht geprüft und stehen unter der Open Database License (ODbL 1.0), die einzelnen Inhalte unter der Database Contents License. 
-
-**Suche bei Open Food Facts:** Tippen Sie in der Lebensmittelsuche auf „Bei Open Food Facts suchen“, gehen der Suchbegriff, die IP-Adresse Ihres Geräts, der Zeitpunkt und dieselbe App-Kennung an den Suchdienst von Open Food Facts (`search.openfoodfacts.org`). Es erfolgt eine Anfrage pro Tipp, nie schon beim Eintippen. Empfänger, Zweck, Rechtsgrundlage, Widerspruch und Speicherdauer sind dieselben wie beim Barcode-Scan; widersprechen können Sie, indem Sie die Suche nicht nutzen.
-
-Wenn Sie weder scannen noch bei Open Food Facts suchen, findet keinerlei Datenübertragung statt.
+Die abgerufenen Nährwertdaten werden anschließend lokal auf Ihrem Gerät gespeichert. Sie stammen von der Community, sind vom Anbieter nicht geprüft und stehen unter der Open Database License (ODbL 1.0), die einzelnen Inhalte unter der Database Contents License. Wenn Sie den Barcode-Scan nicht nutzen, findet keinerlei Datenübertragung statt.
 
 ## 4. Kamera und Mikrofon
 
