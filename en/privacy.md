@@ -72,6 +72,6 @@ All data entered in the app remains on your device until you delete it in the ap
 
 No automated decision-making, including profiling within the meaning of Art. 22 GDPR, takes place.
 
-## 9. Disclaimer
+## 9. Notices on health and data loss
 
-This app is intended solely as a tool to organize and document workouts. It does not provide medical advice and is not a substitute for professional coaching or healthcare services. Before starting or changing any exercise program, it is recommended to consult a physician. Your data is stored exclusively on your device. A device failure, deleting the app or a bug can lead to data loss. We therefore recommend regular exports. Your statutory rights remain unaffected. Liability for damage arising from injury to life, body or health and for intent and gross negligence remains unaffected; otherwise the provider is liable in accordance with the statutory provisions.
+This app is intended solely as a tool to organize and document workouts. It does not provide medical advice and is not a substitute for professional coaching or healthcare services. Before starting or changing any exercise program, it is recommended to consult a physician. Your entries are stored only on your device. A device failure, deleting the app or a bug can lead to data loss. We therefore recommend regular exports. Your statutory rights remain unaffected. Liability for damage arising from injury to life, body or health and for intent and gross negligence remains unaffected; otherwise the provider is liable in accordance with the statutory provisions.

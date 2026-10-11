@@ -72,6 +72,6 @@ Alle in der App eingegebenen Daten verbleiben auf Ihrem Gerät, bis Sie sie in d
 
 Es findet keine automatisierte Entscheidungsfindung einschließlich Profiling im Sinne von Art. 22 DSGVO statt.
 
-## 9. Haftungsausschluss / Disclaimer
+## 9. Hinweise zu Gesundheit und Datenverlust
 
-Die App dient ausschließlich der Organisation und Dokumentation von Trainingseinheiten. Sie ersetzt keine medizinische Beratung oder professionelle Betreuung. Vor Beginn oder Änderung eines Trainingsprogramms wird empfohlen, ärztlichen Rat einzuholen. Ihre Daten liegen ausschließlich auf Ihrem Gerät. Ein Gerätedefekt, das Löschen der App oder ein Fehler kann zum Datenverlust führen. Darum empfehlen wir regelmäßige Exporte. Ihre gesetzlichen Rechte bleiben unberührt. Die Haftung für Schäden aus der Verletzung von Leben, Körper oder Gesundheit sowie bei Vorsatz und grober Fahrlässigkeit bleibt unberührt; im Übrigen haftet der Anbieter nach den gesetzlichen Vorschriften.
+Die App dient ausschließlich der Organisation und Dokumentation von Trainingseinheiten. Sie ersetzt keine medizinische Beratung oder professionelle Betreuung. Vor Beginn oder Änderung eines Trainingsprogramms wird empfohlen, ärztlichen Rat einzuholen. Ihre Einträge werden nur auf Ihrem Gerät gespeichert. Ein Gerätedefekt, das Löschen der App oder ein Fehler kann zum Datenverlust führen. Darum empfehlen wir regelmäßige Exporte. Ihre gesetzlichen Rechte bleiben unberührt. Die Haftung für Schäden aus der Verletzung von Leben, Körper oder Gesundheit sowie bei Vorsatz und grober Fahrlässigkeit bleibt unberührt; im Übrigen haftet der Anbieter nach den gesetzlichen Vorschriften.
