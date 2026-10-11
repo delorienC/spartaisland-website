@@ -10,6 +10,11 @@ layout: page
   script from a third party would contradict its own privacy policy.
 
   Only manual chapters use this layout, so the other pages stay lightweight.
+
+  Bundled file: mermaid 12.1.0 from npm (mermaid@12.1.0, dist/mermaid.min.js,
+  published 2026-10-02), copied unchanged. To update: fetch the new version
+  with `npm pack mermaid@<version>`, replace assets/js/mermaid.min.js, change
+  this note and MERMAID_MIN in scripts/check-manual.sh.
 {% endcomment %}
 <script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
 <script>
