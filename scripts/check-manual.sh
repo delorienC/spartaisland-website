@@ -121,6 +121,7 @@ if ! grep -q "mermaid $MERMAID_MIN\|mermaid@$MERMAID_MIN" _layouts/manual.html; 
 fi
 
 [ -f assets/js/mermaid.LICENSE ] || note "missing: assets/js/mermaid.LICENSE (MIT notice of the bundled Mermaid)"
+[ -f assets/js/mermaid.THIRD-PARTY-LICENSES ] || note "missing: assets/js/mermaid.THIRD-PARTY-LICENSES (licences of the libraries inside the Mermaid bundle)"
 # A chapter with a diagram only renders it through layout: manual.
 for f in $(grep -rl '^```mermaid' --include='*.md' . ); do
   grep -q '^layout: manual' "$f" || note "has a mermaid diagram but not layout: manual: $f"
