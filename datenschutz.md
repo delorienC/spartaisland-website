@@ -8,7 +8,7 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung
 
-**Stand: 7. Oktober 2026**
+**Stand: 13. Oktober 2026**
 
 ## 1. Verantwortlicher
 
@@ -49,6 +49,16 @@ Die App greift auf Kamera und Mikrofon **ausschließlich dann zu, wenn Sie es se
 - **Mikrofon:** ausschließlich beim Aufnehmen eines Trainingsvideos, damit der Ton der Aufnahme erhalten bleibt.
 - **Verbleib:** Aufgenommene Fotos und Videos werden wie alle übrigen Eingaben lokal auf Ihrem Gerät gespeichert und **zu keinem Zeitpunkt übertragen**. Beim Barcode-Scan wird das Kamerabild nie übertragen; an Open Food Facts gehen nur die in Abschnitt 3 genannten Daten.
 - **Berechtigung:** Ihr Gerät fragt erst dann nach der Erlaubnis, wenn Sie die jeweilige Funktion zum ersten Mal aufrufen. Verweigern Sie sie, bleibt die übrige App uneingeschränkt nutzbar — ein Medium lässt sich weiterhin aus Ihrer Mediathek wählen.
+
+## 4a. Trainingsorte und Erinnerung im Studio (Standort)
+
+Die App kennt zwei Funktionen, die Ihren Standort nutzen. Beide sind freiwillig; ohne sie bleibt die übrige App uneingeschränkt nutzbar.
+
+- **Trainingsorte:** Nach einem beendeten Workout fragt die App einmal, ob sie den Ort und die Startzeit des Workouts speichern darf. Ihren Standort ruft die App nur ab, wenn Sie das erlaubt haben, dann einmalig nach einem Workout und nur, solange die App geöffnet ist. Ihr Weg wird nicht aufgezeichnet. Gespeichert werden der Ort (Koordinaten), ein von Ihnen änderbarer Name, die übliche Startzeit und die Zahl der Besuche, **nur auf Ihrem Gerät**. Die App überträgt davon nichts an den Anbieter oder an Dritte. Schalten Sie nach einem Workout den Schalter „Diesen Ort und deine Startzeit merken?“ ein und gleich wieder aus, merkt sich die App nur einen grob gerundeten Punkt (etwa 100 Meter genau), um dort nicht erneut zu fragen.
+- **Erinnerung im Studio („Beim Betreten erinnern“):** Der Schalter in den Optionen ist standardmäßig aus. Schalten Sie ihn ein, erklärt die App zuerst, was geschieht: Sie nutzt Ihren Standort **auch bei geschlossener App**, aber nur, um zu prüfen, ob Sie an einem Ihrer gespeicherten Orte ankommen oder ihn verlassen, damit sie Sie im Studio erinnern kann. Danach fragt Ihr Gerät nach dem Standort „Immer“ (Hintergrund-Standort) und nach Benachrichtigungen. Dann überwacht Ihr Gerät die gespeicherten Orte (Radius etwa 175 Meter) und meldet der App nur „betreten“ oder „verlassen“; Ihren Weg dazwischen erfasst oder speichert die App nicht. Beim Betreten zur gewohnten Zeit zeigt die App eine Benachrichtigung; verlassen Sie den Ort während eines Workouts, fragt sie per Benachrichtigung, ob das Workout enden soll, beendet wird nie von selbst. Die Benachrichtigungen entstehen lokal auf Ihrem Gerät. Wegen der Genauigkeit von Ortungssystemen kann es zu Fehlmeldungen kommen.
+- **Wer ortet?** Auf Android übernimmt Google die Ortung (über die Google-Play-Dienste, das sind die Google-Programme auf Ihrem Android-Gerät), auf dem iPhone Apple. Die App selbst schickt nichts weiter, und der Anbieter erhält keine Orte. Für den Umgang von Apple und Google mit dem Standort gelten deren eigene Regeln. Die Erinnerung kann etwas Akku kosten.
+- **Ihre Erlaubnis:** Sie erlauben das selbst und können es jederzeit wieder ausschalten: mit dem Schalter oder indem Sie die Erlaubnis in den Einstellungen Ihres Geräts zurücknehmen. Was bis dahin geschah, bleibt rechtmäßig. Rechtsgrundlage ist bei beiden Funktionen Ihre Einwilligung, Art. 6 Abs. 1 lit. a DSGVO. Sie erteilen sie, indem Sie den Schalter einschalten (bei den Trainingsorten die Frage nach einem Workout, bei der Erinnerung den Schalter „Beim Betreten erinnern“) und die Abfrage Ihres Geräts bestätigen. Sie widerrufen sie nach Art. 7 Abs. 3 DSGVO jederzeit, indem Sie den Schalter ausschalten oder die Erlaubnis in den Einstellungen Ihres Geräts zurücknehmen.
+- **Löschen und Sicherung:** Die gespeicherten Orte liegen nur auf Ihrem Gerät, bis Sie sie in den Optionen löschen oder umbenennen; beim Löschen werden Name und Koordinaten von Ihrem Gerät entfernt. Sichert sich Ihr Gerät selbst, in iCloud bei Apple oder bei Google, können die gespeicherten Orte dort mitgesichert sein, in Ihrem eigenen Konto, nicht beim Anbieter. Das passiert nur, wenn Sie diese automatische Sicherung eingeschaltet haben. Die Sicherungsdatei, die Sie selbst in der App anlegen, enthält die Orte nicht.
 
 ## 5. Ihre Rechte
 
