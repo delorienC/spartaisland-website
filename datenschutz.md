@@ -8,7 +8,7 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung
 
-**Stand: 13. Oktober 2026**
+**Stand: 14. Oktober 2026**
 
 ## 1. Verantwortlicher
 
@@ -24,6 +24,7 @@ Sparta Island ist bewusst als **lokale App** gestaltet. Alle Daten, die Sie in d
 
 - Es gibt **keine Registrierung und kein Benutzerkonto**.
 - Es werden **keine Daten an den Anbieter übertragen**. Die einzige Übertragung an Dritte ist der optionale Barcode-Scan (Abschnitt 3).
+- Sichert sich Ihr Gerät selbst, in iCloud bei Apple oder bei Google, können die App-Daten in dieser Sicherung enthalten sein — in Ihrem eigenen Konto, nicht beim Anbieter. Das passiert nur, wenn Sie diese automatische Sicherung eingeschaltet haben; Ausnahme sind die gespeicherten Trainingsorte (Abschnitt 4a).
 - Die App enthält **kein Tracking, keine Analyse-Dienste und kein Crash-Reporting**.
 - Die App ist bis auf den optionalen Barcode-Scan **offline nutzbar**.
 
@@ -58,7 +59,7 @@ Die App kennt zwei Funktionen, die Ihren Standort nutzen. Beide sind freiwillig;
 - **Erinnerung im Studio („Beim Betreten erinnern“):** Der Schalter in den Optionen ist standardmäßig aus. Schalten Sie ihn ein, erklärt die App zuerst, was geschieht: Sie nutzt Ihren Standort **auch bei geschlossener App**, aber nur, um zu prüfen, ob Sie an einem Ihrer gespeicherten Orte ankommen oder ihn verlassen, damit sie Sie im Studio erinnern kann. Danach fragt Ihr Gerät nach dem Standort „Immer“ (Hintergrund-Standort) und nach Benachrichtigungen. Dann überwacht Ihr Gerät die gespeicherten Orte (Radius etwa 175 Meter) und meldet der App nur „betreten“ oder „verlassen“; Ihren Weg dazwischen erfasst oder speichert die App nicht. Beim Betreten zur gewohnten Zeit zeigt die App eine Benachrichtigung; verlassen Sie den Ort während eines Workouts, fragt sie per Benachrichtigung, ob das Workout enden soll, beendet wird nie von selbst. Die Benachrichtigungen entstehen lokal auf Ihrem Gerät. Wegen der Genauigkeit von Ortungssystemen kann es zu Fehlmeldungen kommen.
 - **Wer ortet?** Auf Android übernimmt Google die Ortung (über die Google-Play-Dienste, das sind die Google-Programme auf Ihrem Android-Gerät), auf dem iPhone Apple. Die App selbst schickt nichts weiter, und der Anbieter erhält keine Orte. Für den Umgang von Apple und Google mit dem Standort gelten deren eigene Regeln. Die Erinnerung kann etwas Akku kosten.
 - **Ihre Erlaubnis:** Sie erlauben das selbst und können es jederzeit wieder ausschalten: mit dem Schalter oder indem Sie die Erlaubnis in den Einstellungen Ihres Geräts zurücknehmen. Was bis dahin geschah, bleibt rechtmäßig. Rechtsgrundlage ist bei beiden Funktionen Ihre Einwilligung, Art. 6 Abs. 1 lit. a DSGVO. Sie erteilen sie, indem Sie den Schalter einschalten (bei den Trainingsorten die Frage nach einem Workout, bei der Erinnerung den Schalter „Beim Betreten erinnern“) und die Abfrage Ihres Geräts bestätigen. Sie widerrufen sie nach Art. 7 Abs. 3 DSGVO jederzeit, indem Sie den Schalter ausschalten oder die Erlaubnis in den Einstellungen Ihres Geräts zurücknehmen.
-- **Löschen und Sicherung:** Die gespeicherten Orte liegen nur auf Ihrem Gerät, bis Sie sie in den Optionen löschen oder umbenennen; beim Löschen werden Name und Koordinaten von Ihrem Gerät entfernt. Anders als die übrigen Daten der App sind die gespeicherten Orte nicht in der automatischen Sicherung Ihres Geräts bei Apple (iCloud) oder Google enthalten, damit Ihr Standort nicht dort landet: Auf dem iPhone liegen sie in dem Ordner der App, den iOS beim Sichern auslässt; auf Android ist in der App fest eingetragen, dass dieser Ordner („SQLite/places“) bei der Sicherung ausgelassen wird. Auf einem neuen Gerät oder nach einer Neuinstallation sind die Orte deshalb nicht mehr da; braucht Ihr iPhone Platz, darf es diesen Ordner auch leeren. Die App fragt dann nach einem Workout wieder. Die Sicherungsdatei, die Sie selbst in der App anlegen, enthält die Orte ebenfalls nicht.
+- **Löschen und Sicherung:** Die gespeicherten Orte liegen nur auf Ihrem Gerät, bis Sie sie in den Optionen löschen oder umbenennen; beim Löschen werden Name und Koordinaten von Ihrem Gerät entfernt. Anders als die übrigen Daten der App sind die gespeicherten Orte nicht in der automatischen Sicherung Ihres Geräts bei Apple (iCloud) oder Google enthalten, damit Ihr Standort nicht dort landet: Auf dem iPhone liegen sie in dem Ordner der App, den iOS beim Sichern auslässt; auf Android schließt die App diesen Ordner („SQLite/places“) ausdrücklich von der Sicherung aus. Auf einem neuen Gerät oder nach einer Neuinstallation sind die Orte deshalb nicht mehr da; braucht Ihr iPhone Platz, darf es diesen Ordner auch leeren. Die App fragt dann nach einem Workout wieder. Die Sicherungsdatei, die Sie selbst in der App anlegen, enthält die Orte ebenfalls nicht.
 
 ## 5. Ihre Rechte
 
