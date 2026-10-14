@@ -105,7 +105,24 @@ if [ -n "$de_versions" ] && [ "$de_versions" != "$(printf '%s\n' "$de_versions" 
   note "version history is not newest first"
 fi
 
+echo "4b. No absolute accessibility claims in the version history"
+# Issue #422: the 2.0.2 note once said the texts met the strictest level of
+# accessibility; the app's own tests do not hold that. Same list as the guard
+# in the app (store-notes-claims.test.ts). Only the correction itself may quote
+# the old claim: a line starting with "Berichtigung" or "Correction".
+claims='strengste|strictest|höchste Stufe|highest (accessibility )?level|AAA (überall|everywhere)|(voll|vollständig|komplett) barrierefrei|fully accessible|100 ?% (barrierefrei|accessible)'
+for f in versionen.md en/changes.md; do
+  [ -f "$f" ] || continue
+  while read -r hit; do
+    [ -n "$hit" ] || continue
+    note "absolute accessibility claim in $f: $hit"
+  done <<EOF
+$(grep -nEi "$claims" "$f" | grep -Ev '^[0-9]+:(Berichtigung|Correction)')
+EOF
+done
+
 echo "5. Bundled Mermaid"
+
 # The library is served from this repository (see _layouts/manual.html), so
 # nobody is told when it ages. The bundle must be at least this version.
 MERMAID_MIN="12.1.0"
