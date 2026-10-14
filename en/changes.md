@@ -16,7 +16,7 @@ The newest version is at the top. This describes what you notice in the app — 
 
 **Fixed.** The app could freeze right after the first setup questions — now questions, privacy notice and tour follow one after another. Exercise search stays fully usable while the keyboard is open. An exercise you create mid-workout as one-side-at-a-time now records both sides separately straight away, in quick workouts too. A date of birth the app can't read reliably is now rejected instead of producing a wrong age.
 
-**Easier to read.** The light themes were glaring, and some labels were hard to make out. Text now has far more contrast in every colour palette and meets the strictest accessibility level. When you press and hold a button, the whole screen shows what is about to happen — with a countdown before anything is deleted or finished.
+**Easier to read.** The light themes were glaring, and some labels were hard to make out. Text now has at least 4.5:1 contrast in every colour palette, light and dark, and 7:1 almost everywhere. Only the lettering on coloured buttons stays below that on some palettes, because the button's own colour does not allow more. (The original statement for this version, that the text met the strictest accessibility level, went too far.) When you press and hold a button, the whole screen shows what is about to happen — with a countdown before anything is deleted or finished.
 
 ## 2.0.1 — September 2026
 
