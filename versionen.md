@@ -16,9 +16,9 @@ Die neueste Version steht oben. Beschrieben ist, was du in der App merkst — ni
 
 **Behoben.** Nach den ersten Fragen beim Einrichten konnte die App einfrieren — jetzt folgen Fragen, Datenschutzhinweis und Tour sauber nacheinander. Die Übungssuche bleibt bei offener Tastatur vollständig bedienbar. Eine Übung, die du mitten im Workout als abwechselnd anlegst, erfasst sofort beide Seiten getrennt, auch im Schnell-Workout. Ein Geburtsdatum, das die App nicht sicher lesen kann, wird abgewiesen, statt ein falsches Alter auszurechnen.
 
-**Besser lesbar.** Die hellen Designs blendeten, und manche Beschriftungen waren kaum zu erkennen. Texte haben jetzt in allen Farbpaletten, hell und dunkel, mindestens 7 : 1 Kontrast. Hinweistexte in leeren Eingabefeldern haben mindestens 4,5 : 1. Nur die Beschriftung auf den Knöpfen in der Akzentfarbe erreicht bei 4 Paletten keine 7 : 1, weil die Akzentfarbe es nicht zulässt; dort hat sie mindestens 4,5 : 1. Wenn du einen Knopf gedrückt hältst, siehst du über den ganzen Bildschirm, was gleich passiert — mit Countdown, bevor etwas gelöscht oder beendet wird.
+**Besser lesbar.** Die hellen Designs blendeten, und manche Beschriftungen waren kaum zu erkennen. Texte haben jetzt in allen Farbpaletten, hell und dunkel, mindestens 7 : 1 Kontrast, außer der Beschriftung auf Knöpfen in der Akzentfarbe. Die erreicht bei 4 Paletten keine 7 : 1, weil die Akzentfarbe es nicht zulässt; dort hat sie mindestens 4,5 : 1. Hinweistexte in leeren Eingabefeldern haben mindestens 4,5 : 1. Wenn du einen Knopf gedrückt hältst, siehst du über den ganzen Bildschirm, was gleich passiert — mit Countdown, bevor etwas gelöscht oder beendet wird.
 
-Berichtigung zu dieser Version: Hier stand zuvor, die Texte erfüllten die strengste Stufe der Barrierefreiheit. Das war nicht belegt.
+Berichtigung zu 2.0.2: Hier stand zuvor, die Texte erfüllten die strengste Stufe der Barrierefreiheit (WCAG AAA). Diese Aussage war nicht belegt und wird zurückgenommen.
 
 ## 2.0.1 — September 2026
 
