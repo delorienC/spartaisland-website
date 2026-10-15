@@ -9,8 +9,21 @@ layout: page
   Sparta Island sends nothing anywhere; a manual page that quietly loads a
   script from a third party would contradict its own privacy policy.
 
-  Only manual chapters use this layout, so the other pages stay lightweight.
+  Only manual chapters use this layout, and the 5 MB bundle is loaded only on
+  chapters that contain a ```mermaid block (content contains 'language-mermaid').
+  scripts/check-manual.sh checks that every such chapter uses this layout.
+
+  Bundled file: mermaid 12.1.0 from npm (mermaid@12.1.0, dist/mermaid.min.js,
+  published 2026-10-02), copied unchanged. Its MIT licence text (copyright
+  Knut Sveidqvist) is not inside the minified file, so it lies next to it as
+  assets/js/mermaid.LICENSE; replace it on update too. The licences of the
+  libraries bundled inside (DOMPurify, d3, dagre, cytoscape, khroma, lodash ...)
+  are collected in assets/js/mermaid.THIRD-PARTY-LICENSES, generated from the
+  runtime dependency tree of the npm package; regenerate it on update as well. To update: fetch the new version
+  with `npm pack mermaid@<version>`, replace assets/js/mermaid.min.js, change
+  this note and MERMAID_MIN in scripts/check-manual.sh.
 {% endcomment %}
+{% if content contains 'language-mermaid' %}
 <script src="{{ '/assets/js/mermaid.min.js' | relative_url }}"></script>
 <script>
   (function () {
@@ -29,3 +42,4 @@ layout: page
     }
   })();
 </script>
+{% endif %}

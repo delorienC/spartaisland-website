@@ -47,6 +47,12 @@ Two cases need you:
 - **Nobody knows the product.** Then you create it yourself — typed once, stored for good.
 - **The figures are wrong.** Then correct them. Your corrected values take precedence. Should Open Food Facts learn about the product later, the app asks whether to replace your values with the new ones — it never does so on its own.
 
+**Where the figures come from.** The Open Food Facts data is collected by a community; it is published under the Open Database License (ODbL) and is not verified by us. So compare it with the package. If Open Food Facts does not state a value, the app shows a question mark instead of a number — it does not invent a zero. In the day's total a missing value counts as 0, and the app tells you that the total is incomplete. Your own values stay on your device and replace the database's.
+
+**Allergens and ingredients** are not shown in the app. If you have allergies or intolerances, only the package counts.
+
+**If Open Food Facts cannot be reached**, the app tells you so and lets you create the food yourself. It does not ask again on its own.
+
 A food of your own can be created with both a German and an English name. It then shows up under the right name in either language.
 
 ## Your targets

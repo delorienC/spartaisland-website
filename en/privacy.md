@@ -8,7 +8,7 @@ permalink: /en/privacy/
 
 # Privacy Policy
 
-**Last updated: October 7, 2026**
+**Last updated: October 14, 2026**
 
 ## 1. Controller
 
@@ -24,6 +24,7 @@ Sparta Island is deliberately designed as a **local app**. All data you enter �
 
 - There is **no registration and no user account**.
 - **No data is transmitted to the provider.** The only transfer to a third party is the optional barcode scan (section 3).
+- If your device backs itself up, to iCloud at Apple or to Google, the app's data may be included in that backup — in your own account, not with the provider. That only happens if you have switched that automatic backup on; the saved training places are the exception (section 4a).
 - The app contains **no tracking, no analytics services, and no crash reporting**.
 - Apart from the optional barcode scan, the app works **offline**.
 
@@ -32,14 +33,15 @@ Sparta Island is deliberately designed as a **local app**. All data you enter �
 When you actively use the **barcode scanner** in the nutrition feature, the app fetches nutrition facts for the scanned product from the **Open Food Facts** database (`world.openfoodfacts.org`).
 
 - **Data transmitted:** the scanned barcode, your device's IP address (a technical necessity of any internet request), the time of the request, and an app identifier (user agent `SpartaIslandApp/1.0` containing the provider's contact address `contact@spartaisland.de`). Barcode, IP address and time together may allow a link to your person.
-- **When:** only at the moment you scan a barcode — never in the background.
+- **When:** only at the moment you scan a barcode — never in the background. Each scan sends exactly one request; if Open Food Facts cannot be reached, the app does not retry on its own.
+- **Cookies:** No cookies are set during the lookup.
 - **Purpose:** retrieving nutrition facts (calories, protein, carbohydrates, fat) for the scanned product.
 - **Recipient:** Open Food Facts, a non-profit organization based in France (EU). Open Food Facts privacy information: <https://world.openfoodfacts.org/privacy>
 - **Storage at Open Food Facts:** According to its own statements, Open Food Facts keeps IP addresses and server logs for security, technical analysis and statistics for up to 3 years. The provider of Sparta Island has no influence on this.
 - **Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest is to provide the nutrition lookup you trigger yourself.
 - **Objection and voluntariness:** You can object under Art. 21 GDPR by not using the barcode scanner. Using it is voluntary; without it the app remains fully usable, and foods can be added by hand.
 
-The retrieved nutrition facts are then stored locally on your device. If you do not use the barcode scanner, no data is transmitted at all.
+The retrieved nutrition facts are then stored locally on your device. They come from a community, have not been verified by the provider, and are published under the Open Database License (ODbL 1.0), individual contents under the Database Contents License. If you do not use the barcode scanner, no data is transmitted at all.
 
 ## 4. Camera and microphone
 
@@ -49,6 +51,16 @@ The app accesses the camera and the microphone **only when you trigger it yourse
 - **Microphone:** only when recording a training video, so that the sound of the recording is preserved.
 - **Where it stays:** photos and videos you capture are stored locally on your device like every other entry and are **never transmitted**. During a barcode scan the camera image is never transmitted; only the data listed in section 3 goes to Open Food Facts.
 - **Permission:** your device asks for permission the first time you use the respective function. If you decline, the rest of the app remains fully usable — you can still choose a medium from your photo library.
+
+## 4a. Training places and the reminder at the gym (location)
+
+The app has two functions that use your location. Both are optional; without them the rest of the app remains fully usable.
+
+- **Training places:** After a finished workout the app asks whether it may save the place and the start time of that workout; without your yes it saves nothing and asks again after your next workout. The app reads your location only if you have allowed it, then once after a workout and only while the app is open. Your path is not recorded. What is saved is the place (coordinates), a name you can change, the usual start time and the number of visits, **only on your device**. The app transmits none of this to the provider or to third parties. If, after a workout, you switch on the toggle "Remember this place and your start time?" and straight away off again, the app keeps only a roughly rounded point (about 100 metres accurate), so that it does not ask again there.
+- **Reminder at the gym ("Remind me at the gym"):** The switch in Options is off by default. If you switch it on, the app first explains what happens: it uses your location **even when it is closed**, but only to check whether you arrive at or leave one of your saved places, so that it can remind you at the gym. Your device asks for your location "Always" (background location) and for notifications. Your device then watches the saved places (radius about 175 metres) and tells the app only "entered" or "left"; the app does not record or store your path in between. When you enter a place at your usual time, the app shows a notification; if you leave the place during a workout, it asks by notification whether to end the workout, and a workout is never ended by itself. The notifications are created locally on your device. Positioning systems are not exact, so false alarms can occur.
+- **Who locates you?** On Android Google does the locating (through Google Play services, the Google software on your Android device), on the iPhone Apple does. The app itself sends nothing on, and the provider receives no places. Apple's and Google's own rules apply to how they handle location. The reminder can use some battery.
+- **Your permission:** You allow this yourself and can switch it off again at any time: with the switch, or by taking the permission back in your device settings. What happened until then remains lawful. The legal basis for both functions is your consent, Art. 6(1)(a) GDPR. You give it by switching the respective switch on (for training places, the question after a workout; for the reminder, the switch "Remind me at the gym") and confirming your device's question. You can withdraw it at any time under Art. 7(3) GDPR by switching the switch off or by taking the permission back in your device settings.
+- **Deleting and backups:** The saved places stay on your device only, until you delete or rename them in Options; deleting removes the name and coordinates from your device. Unlike the other data of the app, the saved places are not included in your device's automatic backup with Apple (iCloud) or Google, so that your location does not end up there: on the iPhone they are kept in the app folder that iOS leaves out when backing up; on Android the app explicitly excludes this folder ("SQLite/places") from the backup. On a new device or after a reinstall the places are therefore gone; if your iPhone needs space, it may also clear that folder. The app then asks again after a workout. The backup file you create yourself in the app does not contain the places either.
 
 ## 5. Your rights
 
@@ -72,6 +84,6 @@ All data entered in the app remains on your device until you delete it in the ap
 
 No automated decision-making, including profiling within the meaning of Art. 22 GDPR, takes place.
 
-## 9. Disclaimer
+## 9. Notices on health and data loss
 
-This app is intended solely as a tool to organize and document workouts. It does not provide medical advice and is not a substitute for professional coaching or healthcare services. Before starting or changing any exercise program, it is recommended to consult a physician. Liability for damage arising from injury to life, body or health and for intent and gross negligence remains unaffected; otherwise the provider is liable in accordance with the statutory provisions.
+This app is intended solely as a tool to organize and document workouts. It does not provide medical advice and is not a substitute for professional coaching or healthcare services. Before starting or changing any exercise program, it is recommended to consult a physician. Your entries are stored only on your device. A device failure, deleting the app or a bug can lead to data loss. We therefore recommend regular exports. Your statutory rights remain unaffected. Liability for damage arising from injury to life, body or health and for intent and gross negligence remains unaffected; otherwise the provider is liable in accordance with the statutory provisions.

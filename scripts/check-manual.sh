@@ -105,6 +105,45 @@ if [ -n "$de_versions" ] && [ "$de_versions" != "$(printf '%s\n' "$de_versions" 
   note "version history is not newest first"
 fi
 
+echo "4b. No absolute accessibility claims in the version history"
+# Issue #422: the 2.0.2 note once said the texts met the strictest level of
+# accessibility; the app's own tests do not hold that. Same list as the guard
+# in the app (store-notes-claims.test.ts). Only the correction itself may quote
+# the old claim: a line starting with "Berichtigung" or "Correction".
+claims='strengste|strictest|höchste Stufe|highest (accessibility )?level|AAA (überall|everywhere)|(voll|vollständig|komplett) barrierefrei|fully accessible|100 ?% (barrierefrei|accessible)'
+for f in versionen.md en/changes.md; do
+  [ -f "$f" ] || continue
+  while read -r hit; do
+    [ -n "$hit" ] || continue
+    note "absolute accessibility claim in $f: $hit"
+  done <<EOF
+$(grep -nEi "$claims" "$f" | grep -Ev '^[0-9]+:(Berichtigung|Correction)')
+EOF
+done
+
+echo "5. Bundled Mermaid"
+
+# The library is served from this repository (see _layouts/manual.html), so
+# nobody is told when it ages. The bundle must be at least this version.
+MERMAID_MIN="12.1.0"
+mermaid_have=$(grep -oE 'version:"[0-9]+\.[0-9]+\.[0-9]+"' assets/js/mermaid.min.js 2>/dev/null \
+  | grep -v '"0\.0\.0"' | head -n1 | sed 's/version:"\(.*\)"/\1/')
+if [ -z "$mermaid_have" ]; then
+  note "assets/js/mermaid.min.js: version not found"
+elif [ "$(printf '%s\n%s\n' "$MERMAID_MIN" "$mermaid_have" | sort -V | head -n1)" != "$MERMAID_MIN" ]; then
+  note "assets/js/mermaid.min.js is $mermaid_have, needs at least $MERMAID_MIN"
+fi
+if ! grep -q "mermaid $MERMAID_MIN\|mermaid@$MERMAID_MIN" _layouts/manual.html; then
+  note "_layouts/manual.html does not name the bundled Mermaid version"
+fi
+
+[ -f assets/js/mermaid.LICENSE ] || note "missing: assets/js/mermaid.LICENSE (MIT notice of the bundled Mermaid)"
+[ -f assets/js/mermaid.THIRD-PARTY-LICENSES ] || note "missing: assets/js/mermaid.THIRD-PARTY-LICENSES (licences of the libraries inside the Mermaid bundle)"
+# A chapter with a diagram only renders it through layout: manual.
+for f in $(grep -rl '^```mermaid' --include='*.md' . ); do
+  grep -q '^layout: manual' "$f" || note "has a mermaid diagram but not layout: manual: $f"
+done
+
 echo
 if [ "$fail" -eq 0 ]; then
   echo "Manual OK."
