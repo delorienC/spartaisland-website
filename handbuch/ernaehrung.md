@@ -47,6 +47,12 @@ Zwei Fälle brauchen dich:
 - **Das Produkt ist nirgends bekannt.** Dann legst du es selbst an — einmal getippt, für immer gespeichert.
 - **Die Angaben stimmen nicht.** Dann korrigierst du sie. Deine korrigierten Werte haben Vorrang. Sollte Open Food Facts das Produkt später doch kennen, fragt die App, ob sie deine Werte durch die neuen ersetzen soll — von selbst tut sie es nicht.
 
+**Woher die Werte stammen.** Die Daten von Open Food Facts trägt eine Community zusammen; sie stehen unter der Open Database License (ODbL) und werden von uns nicht geprüft. Gleiche sie deshalb mit der Packung ab. Nennt Open Food Facts einen Wert nicht, zeigt die App ein Fragezeichen statt einer Zahl — sie erfindet keine Null. In der Tagessumme zählt ein fehlender Wert als 0, und die App sagt dazu, dass die Summe unvollständig ist. Deine eigenen Werte bleiben auf deinem Gerät und ersetzen die der Datenbank.
+
+**Allergene und Zutaten** zeigt die App nicht. Bei Allergien oder Unverträglichkeiten gilt allein die Packung.
+
+**Ist Open Food Facts nicht erreichbar**, sagt dir die App das und lässt dich das Lebensmittel selbst anlegen. Sie fragt nicht von selbst erneut nach.
+
 Ein eigenes Lebensmittel kannst du mit deutschem und englischem Namen anlegen. Es taucht dann in beiden Sprachen unter dem richtigen Namen auf.
 
 ## Deine Ziele
