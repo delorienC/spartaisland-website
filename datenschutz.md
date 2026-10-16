@@ -8,7 +8,7 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung
 
-**Stand: 14. Oktober 2026**
+**Stand: 16. Oktober 2026**
 
 ## 1. Verantwortlicher
 
@@ -33,15 +33,16 @@ Sparta Island ist bewusst als **lokale App** gestaltet. Alle Daten, die Sie in d
 Wenn Sie in der Ernährungsfunktion aktiv den **Barcode-Scan** nutzen, ruft die App die Nährwertdaten des gescannten Produkts von der Datenbank **Open Food Facts** ab (`world.openfoodfacts.org`).
 
 - **Übertragene Daten:** der gescannte Barcode, die IP-Adresse Ihres Geräts (technisch bedingt bei jedem Internetabruf), der Zeitpunkt der Anfrage sowie eine Kennung der App (User-Agent `SpartaIslandApp/1.0` mit der Kontaktadresse des Anbieters `contact@spartaisland.de`). Barcode, IP-Adresse und Zeitpunkt zusammen können einen Personenbezug ermöglichen.
-- **Zeitpunkt:** ausschließlich in dem Moment, in dem Sie einen Barcode scannen — niemals im Hintergrund. Pro Scan erfolgt genau eine Anfrage; ist Open Food Facts nicht erreichbar, wiederholt die App sie nicht von selbst.
+- **Zeitpunkt:** ausschließlich in dem Moment, in dem Sie einen Barcode scannen — niemals im Hintergrund. Pro Scan erfolgt eine Anfrage nach den Nährwerten; ist Open Food Facts nicht erreichbar, wiederholt die App sie nicht von selbst.
 - **Cookies:** Beim Abruf werden keine Cookies gesetzt.
-- **Zweck:** Abruf der Nährwertangaben (Kalorien, Protein, Kohlenhydrate, Fett) zum gescannten Produkt.
+- **Produktbild:** Hat Open Food Facts ein Bild des Produkts, lädt die App es gleich danach von `images.openfoodfacts.org`, damit Sie sehen, ob das gescannte Produkt Ihres ist. Dabei gehen der Barcode (er ist Teil der Bildadresse), die IP-Adresse Ihres Geräts und der Zeitpunkt ein zweites Mal an Open Food Facts, ohne die Kennung der App. Das Bild wird nicht gespeichert.
+- **Zweck:** Abruf der Nährwertangaben (Kalorien, Protein, Kohlenhydrate, Fett) und des Produktbilds zum gescannten Produkt.
 - **Empfänger:** Open Food Facts, eine gemeinnützige Organisation mit Sitz in Frankreich (EU). Datenschutzhinweise von Open Food Facts: <https://world.openfoodfacts.org/privacy>
 - **Speicherung bei Open Food Facts:** Nach eigenen Angaben speichert Open Food Facts IP-Adressen und Server-Protokolle für Sicherheit, technische Analysen und Statistiken bis zu 3 Jahre. Darauf hat der Anbieter von Sparta Island keinen Einfluss.
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist es, Ihnen die von Ihnen selbst ausgelöste Nährwertabfrage bereitzustellen.
 - **Widerspruch und Freiwilligkeit:** Sie können der Verarbeitung nach Art. 21 DSGVO widersprechen, indem Sie den Barcode-Scan nicht nutzen. Die Nutzung ist freiwillig; ohne Barcode-Scan bleibt die App voll nutzbar, Lebensmittel lassen sich auch von Hand anlegen.
 
-Die abgerufenen Nährwertdaten werden anschließend lokal auf Ihrem Gerät gespeichert. Sie stammen von der Community, sind vom Anbieter nicht geprüft und stehen unter der Open Database License (ODbL 1.0), die einzelnen Inhalte unter der Database Contents License. Wenn Sie den Barcode-Scan nicht nutzen, findet keinerlei Datenübertragung statt.
+Die abgerufenen Nährwertdaten werden anschließend lokal auf Ihrem Gerät gespeichert. Sie stammen von der Community, sind vom Anbieter nicht geprüft und stehen unter der Open Database License (ODbL 1.0), die einzelnen Inhalte unter der Database Contents License, Produktbilder unter Creative Commons BY-SA 3.0. Wenn Sie den Barcode-Scan nicht nutzen, findet keinerlei Datenübertragung statt.
 
 ## 4. Kamera und Mikrofon
 

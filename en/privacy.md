@@ -8,7 +8,7 @@ permalink: /en/privacy/
 
 # Privacy Policy
 
-**Last updated: October 14, 2026**
+**Last updated: October 16, 2026**
 
 ## 1. Controller
 
@@ -33,15 +33,16 @@ Sparta Island is deliberately designed as a **local app**. All data you enter �
 When you actively use the **barcode scanner** in the nutrition feature, the app fetches nutrition facts for the scanned product from the **Open Food Facts** database (`world.openfoodfacts.org`).
 
 - **Data transmitted:** the scanned barcode, your device's IP address (a technical necessity of any internet request), the time of the request, and an app identifier (user agent `SpartaIslandApp/1.0` containing the provider's contact address `contact@spartaisland.de`). Barcode, IP address and time together may allow a link to your person.
-- **When:** only at the moment you scan a barcode — never in the background. Each scan sends exactly one request; if Open Food Facts cannot be reached, the app does not retry on its own.
+- **When:** only at the moment you scan a barcode — never in the background. Each scan sends one request for the nutrition facts; if Open Food Facts cannot be reached, the app does not retry on its own.
 - **Cookies:** No cookies are set during the lookup.
-- **Purpose:** retrieving nutrition facts (calories, protein, carbohydrates, fat) for the scanned product.
+- **Product picture:** if Open Food Facts has a picture of the product, the app loads it right afterwards from `images.openfoodfacts.org`, so you can see whether the scanned product is yours. This sends the barcode (it is part of the picture's address), your device's IP address and the time to Open Food Facts a second time, without the app identifier. The picture is not stored.
+- **Purpose:** retrieving nutrition facts (calories, protein, carbohydrates, fat) and the product picture for the scanned product.
 - **Recipient:** Open Food Facts, a non-profit organization based in France (EU). Open Food Facts privacy information: <https://world.openfoodfacts.org/privacy>
 - **Storage at Open Food Facts:** According to its own statements, Open Food Facts keeps IP addresses and server logs for security, technical analysis and statistics for up to 3 years. The provider of Sparta Island has no influence on this.
 - **Legal basis:** Art. 6(1)(f) GDPR. Our legitimate interest is to provide the nutrition lookup you trigger yourself.
 - **Objection and voluntariness:** You can object under Art. 21 GDPR by not using the barcode scanner. Using it is voluntary; without it the app remains fully usable, and foods can be added by hand.
 
-The retrieved nutrition facts are then stored locally on your device. They come from a community, have not been verified by the provider, and are published under the Open Database License (ODbL 1.0), individual contents under the Database Contents License. If you do not use the barcode scanner, no data is transmitted at all.
+The retrieved nutrition facts are then stored locally on your device. They come from a community, have not been verified by the provider, and are published under the Open Database License (ODbL 1.0), individual contents under the Database Contents License, product pictures under Creative Commons BY-SA 3.0. If you do not use the barcode scanner, no data is transmitted at all.
 
 ## 4. Camera and microphone
 
