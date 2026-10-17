@@ -63,7 +63,7 @@ Die App greift auf Kamera und Mikrofon **ausschließlich dann zu, wenn du es sel
 
 - **Kamera:** beim Barcode-Scan in der Ernährungsfunktion und beim Aufnehmen eines Trainingsmoments als Foto oder Video im Tagebuch.
 - **Mikrofon:** ausschließlich beim Aufnehmen eines Trainingsvideos, damit der Ton der Aufnahme erhalten bleibt.
-- **Verbleib:** Aufgenommene Fotos und Videos werden wie alle übrigen Eingaben lokal auf deinem Gerät gespeichert und **zu keinem Zeitpunkt übertragen**. Beim Barcode-Scan wird das Kamerabild nie übertragen; an Open Food Facts gehen nur die in Abschnitt 3 genannten Daten.
+- **Verbleib:** Aufgenommene Fotos und Videos werden wie alle übrigen Eingaben lokal auf deinem Gerät gespeichert und von der App **nicht übertragen**. Beim Barcode-Scan wird das Kamerabild nie übertragen; an Open Food Facts gehen nur die in Abschnitt 3 genannten Daten.
 - **Berechtigung:** Dein Gerät fragt erst dann nach der Erlaubnis, wenn du die jeweilige Funktion zum ersten Mal aufrufst. Verweigerst du sie, bleibt die übrige App uneingeschränkt nutzbar — ein Medium lässt sich weiterhin aus deiner Mediathek wählen.
 
 ## 4a. Trainingsorte und Erinnerung im Studio (Standort)

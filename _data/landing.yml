@@ -3,7 +3,7 @@ de:
   other_label: English version
   kicker: Krafttraining · Ernährung · Planung
   title: Dein Trainingstagebuch, das dich nicht ausspioniert.
-  lead: Sparta Island hält Workouts, Rekorde, Ernährung und deinen Trainingsplan an einem Ort fest. Ohne Konto, ohne Tracking, ohne Werbung. Deine Trainings-, Ernährungs- und Körperdaten bleiben auf deinem iPhone.
+  lead: Sparta Island hält Workouts, Rekorde, Ernährung und deinen Trainingsplan an einem Ort fest. Ohne Konto, ohne Tracking, ohne Werbung. Deine Trainings-, Ernährungs- und Körperdaten liegen auf deinem iPhone und gehen nicht an uns.
   cta: Im App Store ansehen
   cta_more: Was die App kann
   note: Für iPhone · Deutsch und Englisch
@@ -48,7 +48,7 @@ de:
     - Kein Tracking, keine Analyse-Dienste, keine Werbung
     - Deine Trainings-, Ernährungs- und Körperdaten gehen nicht an uns
     - Fotos und Videos aus dem Tagebuch gehen nicht an uns
-  privacy_exception: "<strong>Ausnahme:</strong> Beim optionalen Barcode-Scan fragt die App die Nährwerte bei Open Food Facts ab. Dabei gehen die Barcode-Nummer sowie technisch bedingt deine IP-Adresse und eine App-Kennung dorthin. Versionen bis 2.2.0 fragten außerdem beim Start bei Expo nach Updates."
+  privacy_exception: "<strong>Ausnahmen:</strong> Beim optionalen Barcode-Scan fragt die App die Nährwerte bei Open Food Facts ab. Dabei gehen die Barcode-Nummer sowie technisch bedingt deine IP-Adresse und eine App-Kennung dorthin. Versionen bis 2.2.0 fragten außerdem beim Start bei Expo nach Updates."
   privacy_url: /datenschutz/
   privacy_link: Zur Datenschutzerklärung
   final_title: Bereit für dein nächstes Training?
@@ -69,7 +69,7 @@ en:
   other_label: Deutsche Version
   kicker: Strength training · Nutrition · Planning
   title: Your training log that doesn't spy on you.
-  lead: Sparta Island keeps your workouts, records, nutrition and training plan in one place. No account, no tracking, no ads. Your training, nutrition and body data stay on your iPhone.
+  lead: Sparta Island keeps your workouts, records, nutrition and training plan in one place. No account, no tracking, no ads. Your training, nutrition and body data are stored on your iPhone and are not sent to us.
   cta: View on the App Store
   cta_more: What the app does
   note: For iPhone · English and German
@@ -114,7 +114,7 @@ en:
     - No tracking, no analytics, no ads
     - Your training, nutrition and body data are not sent to us
     - Photos and videos from your journal are not sent to us
-  privacy_exception: "<strong>Exception:</strong> the optional barcode scan asks Open Food Facts for nutrition facts. It sends the barcode number and, for technical reasons, your IP address and an app identifier. Versions up to 2.2.0 also asked Expo for updates at start-up."
+  privacy_exception: "<strong>Exceptions:</strong> the optional barcode scan asks Open Food Facts for nutrition facts. It sends the barcode number and, for technical reasons, your IP address and an app identifier. Versions up to 2.2.0 also asked Expo for updates at start-up."
   privacy_url: /en/privacy/
   privacy_link: Read the privacy policy
   final_title: Ready for your next workout?

@@ -63,7 +63,7 @@ The app accesses the camera and the microphone **only when you trigger it yourse
 
 - **Camera:** when scanning a barcode in the nutrition feature, and when capturing a training moment as a photo or a video in the diary.
 - **Microphone:** only when recording a training video, so that the sound of the recording is preserved.
-- **Where it stays:** photos and videos you capture are stored locally on your device like every other entry and are **never transmitted**. During a barcode scan the camera image is never transmitted; only the data listed in section 3 goes to Open Food Facts.
+- **Where it stays:** photos and videos you capture are stored locally on your device like every other entry and are **not transmitted by the app**. During a barcode scan the camera image is never transmitted; only the data listed in section 3 goes to Open Food Facts.
 - **Permission:** your device asks for permission the first time you use the respective function. If you decline, the rest of the app remains fully usable — you can still choose a medium from your photo library.
 
 ## 4a. Training places and the reminder at the gym (location)
