@@ -39,7 +39,7 @@ Sparta Island ist bewusst als **lokale App** gestaltet. Alle Daten, die du in de
 
 ## 3. Barcode-Scan: Nährwertabruf über Open Food Facts
 
-Wenn du in der Ernährungsfunktion aktiv den **Barcode-Scan** nutzen, ruft die App die Nährwertdaten des gescannten Produkts von der Datenbank **Open Food Facts** ab (`world.openfoodfacts.org`).
+Wenn du in der Ernährungsfunktion aktiv den **Barcode-Scan** nutzt, ruft die App die Nährwertdaten des gescannten Produkts von der Datenbank **Open Food Facts** ab (`world.openfoodfacts.org`).
 
 - **Übertragene Daten:** der gescannte Barcode, die IP-Adresse deines Geräts (technisch bedingt bei jedem Internetabruf), der Zeitpunkt der Anfrage sowie eine Kennung der App (User-Agent `SpartaIslandApp/1.0` mit unserer Kontaktadresse `contact@spartaisland.de`). Barcode, IP-Adresse und Zeitpunkt zusammen können einen Personenbezug ermöglichen.
 - **Zeitpunkt:** ausschließlich in dem Moment, in dem du einen Barcode scannst — niemals im Hintergrund. Pro Scan erfolgt eine Anfrage nach den Nährwerten; ist Open Food Facts nicht erreichbar, wiederholt die App sie nicht von selbst.
@@ -49,7 +49,7 @@ Wenn du in der Ernährungsfunktion aktiv den **Barcode-Scan** nutzen, ruft die A
 - **Empfänger:** Open Food Facts, eine gemeinnützige Organisation mit Sitz in Frankreich (EU). Datenschutzhinweise von Open Food Facts: <https://world.openfoodfacts.org/privacy>
 - **Speicherung bei Open Food Facts:** Nach eigenen Angaben speichert Open Food Facts IP-Adressen und Server-Protokolle für Sicherheit, technische Analysen und Statistiken bis zu 3 Jahre. Darauf haben wir keinen Einfluss.
 - **Rechtsgrundlage:** Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist es, dir die von dir selbst ausgelöste Nährwertabfrage bereitzustellen.
-- **Widerspruch und Freiwilligkeit:** Du kannst der Verarbeitung nach Art. 21 DSGVO widersprechen, indem du den Barcode-Scan nicht nutzen. Die Nutzung ist freiwillig; ohne Barcode-Scan bleibt die App voll nutzbar, Lebensmittel lassen sich auch von Hand anlegen.
+- **Widerspruch und Freiwilligkeit:** Du kannst der Verarbeitung nach Art. 21 DSGVO widersprechen, indem du den Barcode-Scan nicht nutzt. Die Nutzung ist freiwillig; ohne Barcode-Scan bleibt die App voll nutzbar, Lebensmittel lassen sich auch von Hand anlegen.
 
 Die abgerufenen Nährwertdaten werden anschließend lokal auf deinem Gerät gespeichert. Sie stammen von der Community, sind von uns nicht geprüft und stehen unter der Open Database License (ODbL 1.0), die einzelnen Inhalte unter der Database Contents License, Produktbilder unter Creative Commons BY-SA 3.0. Wenn du den Barcode-Scan nicht nutzt, findet für den Barcode-Scan keine Übertragung statt.
 
