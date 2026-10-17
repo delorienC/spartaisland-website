@@ -46,9 +46,9 @@ de:
   privacy_points:
     - Kein Konto, keine Anmeldung
     - Kein Tracking, keine Analyse-Dienste, keine Werbung
-    - Deine Trainings-, Ernährungs- und Körperdaten verlassen dein Gerät nicht
-    - Fotos und Videos aus dem Tagebuch bleiben auf dem iPhone
-  privacy_exception: "<strong>Einzige Ausnahme:</strong> Beim optionalen Barcode-Scan fragt die App die Nährwerte bei Open Food Facts ab. Dabei gehen die Barcode-Nummer sowie technisch bedingt deine IP-Adresse und eine App-Kennung dorthin."
+    - Deine Trainings-, Ernährungs- und Körperdaten gehen nicht an uns
+    - Fotos und Videos aus dem Tagebuch gehen nicht an uns
+  privacy_exception: "<strong>Ausnahme:</strong> Beim optionalen Barcode-Scan fragt die App die Nährwerte bei Open Food Facts ab. Dabei gehen die Barcode-Nummer sowie technisch bedingt deine IP-Adresse und eine App-Kennung dorthin. Versionen bis 2.2.0 fragten außerdem beim Start bei Expo nach Updates."
   privacy_url: /datenschutz/
   privacy_link: Zur Datenschutzerklärung
   final_title: Bereit für dein nächstes Training?
@@ -112,9 +112,9 @@ en:
   privacy_points:
     - No account, no sign-in
     - No tracking, no analytics, no ads
-    - Your training, nutrition and body data never leave your device
-    - Photos and videos from your journal stay on your iPhone
-  privacy_exception: "<strong>The only exception:</strong> the optional barcode scan asks Open Food Facts for nutrition facts. It sends the barcode number and, for technical reasons, your IP address and an app identifier."
+    - Your training, nutrition and body data are not sent to us
+    - Photos and videos from your journal are not sent to us
+  privacy_exception: "<strong>Exception:</strong> the optional barcode scan asks Open Food Facts for nutrition facts. It sends the barcode number and, for technical reasons, your IP address and an app identifier. Versions up to 2.2.0 also asked Expo for updates at start-up."
   privacy_url: /en/privacy/
   privacy_link: Read the privacy policy
   final_title: Ready for your next workout?
