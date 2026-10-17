@@ -75,7 +75,23 @@ Die App kennt zwei Funktionen, die deinen Standort nutzen. Beide sind freiwillig
 
 Du hast nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) und Widerspruch (Art. 21) sowie ein Beschwerderecht bei einer Datenschutz-Aufsichtsbehörde (Art. 77 DSGVO). Zuständig für uns ist der Hessische Beauftragte für Datenschutz und Informationsfreiheit, Gustav-Stresemann-Ring 1, 65189 Wiesbaden, <https://datenschutz.hessen.de>.
 
-Da alle App-Daten auf deinem Gerät liegen und wir keine personenbezogenen Daten von dir speichern, übst du die Kontrolle über deine Daten unmittelbar selbst aus: In der App gelöschte Einträge werden aus allen Ansichten und Auswertungen ausgeblendet; durch Löschen der App werden sämtliche Daten unwiderruflich entfernt.
+Da alle App-Daten auf deinem Gerät liegen und wir keine personenbezogenen Daten von dir speichern, übst du die Kontrolle über deine Daten unmittelbar selbst aus: In der App gelöschte Einträge werden aus allen Ansichten und Auswertungen ausgeblendet. Alles, was die App auf deinem Handy gespeichert hat, entfernst du mit „Alle lokalen Daten löschen“ in den Optionen oder indem du die App löschst; was danach außerhalb des Handys bleibt, steht in Abschnitt 5a.
+
+## 5a. Alle lokalen Daten löschen
+
+In den Optionen, ganz unten, löschst du mit „Alle lokalen Daten löschen“ alles, was die App auf diesem Handy gespeichert hat: Workouts und Verlauf, Ernährung und Rezepte, Körpermaße, Profil, Tagebuch mit Fotos und Videos, gespeicherte Trainingsorte, Kopien deiner Einträge, die App-Versionen bis 2.2 vor einem Update selbst angelegt haben, sowie Sprache, Einheiten, Datumsformat, Farbschema (die Farben der App) und Design (hell oder dunkel). Auch das Widget auf dem Startbildschirm wird auf den Anfang zurückgesetzt, und das Handy hört auf, dich an deinen Trainingsorten zu erinnern; die App prüft das nach und sagt dir, falls es nicht geklappt hat. Damit nichts versehentlich verloren geht, bietet die App zuerst ein Backup an, und der rote Knopf muss 10 Sekunden gehalten werden; lässt du vorher los, passiert nichts. Lässt du dir den Bildschirm vorlesen (VoiceOver oder TalkBack) oder bedienst du dein Handy per Schalter oder Sprache, bestätigst du stattdessen in zwei Schritten.
+
+Am schnellsten geht es, die App zu löschen: Dann ist auf dem Handy ebenfalls alles weg, was hier genannt ist. Stellst du dein Handy später aus einem Handy-Backup wieder her (auf Android auch beim erneuten Installieren der App), kommt der alte Stand zurück.
+
+Gelöscht wird nur, was auf diesem Handy liegt. Das bleibt:
+
+- Backups, die du selbst erstellt oder geteilt hast, liegen dort, wo du sie abgelegt hast. Ein Backup ist eine Datei mit deinen Einträgen, den Fotos und Videos aus dem Tagebuch und deinen Einstellungen; Trainingsorte sind nicht darin. Wohin sie kommt, wählst du beim Erstellen selbst, zum Beispiel in deine Dateien oder per Mail an dich; mit vielen Videos wird sie groß. Zurück in die App holst du sie in den Optionen im Bereich „Daten“, auch auf einem neuen Handy.
+- Sichert dein Handy sich selbst bei Apple (iCloud) oder Google, nennen wir das Handy-Backup. Hast du es eingeschaltet, enthält es auch die Daten dieser App, und der alte Stand liegt dort noch, bis dein Handy das nächste Handy-Backup macht, in der Regel einmal am Tag beim Laden im WLAN. Willst du nicht warten, löschst du das Handy-Backup oder schaltest es für diese App aus: iPhone unter Einstellungen → dein Name → iCloud → Backups, Android unter Einstellungen → Google → Sicherung (die Menüs heißen je nach Handy etwas anders). Das Handy-Backup liegt bei Apple bzw. Google.
+- Fotos und Videos, die du aus deiner Galerie gewählt hast, bleiben in der Galerie; die App löscht nur ihre eigenen Kopien, auch die vorübergehende, die beim Auswählen entsteht. Bilder, die du mit der Kamera aus der App aufgenommen hast, legt die App nur bei sich ab; ob die Kamera-App deines Handys zusätzlich eine Kopie in die Galerie legt, entscheidet dein Handy. Sieh im Zweifel dort nach.
+- Open Food Facts merkt sich bei jedem Barcode-Scan den Barcode, die IP-Adresse (die Nummer, die dein Handy gerade im Internet hat) und die Uhrzeit, nach eigenen Angaben bis zu 3 Jahre (Abschnitt 3). Dein Name steht nicht dabei; die App schickt keinen Namen. Diese Funktion kommt dort nicht heran: Auskunft und Löschung dazu beantragst du direkt bei Open Food Facts (https://world.openfoodfacts.org/privacy).
+- **Expo (Versionen bis 2.2.0):** siehe Abschnitt 3a.
+
+Ein Konto oder einen KI-Dienst hat diese Version der App nicht; dort liegt also nichts.
 
 ## 6. Diese Website
 
@@ -87,7 +103,7 @@ Diese Website wird über **GitHub Pages** gehostet, einen Dienst der GitHub, Inc
 
 ## 7. Speicherdauer
 
-Alle in der App eingegebenen Daten verbleiben auf deinem Gerät, bis du sie in der App löschst oder die App deinstallierst — wir selbst speichern keine personenbezogenen Daten und können daher auch keine löschen. Open Food Facts speichert die beim Barcode-Scan anfallenden Server-Protokolle nach eigenen Angaben bis zu 3 Jahre. Die Speicherdauer der bei GitHub anfallenden Verbindungsdaten richtet sich nach dessen oben verlinkten Datenschutzhinweisen.
+Alle in der App eingegebenen Daten verbleiben auf deinem Gerät, bis du sie in der App löschst, „Alle lokalen Daten löschen“ nutzt oder die App deinstallierst — wir selbst speichern keine personenbezogenen Daten und können daher auch keine löschen. Open Food Facts speichert die beim Barcode-Scan anfallenden Server-Protokolle nach eigenen Angaben bis zu 3 Jahre. Die Speicherdauer der bei GitHub anfallenden Verbindungsdaten richtet sich nach dessen oben verlinkten Datenschutzhinweisen.
 
 ## 8. Keine automatisierte Entscheidungsfindung
 

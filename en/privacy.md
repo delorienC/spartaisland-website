@@ -75,7 +75,23 @@ The app has two functions that use your location. Both are optional; without the
 
 Under the GDPR you have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20), and objection (Art. 21), as well as the right to lodge a complaint with a data protection supervisory authority (Art. 77 GDPR). The authority responsible for us is the Hessian Commissioner for Data Protection and Freedom of Information (Hessischer Beauftragter für Datenschutz und Informationsfreiheit), Gustav-Stresemann-Ring 1, 65189 Wiesbaden, Germany, <https://datenschutz.hessen.de>.
 
-Since all app data resides on your device and we store no personal data about you, you exercise control over your data directly: entries you delete in the app are hidden from all views and statistics; deleting the app irrevocably removes all data.
+Since all app data resides on your device and we store no personal data about you, you exercise control over your data directly: entries you delete in the app are hidden from all views and statistics. You remove everything the app has stored on your phone with "Delete all local data" in Options or by deleting the app; what stays outside the phone afterwards is listed in section 5a.
+
+## 5a. Delete all local data
+
+In Options, at the very bottom, "Delete all local data" removes everything the app has stored on this phone: workouts and history, nutrition and recipes, body measurements, profile, diary with photos and videos, saved training places, copies of your entries that app versions up to 2.2 made by themselves before an update, and language, units, date format, color palette (the app’s colors) and theme (light or dark). The widget on the home screen is reset to its starting state too, and the phone stops reminding you at your training places; the app checks this and tells you if it did not work. So that nothing is lost by accident, the app offers a backup first, and the red button has to be held for 10 seconds; if you let go earlier, nothing happens. If you have the screen read aloud (VoiceOver or TalkBack), or control your phone by switch or voice, you confirm in two steps instead.
+
+The quickest way is to delete the app: then everything named here is gone on the phone as well. If you later restore your phone from a phone backup (on Android also when you install the app again), the old state comes back.
+
+Only what is on this phone is deleted. What stays:
+
+- Backups you created or shared yourself stay where you put them. A backup is a file with your entries, the photos and videos from your diary and your settings; training places are not in it. You choose where it goes when you create it, for example your files or a mail to yourself; with many videos it gets large. You load it back into the app in Options, in the “Data” section, on a new phone too.
+- If your phone backs itself up to Apple (iCloud) or Google, we call that a phone backup. If it is switched on, it also holds this app's data, and the old state stays there until the next phone backup, usually once a day while charging on Wi-Fi. If you do not want to wait, delete the phone backup or switch it off for this app: iPhone under Settings → your name → iCloud → Backups, Android under Settings → Google → Backup (the menus differ a little by phone). The phone backup is kept by Apple or Google.
+- Photos and videos you picked from your gallery stay in the gallery; the app deletes only its own copies, including the temporary one made when you pick it. Pictures you took with the camera from inside the app are kept by the app alone; whether your phone's camera app also puts a copy into the gallery is up to your phone. If in doubt, look there.
+- Open Food Facts keeps, for every barcode scan, the barcode, the IP address (the number your phone currently has on the internet) and the time, by its own account for up to 3 years (section 3). Your name is not among them; the app sends no name. This function cannot reach that data: you request access and erasure directly from Open Food Facts (https://world.openfoodfacts.org/privacy).
+- **Expo (versions up to 2.2.0):** see section 3a.
+
+An account or an AI service is something this version of the app does not have, so nothing is stored there.
 
 ## 6. This website
 
@@ -87,7 +103,7 @@ This website is hosted on **GitHub Pages**, a service of GitHub, Inc., based in 
 
 ## 7. Storage period
 
-All data entered in the app remains on your device until you delete it in the app or uninstall the app — we ourselves store no personal data and therefore cannot delete any. According to its own statements, Open Food Facts keeps the server logs arising from a barcode scan for up to 3 years. The storage period of connection data at GitHub is governed by its privacy notice linked above.
+All data entered in the app remains on your device until you delete it in the app, use "Delete all local data" or uninstall the app — we ourselves store no personal data and therefore cannot delete any. According to its own statements, Open Food Facts keeps the server logs arising from a barcode scan for up to 3 years. The storage period of connection data at GitHub is governed by its privacy notice linked above.
 
 ## 8. No automated decision-making
 
