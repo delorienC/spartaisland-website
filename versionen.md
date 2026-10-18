@@ -12,15 +12,25 @@ Die neueste Version steht oben. Beschrieben ist, was du in der App merkst — ni
 
 ## 2.3.0 — Oktober 2026
 
+Im App Store folgt 2.3.0 direkt auf 2.1.0. Beschrieben ist alles, was seither dazugekommen ist.
+
+**Trainingsorte.** Nach einem Workout kann sich die App den Ort und die Startzeit merken. Auf Wunsch erinnert sie dich, wenn du dein Studio betrittst, und fragt beim Verlassen nach. Dein Standort bleibt dabei auf deinem Handy. Vor diesen Funktionen steht ein Hinweis für alle unter 16.
+
 **Verständlicher.** Die App spricht Alltagssprache. „Exportieren“ und „Importieren“ heißen jetzt „Backup erstellen“ und „Backup laden“, „Streak“ heißt „Tage in Folge“, und statt „Makros“ steht „Nährwerte“ für Eiweiß, Kohlenhydrate und Fett. Erklärtexte in den Einstellungen stehen beim ersten Besuch offen da; danach klappst du sie bei Bedarf über einen Info-Knopf auf.
 
-**Besser geschützt.** Ein Backup mit Passwort ist jetzt besser geschützt, und bevor ein Backup ohne Passwort dein Handy verlässt, fragt die App nach. Lädst du ein Backup, das dir jemand weitergegeben hat, übernimmt die App daraus keine fremden Adressen und keine unsicheren Dateinamen. Nährwerte von Open Food Facts prüft die App, bevor sie sie speichert. Beim Start fragt die App nicht mehr bei Expo nach, einem Dienst für App-Updates; neue Versionen kommen nur noch über den App Store.
+**Besser geschützt.** Du kannst ein Backup mit einem Passwort schützen, und bevor ein Backup ohne Passwort dein Handy verlässt, fragt die App nach. Lädst du ein Backup, das dir jemand weitergegeben hat, übernimmt die App daraus keine fremden Adressen und keine unsicheren Dateinamen. Bevor ein Update deine gespeicherten Daten umbaut, legt die App eine Sicherheitskopie an und stellt bei einem Fehler alles zurück. „Alle lokalen Daten löschen“ entfernt auch Fotos und Videos und fragt vorher deutlich nach. Beim Start fragt die App nicht mehr bei Expo nach, einem Dienst für App-Updates; neue Versionen kommen nur noch über den App Store.
 
-**Neu.** Zutaten für Rezepte kannst du per Barcode scannen. Vor den Funktionen, die deinen Standort nutzen, steht ein Hinweis für alle unter 16.
+**Ernährung.** Zutaten für Rezepte kannst du per Barcode scannen. Produkte von Open Food Facts zeigen, woher sie stammen, und sind als ungeprüft gekennzeichnet; fehlende Nährwerte stehen als „?“ statt als 0, und du kannst eigene Werte eintragen. Die App prüft Nährwerte, bevor sie sie speichert. Ein Tagesziel unter 1.200 kcal speichert die App nicht, und ein älteres Ziel unter dieser Grenze sinkt nicht weiter mit deinem Gewicht.
 
-**Ernährungsziele.** Ein Tagesziel unter 1.200 kcal speichert die App nicht, und ein älteres Ziel unter dieser Grenze sinkt nicht weiter mit deinem Gewicht.
+**Behoben.** Zahlen mit Komma wie 12,5 g werden richtig übernommen statt still gekürzt; zu kleine oder zu große Mengen weist die App sichtbar ab. Datum und Zahlen folgen deinen Format-Einstellungen, auch auf der Übungsseite und in den Verlaufsdiagrammen. Ein gescanntes Produkt zeigt Bild, Name und Nummer, damit du siehst, ob es deines ist. Die Rekordkarte nennt zu jeder Zahl die Einheit, Verlaufskarten zeigen keine erfundene Uhrzeit mehr, Trainingskarten nur noch eine „Zuletzt“-Angabe, und lange Texte passen auch auf kleine Handys mit großer Schrift. VoiceOver und TalkBack erreichen die Knöpfe in Fenstern wie „Alle Daten löschen“. Zwei Trainings am selben Tag erscheinen auf der Übungsseite als zwei Zeilen.
 
-**Behoben.** Zahlen mit Komma wie 12,5 g werden richtig übernommen statt still gekürzt; zu kleine oder zu große Mengen weist die App sichtbar ab. Datum und Zahlen folgen deinen Format-Einstellungen, auch auf der Übungsseite und in den Verlaufsdiagrammen. Ein gescanntes Produkt zeigt Bild, Name und Nummer, damit du siehst, ob es deines ist. Die Rekordkarte nennt zu jeder Zahl die Einheit, Verlaufskarten zeigen keine erfundene Uhrzeit mehr, und lange Texte passen auch auf kleine Handys mit großer Schrift. VoiceOver und TalkBack erreichen die Knöpfe in Fenstern wie „Alle Daten löschen“. Zwei Trainings am selben Tag erscheinen auf der Übungsseite als zwei Zeilen.
+## 2.1.0 — Oktober 2026
+
+**Rezepte.** Was du oft isst, legst du jetzt einmal als Rezept an – mit allen Zutaten in Gramm, Millilitern oder Stück – und trägst es danach mit einem Tipp ein. Isst du heute etwas anders, passt du Mengen und Zutaten an; die App zeigt dir, was vom Rezept abweicht, und fragt, ob es nur diesmal gilt oder ins Rezept übernommen wird. Auf Wunsch hält ein Rezept auch die Zubereitung fest, Schritt für Schritt. Fehlt eine Zutat, legst du sie direkt im Rezept an.
+
+**Behoben.** Hast du deine Kalorien- oder Nährwertziele geändert, zeigten auch vergangene Tage das neue Ziel. Jetzt behält jeder Tag das Ziel, das an ihm galt – samt Defizit.
+
+**Besser lesbar.** Kacheln, Dialoge und der erste Start sind in jedem Farbschema hell wie dunkel besser lesbar.
 
 ## 2.0.2 — September 2026
 
