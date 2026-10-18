@@ -8,7 +8,7 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung
 
-**Stand: 17. Oktober 2026**
+**Stand: 18. Oktober 2026**
 
 ## 1. Verantwortlicher
 
@@ -39,7 +39,7 @@ Sparta Island ist bewusst als **lokale App** gestaltet. Alle Daten, die du in de
 
 ## 3. Barcode-Scan: Nährwertabruf über Open Food Facts
 
-Wenn du in der Ernährungsfunktion aktiv den **Barcode-Scan** nutzt, ruft die App die Nährwertdaten des gescannten Produkts von der Datenbank **Open Food Facts** ab (`world.openfoodfacts.org`).
+Wenn du beim Erfassen von Lebensmitteln oder beim Anlegen eines Rezepts aktiv den **Barcode-Scan** nutzt, ruft die App die Nährwertdaten des gescannten Produkts von der Datenbank **Open Food Facts** ab (`world.openfoodfacts.org`).
 
 - **Übertragene Daten:** der gescannte Barcode, die IP-Adresse deines Geräts (technisch bedingt bei jedem Internetabruf), der Zeitpunkt der Anfrage sowie eine Kennung der App (User-Agent `SpartaIslandApp/1.0` mit unserer Kontaktadresse `contact@spartaisland.de`). Barcode, IP-Adresse und Zeitpunkt zusammen können einen Personenbezug ermöglichen.
 - **Zeitpunkt:** ausschließlich in dem Moment, in dem du einen Barcode scannst — niemals im Hintergrund. Pro Scan erfolgt eine Anfrage nach den Nährwerten; ist Open Food Facts nicht erreichbar, wiederholt die App sie nicht von selbst.
