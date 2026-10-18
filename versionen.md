@@ -10,6 +10,18 @@ permalink: /versionen/
 
 Die neueste Version steht oben. Beschrieben ist, was du in der App merkst — nicht, was im Code passiert ist.
 
+## 2.3.0 — Oktober 2026
+
+**Verständlicher.** Die App spricht Alltagssprache. „Exportieren“ und „Importieren“ heißen jetzt „Backup erstellen“ und „Backup laden“, „Streak“ heißt „Tage in Folge“, und statt „Makros“ steht „Nährwerte“ für Eiweiß, Kohlenhydrate und Fett. Erklärtexte in den Einstellungen stehen beim ersten Besuch offen da; danach klappst du sie bei Bedarf über einen Info-Knopf auf.
+
+**Besser geschützt.** Ein Backup mit Passwort ist jetzt besser geschützt, und bevor ein Backup ohne Passwort dein Handy verlässt, fragt die App nach. Lädst du ein Backup, das dir jemand weitergegeben hat, übernimmt die App daraus keine fremden Adressen und keine unsicheren Dateinamen. Nährwerte von Open Food Facts prüft die App, bevor sie sie speichert. Beim Start fragt die App nicht mehr bei Expo nach, einem Dienst für App-Updates; neue Versionen kommen nur noch über den App Store.
+
+**Neu.** Zutaten für Rezepte kannst du per Barcode scannen. Vor den Funktionen, die deinen Standort nutzen, steht ein Hinweis für alle unter 16.
+
+**Ernährungsziele.** Ein Tagesziel unter 1.200 kcal speichert die App nicht, und ein älteres Ziel unter dieser Grenze sinkt nicht weiter mit deinem Gewicht.
+
+**Behoben.** Zahlen mit Komma wie 12,5 g werden richtig übernommen statt still gekürzt; zu kleine oder zu große Mengen weist die App sichtbar ab. Datum und Zahlen folgen deinen Format-Einstellungen, auch auf der Übungsseite und in den Verlaufsdiagrammen. Ein gescanntes Produkt zeigt Bild, Name und Nummer, damit du siehst, ob es deines ist. Die Rekordkarte nennt zu jeder Zahl die Einheit, Verlaufskarten zeigen keine erfundene Uhrzeit mehr, und lange Texte passen auch auf kleine Handys mit großer Schrift. VoiceOver und TalkBack erreichen die Knöpfe in Fenstern wie „Alle Daten löschen“. Zwei Trainings am selben Tag erscheinen auf der Übungsseite als zwei Zeilen.
+
 ## 2.0.2 — September 2026
 
 **Mehr Verlass auf deine Daten.** Konnte die App ihre Datenbank beim Start nicht öffnen, lief sie bisher einfach weiter — mit leeren Listen, und was du eingetragen hast, ging verloren. Jetzt versucht sie es mehrfach und zeigt, wenn es gar nicht klappt, eine klare Meldung mit „Erneut versuchen“. Deine Einträge bleiben dabei auf dem Gerät.

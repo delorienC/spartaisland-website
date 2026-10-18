@@ -8,7 +8,7 @@ permalink: /en/privacy/
 
 # Privacy Policy
 
-**Last updated: October 17, 2026**
+**Last updated: October 18, 2026**
 
 ## 1. Controller
 
@@ -39,7 +39,7 @@ Sparta Island is deliberately designed as a **local app**. All data you enter â€
 
 ## 3. Barcode scan: nutrition lookup via Open Food Facts
 
-When you actively use the **barcode scanner** in the nutrition feature, the app fetches nutrition facts for the scanned product from the **Open Food Facts** database (`world.openfoodfacts.org`).
+When you actively use the **barcode scanner** while logging food or creating a recipe, the app fetches nutrition facts for the scanned product from the **Open Food Facts** database (`world.openfoodfacts.org`).
 
 - **Data transmitted:** the scanned barcode, your device's IP address (a technical necessity of any internet request), the time of the request, and an app identifier (user agent `SpartaIslandApp/1.0` containing our contact address `contact@spartaisland.de`). Barcode, IP address and time together may allow a link to your person.
 - **When:** only at the moment you scan a barcode â€” never in the background. Each scan sends one request for the nutrition facts; if Open Food Facts cannot be reached, the app does not retry on its own.

@@ -10,6 +10,18 @@ permalink: /en/changes/
 
 The newest version is at the top. This describes what you notice in the app — not what happened in the code.
 
+## 2.3.0 — October 2026
+
+**Easier to read.** The app speaks plain language. "Export" and "Import" are now "Create backup" and "Load backup", "Streak" is "Days in a row", and "Nutrients" replaces "Macros" for protein, carbs and fat. Explanations in the settings are open on your first visit; after that, you open them with an info button when you need them.
+
+**Better protected.** A backup with a password is now better protected, and before a backup without a password leaves your phone, the app asks first. When you load a backup someone passed on to you, the app takes no outside addresses and no unsafe file names from it. The app checks nutrition facts from Open Food Facts before storing them. At start-up the app no longer checks with Expo, a service for app updates; new versions only come through the App Store.
+
+**New.** You can scan recipe ingredients by barcode. Before the features that use your location, there is a note for anyone under 16.
+
+**Nutrition goals.** The app does not save a daily goal below 1,200 kcal, and an older goal below that line no longer keeps dropping with your weight.
+
+**Fixed.** Numbers with a decimal point such as 12.5 g are taken over correctly instead of being cut short; amounts that are too small or too large are refused visibly. Dates and numbers follow your format settings, including on the exercise page and in the history charts. A scanned product shows its picture, name and number, so you can see whether it is yours. The records card gives every number its unit, history cards no longer show a made-up time, and long texts fit on small phones with large text too. VoiceOver and TalkBack reach the buttons in windows such as "Delete all data". Two workouts on the same day show up as two rows on the exercise page.
+
 ## 2.0.2 — September 2026
 
 **More reliable with your data.** If the app couldn't open its database at launch, it used to carry on regardless — with empty lists, and whatever you entered was lost. Now it retries, and if it still can't, it tells you clearly and offers "Try again". Your entries stay on your device.
