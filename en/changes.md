@@ -12,15 +12,25 @@ The newest version is at the top. This describes what you notice in the app — 
 
 ## 2.3.0 — October 2026
 
+In the App Store, 2.3.0 follows straight on from 2.1.0. This describes everything added since then.
+
+**Training places.** After a workout, the app can remember the place and the start time. If you like, it reminds you when you enter your gym and asks when you leave. Your location stays on your phone. Before these features, there is a note for anyone under 16.
+
 **Easier to read.** The app speaks plain language. "Export" and "Import" are now "Create backup" and "Load backup", "Streak" is "Days in a row", and "Nutrients" replaces "Macros" for protein, carbs and fat. Explanations in the settings are open on your first visit; after that, you open them with an info button when you need them.
 
-**Better protected.** A backup with a password is now better protected, and before a backup without a password leaves your phone, the app asks first. When you load a backup someone passed on to you, the app takes no outside addresses and no unsafe file names from it. The app checks nutrition facts from Open Food Facts before storing them. At start-up the app no longer checks with Expo, a service for app updates; new versions only come through the App Store.
+**Better protected.** You can protect a backup with a password, and before a backup without a password leaves your phone, the app asks first. When you load a backup someone passed on to you, the app takes no outside addresses and no unsafe file names from it. Before an update reshapes your stored data, the app makes a safety copy and puts everything back if something goes wrong. "Delete all local data" also removes photos and videos and asks clearly first. At start-up the app no longer checks with Expo, a service for app updates; new versions only come through the App Store.
 
-**New.** You can scan recipe ingredients by barcode. Before the features that use your location, there is a note for anyone under 16.
+**Nutrition.** You can scan recipe ingredients by barcode. Products from Open Food Facts show where they come from and are marked as unchecked; missing nutrients show as "?" instead of 0, and you can enter your own values. The app checks nutrition facts before storing them. The app does not save a daily goal below 1,200 kcal, and an older goal below that line no longer keeps dropping with your weight.
 
-**Nutrition goals.** The app does not save a daily goal below 1,200 kcal, and an older goal below that line no longer keeps dropping with your weight.
+**Fixed.** Numbers with a decimal point such as 12.5 g are taken over correctly instead of being cut short; amounts that are too small or too large are refused visibly. Dates and numbers follow your format settings, including on the exercise page and in the history charts. A scanned product shows its picture, name and number, so you can see whether it is yours. The records card gives every number its unit, history cards no longer show a made-up time, workout cards show a single "last" date, and long texts fit on small phones with large text too. VoiceOver and TalkBack reach the buttons in windows such as "Delete all data". Two workouts on the same day show up as two rows on the exercise page.
 
-**Fixed.** Numbers with a decimal point such as 12.5 g are taken over correctly instead of being cut short; amounts that are too small or too large are refused visibly. Dates and numbers follow your format settings, including on the exercise page and in the history charts. A scanned product shows its picture, name and number, so you can see whether it is yours. The records card gives every number its unit, history cards no longer show a made-up time, and long texts fit on small phones with large text too. VoiceOver and TalkBack reach the buttons in windows such as "Delete all data". Two workouts on the same day show up as two rows on the exercise page.
+## 2.1.0 — October 2026
+
+**Recipes.** Anything you eat often can now be saved once as a recipe – with every ingredient in grams, millilitres or pieces – and logged with a single tap afterwards. Eating it a little differently today? Adjust amounts and ingredients; the app shows what differs from the recipe and asks whether the change is just for this meal or should be saved to the recipe. If you like, a recipe also keeps its preparation, step by step. Missing an ingredient? Create it right inside the recipe.
+
+**Fixed.** After changing your calorie or nutrient goals, past days showed the new goal too. Now every day keeps the goal that applied on it – deficit included.
+
+**Easier to read.** Tiles, dialogs and the first launch are easier to read in every colour scheme, light and dark.
 
 ## 2.0.2 — September 2026
 
