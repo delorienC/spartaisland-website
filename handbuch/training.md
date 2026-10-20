@@ -66,6 +66,14 @@ Das Quick Workout beginnt sofort mit laufender Uhr und ohne Vorlage. Du fügst �
 
 Das ist der Unterschied zwischen „das mache ich öfter" und „das war heute so".
 
+## Trainingsorte und Erinnerung im Studio
+
+Nach einem Training fragt die App, ob sie den Ort als Trainingsort speichern soll. Das ist freiwillig und kostet nichts von der übrigen App. Wozu es gut ist: Die App lernt für jeden Wochentag, wann du dort üblicherweise anfängst — montags vielleicht um fünf, samstags um sechs. Kommst du ungefähr zu dieser Zeit zu Fuß an, erinnert sie dich mit einer Nachricht, und ein Tipp darauf startet gleich das geplante Training, sonst ein Quick Workout. An Tagen, an denen du dort nie trainierst, bleibt sie still; auch wer nur vorbeifährt oder an der Ampel steht, bekommt keine Nachricht.
+
+Gehst du während des Trainings weg und kommst nicht innerhalb von zehn Minuten zurück, endet das Training von selbst. Es zählt bis fünf Minuten nach deinem letzten gespeicherten Satz — so stimmt die Dauer auch dann, wenn du die App erst am Abend wieder öffnest. Ein Training ohne gespeicherten Satz behält die App nicht; eine Nachricht sagt dir das.
+
+Ort und Schritte bleiben auf deinem Handy. Was genau gespeichert wird, steht in der [Datenschutzerklärung]({{ "/datenschutz/" | relative_url }}).
+
 ## Rekorde und Fortschritt
 
 Deine Bestleistungen stehen auf der Startseite in einer Karte: schwerstes Gewicht, meiste Wiederholungen in einem Satz, Streak, Monatsvolumen. Ein Tippen öffnet die vollständige Liste.

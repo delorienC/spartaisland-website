@@ -66,6 +66,14 @@ The quick workout starts immediately, clock running, no template. You add exerci
 
 That is the difference between "I do this regularly" and "this is what today looked like".
 
+## Training places and the reminder at the gym
+
+After a workout the app asks whether to save the place as your training place. It is optional and takes nothing away from the rest of the app. What it is for: the app learns for each weekday when you usually start there — five on Mondays, perhaps, six on Saturdays. If you arrive on foot around that time, it reminds you with a message, and a tap on it starts the planned workout straight away, otherwise a quick workout. On days you never train there it stays quiet; driving past or waiting at a red light brings no message either.
+
+If you leave during a workout and do not come back within ten minutes, the workout ends by itself. It counts until five minutes after your last saved set — so the duration is right even if you only open the app again in the evening. A workout without a saved set is not kept; a message tells you so.
+
+Place and steps stay on your phone. What exactly is stored is in the [privacy policy]({{ "/en/privacy/" | relative_url }}).
+
 ## Records and progress
 
 Your personal bests sit on the start screen in one card: heaviest weight, most reps in a single set, streak, monthly volume. A tap opens the full list.
