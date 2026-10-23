@@ -39,7 +39,7 @@ You can share these cards if you like — they are designed for it. None of it h
 
 ## Your own moments
 
-Next to the calculated part sits what no number captures. A moment consists of a note, optionally a photo or video, and a feeling. You can pick media from your library, take a photo or record a video. Tapping it opens it full screen.
+Next to the calculated part sits what no number captures. A moment consists of a note, optionally a photo or video, and a feeling. You can pick media from your library, take a photo or record a video. Tapping it opens it full screen. If you have already entered something and leave the moment without saving, the app asks first whether it should really be thrown away, so nothing gets lost by accident.
 
 Moments are the reason the log is more than a statistic: why a session went well is in no curve.
 

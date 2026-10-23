@@ -39,7 +39,7 @@ Diese Karten kannst du teilen, wenn du magst — sie sind dafür gestaltet. Nich
 
 ## Deine eigenen Momente
 
-Neben dem Errechneten steht das, was keine Zahl abbildet. Ein Moment besteht aus einer Notiz, wahlweise einem Foto oder Video, und einem Gefühl. Du kannst ein Medium aus deiner Mediathek wählen, ein Foto aufnehmen oder ein Video drehen. Angetippt öffnet es sich im Vollbild.
+Neben dem Errechneten steht das, was keine Zahl abbildet. Ein Moment besteht aus einer Notiz, wahlweise einem Foto oder Video, und einem Gefühl. Du kannst ein Medium aus deiner Mediathek wählen, ein Foto aufnehmen oder ein Video drehen. Angetippt öffnet es sich im Vollbild. Hast du schon etwas eingegeben und willst den Moment ohne Speichern verlassen, fragt die App vorher, ob er wirklich weg soll – so geht nichts aus Versehen verloren.
 
 Momente sind der Grund, warum der Verlauf mehr ist als eine Statistik: Warum ein Training gut lief, steht in keiner Kurve.
 
