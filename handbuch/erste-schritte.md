@@ -79,6 +79,8 @@ Unter *Optionen* liegen diese Gruppen:
 - **Training** — automatische Pause, Ausrüstung, Trainingsorte und die Erinnerung im Studio (siehe [Training]({{ "/handbuch/training/" | relative_url }})).
 - **Daten** — Backup erstellen, Backup laden und das vollständige Löschen; dazu auf Wunsch eine Erinnerung, wenn das letzte Backup 30 Tage her ist.
 
+{% include figure.html src="2.3.1/optionen-sparta-hinweis-de.png" alt="Optionen mit Farbschema, Anzeigemodus und dem Hinweis, dass Sparta in jedem Modus dunkel bleibt" caption="Das Farbschema Sparta bleibt in jedem Modus dunkel; „Hell“ wirkt bei den übrigen Farbschemata." height=1165 %}
+
 Die ersten vier Einstellungen hängen **nicht** voneinander ab. Englisch mit deutschem Datum ist eine sinnvolle Kombination, Deutsch mit Pfund ebenso, und wer die Sprache wechselt, ändert damit weder seine Einheiten noch sein Datumsformat.
 
 ## Warum ein Wechsel nichts verändert
@@ -96,6 +98,8 @@ Darunter steht der Datenschutz. Er lag früher auf der Startseite; er beantworte
 Deine Einträge bleiben auf dem Gerät. Es gibt kein Konto, keinen eigenen Server und keine Übertragung deiner Einträge. Das hat eine Kehrseite, die du kennen solltest: **Wenn du die App löschst, sind die Daten weg.** Ein Backup gibt es nur, wenn du es selbst anlegst.
 
 Dafür ist das Backup da. Es schreibt deine Einträge, die Medien deiner Momente und deine Anzeigeeinstellungen in eine Datei, die du speichern oder weitergeben kannst. Sie enthält auch Gesundheitsdaten; gibst du sie aus der Hand, schützt du sie auf Wunsch mit einem Passwort. Vergisst du das Passwort, lässt sich die Datei nicht mehr öffnen. Gespeicherte Trainingsorte sind nicht enthalten.
+
+{% include figure.html src="2.3.1/optionen-daten-de.png" alt="Optionen, Bereich Daten, mit der Erklärung zum Backup und der Erinnerung alle 30 Tage" caption="Der Bereich Daten erklärt, was ein Backup enthält, und erinnert auf Wunsch alle 30 Tage daran." height=1165 %}
 
 Das Laden eines Backups liest so eine Datei wieder ein — **es ergänzt, was da ist, und überschreibt nie**. Einträge, die es schon gibt, werden übersprungen. Bricht das Laden mittendrin ab, stellt die App den Stand von vorher wieder her und sagt dir, dass auf deinem Handy nichts verändert wurde. Fotos und Videos sind begrenzt: je Datei höchstens 50 MB, zusammen höchstens 200 MB. Was darüber liegt, wird übersprungen und gezählt; deine Einträge bleiben, und die Dateien bleiben in der Backup-Datei.
 

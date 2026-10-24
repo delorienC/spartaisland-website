@@ -52,7 +52,13 @@ Seven things are worth knowing:
 - **Finishing takes three seconds on purpose.** The finish button has to be held, so that no stray tap in the middle of a session ends everything. The first short tap shows you a hint about it. In the quick workout a tap is enough, because the question how to save it comes afterwards.
 - **A pause asks before the next set.** If you paused the workout, or the app paused it by itself after a quiet spell (when you have switched on the automatic pause), it asks before the first new set whether to save and resume. The time of the pause does not count. You can also resume without a new set; changing or deleting sets needs no question. While a weight warning waits for your decision, the app does not pause by itself.
 
+{% include figure.html src="2.3.1/training-gewichtsrad-heute-en.png" alt="Weight and reps for an exercise already trained today, with the note that the app makes no suggestion" caption="If you have already done an exercise today, the app makes no suggestion for it and tells you so." height=1095 %}
+
+{% include figure.html src="2.3.1/training-pause-fortsetzen-en.png" alt="Window “Workout is paused” asking whether to save the set and resume the workout" caption="After a pause the app asks before the first new set whether the workout should run on." height=1095 %}
+
 If you cancel instead of finishing, the app asks what should happen to the sets you already entered. And if the app crashes or the phone dies, you are asked on the next start whether to resume the unfinished session, log it as completed, or discard it. The window tells you beforehand what the session contains, for example how many sets are already saved. Resuming takes you back to the exercise list with the clock still running; discarding asks once more, and going back deletes nothing.
+
+{% include figure.html src="2.3.1/training-absturz-en.png" alt="Window “Unfinished Workout” with name, start time and number of saved sets" caption="After a crash the app tells you which workout was open and how many sets are already saved." height=1088 %}
 
 If a workout could not be loaded at the start, the app tells you and lets you load it again. It then creates no empty session and overwrites nothing that is saved. If a workout changes while you have it open, the app quietly reads it again before it writes anything, so an old state is never written over a new one.
 
@@ -66,6 +72,8 @@ The quick workout needs no template. The clock runs once you start it; the empty
 
 - **Save as a workout**: a template you can repeat in the future.
 - **Log only**: the sets count towards records and statistics, but no template is left behind.
+
+{% include figure.html src="2.3.1/training-quick-leer-en.png" alt="Empty quick workout with the clock at 00:00:00 before it has been started" caption="A quick workout begins empty with the clock standing still; only starting it sets it going." height=1150 %}
 
 That is the difference between "I do this regularly" and "this is what today looked like".
 

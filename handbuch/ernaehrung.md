@@ -34,6 +34,8 @@ Es gibt drei Wege, ein Lebensmittel zu erfassen:
 
 Beim manuellen Eintrag verlangt die App alle Angaben: Name, Kalorien, Eiweiß, Kohlenhydrate, Fett und Menge (eine eingetippte 0 zählt). So landet kein halbfertiges Lebensmittel in deiner Liste. Ein Hinweis erscheint erst, wenn du ein Feld verlässt, nicht schon beim Tippen.
 
+{% include figure.html src="2.3.1/ernaehrung-manuell-de.png" alt="Eingabe eines eigenen Lebensmittels mit Namensfeld und den Angaben pro 100 Gramm" caption="Ein eigenes Lebensmittel braucht einen Namen und alle Angaben pro 100 Gramm." height=1165 %}
+
 Unabhängig vom Weg gibst du am Ende die Menge an — **bei Getränken in Millilitern, sonst in Gramm**. Welches von beidem gilt, entscheidet das Lebensmittel und nicht du: Eine Cola wird gegossen, ein Steak gewogen, und 100 ml Öl wiegen nun einmal 92 g. Beim Scannen übernimmt die App die Angabe direkt vom Produkt.
 
 Alle Nährwerte sind auf 100 g beziehungsweise 100 ml bezogen; die Menge rechnet sie herunter oder hoch.
@@ -60,6 +62,8 @@ Ein eigenes Lebensmittel bekommt einen Namen, und zwar in der Sprache, in der du
 ## Rezepte
 
 Was du öfter isst, legst du einmal als Rezept an: mit Zutaten und Mengen und, wenn du magst, einer kurzen Zubereitung. Die App rechnet die Nährwerte zusammen. Beim Eintragen einer Mahlzeit nimmst du das Rezept samt Mengen und passt sie an, wenn es heute anders war. Hast du Mengen geändert, fragt die App genau einmal, ob das nur für diese Mahlzeit gilt oder ob das Rezept künftig so bleibt. Ein angefangenes Rezept verwirft sie erst nach Rückfrage.
+
+{% include figure.html src="2.3.1/ernaehrung-rezept-angepasst-de.png" alt="Frage „Rezept angepasst“ nach einer geänderten Menge, mit zwei Möglichkeiten zum Speichern" caption="Wurde eine Menge geändert, fragt die App, ob die Änderung nur für diese Mahlzeit oder für das Rezept gelten soll." height=1168 %}
 
 ## Deine Ziele
 

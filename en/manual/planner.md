@@ -26,6 +26,8 @@ An entry consists of a workout, a name and a start day.
 
 **The workout** you pick first. On training day you open and start it straight from the entry. If there is none yet, you create it right there while planning. If the workout already has an appointment, the app shows it and asks whether you still want to add another.
 
+{% include figure.html src="2.3.1/planer-termin-anlegen-en.png" alt="Window “Plan workout” with the choice of workouts, the start day and the repeat" caption="When planning you pick the workout first, then the start day and whether the appointment repeats." height=1165 %}
+
 **Name and start day.** The app takes the name over from the workout; you can change it. If the start day lies in the past, the app tells you beforehand that the appointment will show as missed at once.
 
 **A repeat.** Instead of creating every appointment by hand, pick a pattern:

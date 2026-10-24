@@ -33,6 +33,8 @@ And one peculiarity that is not a malfunction: **on the first day of a week ther
 | **Records** | Your records and when they fell |
 | **Body** | Weight and waist with their change over the period |
 
+{% include figure.html src="2.3.1/dashboard-kacheln-en.png" alt="Dashboard with the tiles “Days in a row” and “Weight moved”" caption="Two tiles of the dashboard: days in a row and the weight moved this week." height=1088 %}
+
 The strength, records and body areas only appear once there is something to show. An empty dashboard with eight zeros would not be a report but a reproach.
 
 **Active days count more than workouts.** A day is active when anything happened in the app — a session, a meal, a body measurement, a journal moment. That is why the app counts days in a row in exactly **one** way, and it counts every kind of activity rather than finished workouts alone.

@@ -79,6 +79,8 @@ Units have left the profile and now sit with the other settings — they apply t
 - **Training** — automatic pause, equipment, training places and the reminder at the gym (see [Training]({{ "/en/manual/training/" | relative_url }})).
 - **Data** — create backup, load backup and full deletion; plus, if you like, a reminder when your last backup is 30 days old.
 
+{% include figure.html src="2.3.1/optionen-sparta-hinweis-en.png" alt="Options with colour palette, display mode and the note that Sparta stays dark in every mode" caption="The Sparta palette stays dark in every mode; “Light” takes effect with the other palettes." height=1165 %}
+
 The first four settings do **not** depend on each other. English with day-first dates is a perfectly sensible combination, German with pounds just as much, and switching the language changes neither your units nor your date format.
 
 ## Why switching changes nothing
@@ -96,6 +98,8 @@ Below them sits privacy. It used to be on the start screen; it does not answer t
 Your entries stay on the device. There is no account, no server of our own and no transfer of your entries. That has a downside worth knowing: **if you delete the app, the data is gone.** A backup exists only if you make one.
 
 That is what the backup is for. It writes your entries, the media of your moments and your display settings into a file you can store or pass on. It also contains health data; if it leaves your hands, you can protect it with a password if you like. If you forget the password, the file can no longer be opened. Saved training places are not included.
+
+{% include figure.html src="2.3.1/optionen-daten-en.png" alt="Options, Data section, with the explanation of the backup and the reminder every 30 days" caption="The Data section explains what a backup contains and, if you like, reminds you every 30 days." height=1165 %}
 
 Loading a backup reads such a file back in — **it adds to what is there and never overwrites**. Entries that already exist are skipped. If loading stops partway, the app restores the state from before and tells you that nothing on your phone was changed. Photos and videos are limited: 50 MB per file at most, 200 MB together. Anything above that is skipped and counted; your entries stay, and the files stay in the backup file.
 

@@ -33,6 +33,8 @@ Und eine Eigenheit, die keine Fehlfunktion ist: **Am ersten Tag einer Woche gibt
 | **Rekorde** | Deine Rekorde und wann sie fielen |
 | **Körper** | Gewicht und Bauchumfang mit ihrer Veränderung im Zeitraum |
 
+{% include figure.html src="2.3.1/dashboard-kacheln-de.png" alt="Dashboard mit den Kacheln „Tage in Folge“ und „Bewegtes Gewicht“" caption="Zwei Kacheln des Dashboards: die Tage in Folge und das bewegte Gewicht der Woche." height=1088 %}
+
 Die Kraft-, Rekord- und Körper-Bereiche erscheinen erst, wenn es etwas zu zeigen gibt. Ein leeres Dashboard mit acht Nullen wäre kein Bericht, sondern eine Aufforderung.
 
 **Aktive Tage zählen mehr als Workouts.** Ein Tag ist aktiv, wenn irgendetwas in der App passiert ist — ein Training, eine Mahlzeit, ein Körpermaß, ein Tagebuchmoment. Deshalb gibt es in der App genau **eine** Zählung der Tage in Folge, und sie zählt jede Bewegung, nicht nur beendete Workouts.

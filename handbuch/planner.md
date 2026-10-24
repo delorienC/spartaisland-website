@@ -26,6 +26,8 @@ Ein Eintrag besteht aus einem Workout, einem Namen und einem Starttag.
 
 **Das Workout** wählst du zuerst. Am Trainingstag öffnest und startest du es direkt aus dem Eintrag heraus. Gibt es noch keins, legst du es gleich beim Planen an. Hat das Workout schon einen Termin, zeigt die App ihn dir und fragt, ob du trotzdem einen weiteren anlegen willst.
 
+{% include figure.html src="2.3.1/planer-termin-anlegen-de.png" alt="Fenster „Workout planen“ mit der Auswahl der Workouts, dem Starttag und der Wiederholung" caption="Beim Planen wählst du zuerst das Workout, dann den Starttag und ob sich der Termin wiederholt." height=1165 %}
+
 **Name und Starttag.** Den Namen übernimmt die App vom Workout; du kannst ihn ändern. Liegt der Starttag in der Vergangenheit, sagt dir die App vorab, dass der Termin sofort als verpasst erscheint.
 
 **Eine Wiederholung.** Statt jeden Termin einzeln anzulegen, wählst du ein Muster:

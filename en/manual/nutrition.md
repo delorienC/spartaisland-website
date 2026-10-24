@@ -34,6 +34,8 @@ There are three ways to record a food:
 
 For a manual entry the app asks for everything: name, calories, protein, carbohydrates, fat and amount (a typed 0 counts). That way no half-finished food ends up in your list. A hint appears only when you leave a field, not while you are typing.
 
+{% include figure.html src="2.3.1/ernaehrung-manuell-en.png" alt="Entry of your own food with a name field and the values per 100 grams" caption="Your own food needs a name and all values per 100 grams." height=1165 %}
+
 Whichever way you take, you finish by giving the amount — **in millilitres for a drink, in grams for anything else**. Which of the two applies is decided by the food and not by you: a cola is poured, a steak is weighed, and 100 ml of oil weigh 92 g. When you scan a product, the app takes that straight from it.
 
 Every nutrition value refers to 100 g or 100 ml respectively; the amount scales it down or up.
@@ -60,6 +62,8 @@ A food of your own gets one name, in the language you are using the app in at th
 ## Recipes
 
 What you eat often, you create once as a recipe: with ingredients and amounts and, if you like, a short preparation. The app adds up the nutrition values. When you log a meal you take the recipe with its amounts and adjust them if today was different. If you changed amounts, the app asks exactly once whether that applies to this meal only or whether the recipe should stay that way from now on. It discards a recipe you have started only after asking.
+
+{% include figure.html src="2.3.1/ernaehrung-rezept-angepasst-en.png" alt="Question “Recipe adjusted” after an amount was changed, with two ways to save" caption="If an amount was changed, the app asks whether the change applies to this meal only or to the recipe." height=1168 %}
 
 ## Your targets
 

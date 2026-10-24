@@ -52,7 +52,13 @@ Sieben Dinge lohnt es sich zu wissen:
 - **Beenden dauert absichtlich drei Sekunden.** Die Abschluss-Schaltfläche muss gehalten werden, damit kein versehentliches Tippen mitten in der Einheit alles beendet. Der erste kurze Tipp zeigt dir einen Hinweis dazu. Beim Quick Workout genügt ein Tippen, weil danach erst die Frage kommt, wie es gespeichert werden soll.
 - **Eine Pause fragt vor dem nächsten Satz.** Hast du das Training angehalten oder hat die App es nach einer ruhigen Zeit von selbst angehalten (wenn du die automatische Pause eingeschaltet hast), fragt sie vor dem ersten neuen Satz, ob sie speichern und fortsetzen soll. Die Zeit der Pause zählt nicht mit. Du kannst auch ohne neuen Satz fortsetzen; Sätze ändern oder löschen geht ohne Frage. Solange eine Gewichtswarnung auf deine Entscheidung wartet, pausiert die App nicht von selbst.
 
+{% include figure.html src="2.3.1/training-gewichtsrad-heute-de.png" alt="Gewicht und Wiederholungen einer Übung, die heute schon trainiert wurde, mit dem Hinweis, dass die App keinen Vorschlag macht" caption="Hast du eine Übung heute schon gemacht, macht die App dafür keinen Vorschlag und sagt es dir." height=1095 %}
+
+{% include figure.html src="2.3.1/training-pause-fortsetzen-de.png" alt="Fenster „Workout ist pausiert“ mit der Frage, ob der Satz gespeichert und das Workout fortgesetzt werden soll" caption="Nach einer Pause fragt die App vor dem ersten neuen Satz, ob das Workout weiterlaufen soll." height=1095 %}
+
 Brichst du ab, statt zu beenden, fragt die App, was mit den bereits eingetragenen Sätzen geschehen soll. Und wenn die App abstürzt oder das Telefon ausgeht, wirst du beim nächsten Start gefragt, ob du die unfertige Einheit fortsetzen, als beendet eintragen oder verwerfen willst. Das Fenster sagt dir vorher, was der Lauf enthält, zum Beispiel wie viele Sätze schon gespeichert sind. Fortsetzen bringt dich zurück auf die Übungsliste, die Uhr läuft weiter; Verwerfen fragt noch einmal nach, und Zurück löscht nichts.
+
+{% include figure.html src="2.3.1/training-absturz-de.png" alt="Fenster „Nicht abgeschlossenes Workout“ mit Name, Startzeit und Zahl der gespeicherten Sätze" caption="Nach einem Absturz sagt die App, welches Workout offen war und wie viele Sätze schon gespeichert sind." height=1088 %}
 
 Konnte ein Workout beim Start nicht geladen werden, sagt dir die App das und lässt dich noch einmal laden. Sie legt dann keine leere Einheit an und überschreibt nichts, was gespeichert ist. Ändert sich ein Workout, während du es offen hast, liest die App es still neu, bevor sie etwas schreibt, damit nie ein alter Stand über einen neuen geschrieben wird.
 
@@ -66,6 +72,8 @@ Das Quick Workout kommt ohne Vorlage aus. Die Uhr läuft, sobald du es startest;
 
 - **Als Workout speichern**: Es entsteht eine Vorlage, die du künftig wiederholen kannst.
 - **Nur im Verlauf**: Die Sätze zählen für Rekorde und Statistiken, aber es bleibt keine Vorlage zurück.
+
+{% include figure.html src="2.3.1/training-quick-leer-de.png" alt="Leeres Quick Workout mit der Uhr auf 00:00:00, bevor es gestartet wurde" caption="Ein Quick Workout beginnt leer und mit stehender Uhr; erst der Start setzt sie in Gang." height=1150 %}
 
 Das ist der Unterschied zwischen „das mache ich öfter" und „das war heute so".
 
