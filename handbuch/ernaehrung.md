@@ -14,9 +14,9 @@ Die Ernährungsseite ist ein **Tag**, kein Tagebuch. Sie zeigt immer genau einen
 
 ## Der Tag
 
-Oben steht das Datum. Du wischst nach links und rechts, um zwischen den Tagen zu wechseln, und kommst mit einem Tippen zurück zu heute. Darunter liegt die Bilanz: die Kalorien des Tages sowie Protein, Kohlenhydrate und Fett, jeweils gegen dein Ziel.
+Oben steht das Datum. Du wischst nach links und rechts, um zwischen den Tagen zu wechseln, und kommst mit einem Tippen zurück zu heute. Darunter liegt die Bilanz: die Kalorien des Tages sowie Eiweiß, Kohlenhydrate und Fett, jeweils gegen dein Ziel.
 
-Die Mahlzeiten stehen darunter in der Reihenfolge, in der du sie eingetragen hast. Jede bekommt automatisch eine Uhrzeit — die des Eintragens. Wenn du erst abends nachträgst, was du mittags gegessen hast, korrigierst du die Uhrzeit direkt am Eintrag. Das ist keine Kosmetik: Aus diesen Zeiten berechnet das Dashboard später deinen Rhythmus — wann du die erste Mahlzeit isst, wie lange die Abstände sind, wie sich das Essen um dein Training legt.
+Die Mahlzeiten stehen darunter in der Reihenfolge, in der du sie eingetragen hast. Jede bekommt automatisch eine Uhrzeit — die des Eintragens. Einen Eintrag öffnest du mit einem Tippen; dort änderst du ihn, und dort löschst du ihn auch. Wenn du erst abends nachträgst, was du mittags gegessen hast, korrigierst du die Uhrzeit am Eintrag. Das ist keine Kosmetik: Aus diesen Zeiten berechnet das Dashboard später deinen Rhythmus — wann du die erste Mahlzeit isst, wie lange die Abstände sind, wie sich das Essen um dein Training legt.
 
 ## Geplant und gegessen
 
@@ -32,15 +32,17 @@ Es gibt drei Wege, ein Lebensmittel zu erfassen:
 | **Barcode scannen** | Verpackte Produkte |
 | **Manuell eingeben** | Selbstgekochtes und alles ohne Barcode |
 
+Beim manuellen Eintrag verlangt die App alle Angaben: Name, Kalorien, Eiweiß, Kohlenhydrate, Fett und Menge (eine eingetippte 0 zählt). So landet kein halbfertiges Lebensmittel in deiner Liste. Ein Hinweis erscheint erst, wenn du ein Feld verlässt, nicht schon beim Tippen.
+
 Unabhängig vom Weg gibst du am Ende die Menge an — **bei Getränken in Millilitern, sonst in Gramm**. Welches von beidem gilt, entscheidet das Lebensmittel und nicht du: Eine Cola wird gegossen, ein Steak gewogen, und 100 ml Öl wiegen nun einmal 92 g. Beim Scannen übernimmt die App die Angabe direkt vom Produkt.
 
 Alle Nährwerte sind auf 100 g beziehungsweise 100 ml bezogen; die Menge rechnet sie herunter oder hoch.
 
-Hast du unter *Optionen* auf Pfund und Fuß umgestellt, gibst du die Menge in Unzen und Flüssigunzen ein. **Die Nährwerte selbst bleiben in Gramm** — Eiweiß, Kohlenhydrate und Fett stehen auch auf amerikanischen Verpackungen in Gramm.
+Auch wenn du unter *Optionen* auf Pfund und Fuß umgestellt hast, **bleiben Mengen und Nährwerte beim Essen in Gramm und Millilitern** — so, wie jedes Etikett sie angibt. Die Einheiten gelten für Trainingsgewichte und Körpermaße.
 
 ### Der Barcode-Scan
 
-Der Scan sucht zuerst auf deinem Gerät. Kennt die App das Produkt nicht, fragt sie bei Open Food Facts nach — dabei gehen die Barcode-Nummer sowie technisch bedingt deine IP-Adresse und eine App-Kennung an Open Food Facts. Kamerabilder und deine Einträge verlassen das Gerät nicht. Das gefundene Produkt wird lokal gespeichert und ist beim nächsten Mal sofort da, auch offline.
+Der Scan sucht zuerst auf deinem Gerät. Kennt die App das Produkt nicht, fragt sie bei Open Food Facts nach — dabei gehen die Barcode-Nummer sowie technisch bedingt deine IP-Adresse und eine App-Kennung an Open Food Facts. Kamerabilder und deine Einträge verlassen das Gerät nicht. Die App übernimmt die Antwort nur, wenn sie zum gescannten Strichcode gehört; meldet der Dienst ein anderes Produkt, gilt es als nicht gefunden. Das gefundene Produkt wird lokal gespeichert und ist beim nächsten Mal sofort da, auch offline.
 
 Zwei Fälle brauchen dich:
 
@@ -53,7 +55,11 @@ Zwei Fälle brauchen dich:
 
 **Ist Open Food Facts nicht erreichbar**, sagt dir die App das und lässt dich das Lebensmittel selbst anlegen. Sie fragt nicht von selbst erneut nach.
 
-Ein eigenes Lebensmittel kannst du mit deutschem und englischem Namen anlegen. Es taucht dann in beiden Sprachen unter dem richtigen Namen auf.
+Ein eigenes Lebensmittel bekommt einen Namen, und zwar in der Sprache, in der du die App gerade benutzt.
+
+## Rezepte
+
+Was du öfter isst, legst du einmal als Rezept an: mit Zutaten und Mengen und, wenn du magst, einer kurzen Zubereitung. Die App rechnet die Nährwerte zusammen. Beim Eintragen einer Mahlzeit nimmst du das Rezept samt Mengen und passt sie an, wenn es heute anders war. Hast du Mengen geändert, fragt die App genau einmal, ob das nur für diese Mahlzeit gilt oder ob das Rezept künftig so bleibt. Ein angefangenes Rezept verwirft sie erst nach Rückfrage.
 
 ## Deine Ziele
 

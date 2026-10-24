@@ -16,7 +16,7 @@ The nutrition screen is a **day**, not a diary. It always shows exactly one cale
 
 The date sits at the top. Swipe left and right to move between days, and one tap brings you back to today. Below it is the balance: the day's calories plus protein, carbs and fat, each against your target.
 
-The meals are listed underneath in the order you entered them. Each one is stamped with a time — the time of entry. If you log your lunch in the evening, correct the time right on the entry. This is not cosmetics: from those times the dashboard later works out your rhythm — when you eat your first meal, how long the gaps are, how your meals sit around training.
+The meals are listed underneath in the order you entered them. Each one is stamped with a time — the time of entry. You open an entry with a tap; there you change it, and there you delete it as well. If you log your lunch in the evening, correct the time on the entry. This is not cosmetics: from those times the dashboard later works out your rhythm — when you eat your first meal, how long the gaps are, how your meals sit around training.
 
 ## Planned and eaten
 
@@ -32,15 +32,17 @@ There are three ways to record a food:
 | **Scan a barcode** | Packaged products |
 | **Enter manually** | Home cooking and everything without a barcode |
 
+For a manual entry the app asks for everything: name, calories, protein, carbohydrates, fat and amount (a typed 0 counts). That way no half-finished food ends up in your list. A hint appears only when you leave a field, not while you are typing.
+
 Whichever way you take, you finish by giving the amount — **in millilitres for a drink, in grams for anything else**. Which of the two applies is decided by the food and not by you: a cola is poured, a steak is weighed, and 100 ml of oil weigh 92 g. When you scan a product, the app takes that straight from it.
 
 Every nutrition value refers to 100 g or 100 ml respectively; the amount scales it down or up.
 
-If you switched to pounds and feet under *Options*, you enter the amount in ounces and fluid ounces. **The nutrition values themselves stay in grams** — protein, carbohydrates and fat are given in grams on American packaging too.
+Even if you switched to pounds and feet under *Options*, **amounts and nutrition values for food stay in grams and millilitres** — just as every label gives them. The units apply to training weights and body measurements.
 
 ### The barcode scan
 
-The scan looks on your device first. If the app does not know the product, it asks Open Food Facts — sending the barcode number along with, for technical reasons, your IP address and an app identifier. Camera images and your entries never leave the device. The product it finds is stored locally and is there instantly next time, offline included.
+The scan looks on your device first. If the app does not know the product, it asks Open Food Facts — sending the barcode number along with, for technical reasons, your IP address and an app identifier. Camera images and your entries never leave the device. The app only accepts the answer if it belongs to the barcode you scanned; if the service reports a different product, it counts as not found. The product it finds is stored locally and is there instantly next time, offline included.
 
 Two cases need you:
 
@@ -53,7 +55,11 @@ Two cases need you:
 
 **If Open Food Facts cannot be reached**, the app tells you so and lets you create the food yourself. It does not ask again on its own.
 
-A food of your own can be created with both a German and an English name. It then shows up under the right name in either language.
+A food of your own gets one name, in the language you are using the app in at that moment.
+
+## Recipes
+
+What you eat often, you create once as a recipe: with ingredients and amounts and, if you like, a short preparation. The app adds up the nutrition values. When you log a meal you take the recipe with its amounts and adjust them if today was different. If you changed amounts, the app asks exactly once whether that applies to this meal only or whether the recipe should stay that way from now on. It discards a recipe you have started only after asking.
 
 ## Your targets
 

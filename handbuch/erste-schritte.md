@@ -28,13 +28,13 @@ Unten liegt eine Leiste mit vier Zielen und einer runden Schaltfläche in der Mi
 
 | Ziel | Was dort passiert | Kapitel |
 |---|---|---|
-| **Home** | Startseite: deine Bestleistungen, der Einstieg ins Training, die nächste geplante Einheit | dieses |
+| **Home** | Startseite: deine Rekorde, der Einstieg ins Training, die nächste geplante Einheit | dieses |
 | **Training** | Deine Workouts: anlegen, ändern, starten | [Training]({{ "/handbuch/training/" | relative_url }}) |
 | **Plan** | Kalender mit den Einheiten, die noch kommen | [Planer]({{ "/handbuch/planner/" | relative_url }}) |
 | **Ernährung** | Der Tag mit allem, was du gegessen hast | [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}) |
-| **Runde Schaltfläche** | Schnelleingabe — Quick Workout, Mahlzeit, Körpergewicht, Tagebucheintrag | — |
+| **Runde Schaltfläche** | Schnelleingabe — Quick Workout, Mahlzeit, Rezept, Körpermaße, Moment | — |
 
-Die Schnelleingabe in der Mitte ist die Abkürzung für alles, was zwischendurch passiert: Du willst *jetzt* trainieren, hast *gerade* gegessen, stehst *eben* auf der Waage. Sie bringt dich direkt an die Stelle, an der du eintragen kannst, statt dich erst durch die Bereiche navigieren zu lassen. Der Eintrag *Gesundheit* ist dort bereits sichtbar, aber noch nicht belegt — er ist für spätere Werte wie Blutdruck und Puls vorgesehen.
+Die Schnelleingabe in der Mitte ist die Abkürzung für alles, was zwischendurch passiert: Du willst *jetzt* trainieren, hast *gerade* gegessen, stehst *eben* auf der Waage. Sie bringt dich direkt an die Stelle, an der du eintragen kannst, statt dich erst durch die Bereiche navigieren zu lassen.
 
 Von der Startseite aus erreichst du zwei weitere Bereiche als Kacheln: **Dashboard** führt zu den Zahlen über längere Zeiträume, **Verlauf** zu dem, was war. Der Körper-Bereich liegt hinter der Schnelleingabe und hinter der Körper-Kachel im Dashboard.
 
@@ -69,16 +69,17 @@ Die Einheiten haben das Profil verlassen und stehen jetzt bei den übrigen Einst
 
 ## Die Einstellungen
 
-Unter *Optionen* liegen sechs Gruppen:
+Unter *Optionen* liegen diese Gruppen:
 
-- **Farbschema und Anzeigemodus** — mehrere Paletten sowie hell, dunkel oder der Systemvorgabe folgend.
+- **Farbschema und Anzeigemodus** — mehrere Paletten sowie hell, dunkel oder der Systemvorgabe folgend. Ein Farbschema kann in jedem Modus dunkel bleiben (Sparta); die App sagt das dort, damit „hell“ nicht wie ein Fehler wirkt.
 - **Sprache** — Deutsch oder Englisch, jederzeit umschaltbar.
-- **Einheiten** — Kilogramm und Zentimeter, oder Pfund und Fuß. Gilt für Trainingsgewichte, Körpermaße und die Mengen beim Essen.
+- **Einheiten** — Kilogramm und Zentimeter, oder Pfund und Fuß. Gilt für Trainingsgewichte und Körpermaße; Mengen beim Essen bleiben in Gramm und Millilitern.
 - **Datum und Uhrzeit** — die deutsche Schreibweise mit 24-Stunden-Uhr, oder die amerikanische mit Monat zuerst und AM/PM.
 - **Wochenbeginn** — Montag oder Sonntag. Die Einstellung entscheidet nur, welche Tage das Dashboard als „diese Woche" zusammenfasst. Deine Pläne und Termine verschieben sich dadurch nicht.
-- **Daten** — Export, Import und das vollständige Löschen.
+- **Training** — automatische Pause, Ausrüstung, Trainingsorte und die Erinnerung im Studio (siehe [Training]({{ "/handbuch/training/" | relative_url }})).
+- **Daten** — Backup erstellen, Backup laden und das vollständige Löschen; dazu auf Wunsch eine Erinnerung, wenn das letzte Backup 30 Tage her ist.
 
-Die ersten vier hängen **nicht** voneinander ab. Englisch mit deutschem Datum ist eine sinnvolle Kombination, Deutsch mit Pfund ebenso, und wer die Sprache wechselt, ändert damit weder seine Einheiten noch sein Datumsformat.
+Die ersten vier Einstellungen hängen **nicht** voneinander ab. Englisch mit deutschem Datum ist eine sinnvolle Kombination, Deutsch mit Pfund ebenso, und wer die Sprache wechselt, ändert damit weder seine Einheiten noch sein Datumsformat.
 
 ## Warum ein Wechsel nichts verändert
 
@@ -88,13 +89,15 @@ Das gilt auch rückwirkend: Stellst du heute auf Pfund um, erscheint auch dein R
 
 Eine Ausnahme gibt es, und sie ist keine: Was du **in** Pfund oder Zoll einträgst, wird beim Speichern umgerechnet. Das ist dann deine eigene Eingabe.
 
-Darunter stehen der Datenschutz und das Cloud-Konto, das noch nicht da ist. Beide lagen früher auf der Startseite; sie beantworten aber nicht die Frage, wo du gerade stehst, und stehen deshalb bei den übrigen Einstellungen. Die Zustimmung beim allerersten Start bleibt, wo sie war.
+Darunter steht der Datenschutz. Er lag früher auf der Startseite; er beantwortet aber nicht die Frage, wo du gerade stehst, und steht deshalb bei den übrigen Einstellungen. Die Zustimmung beim allerersten Start bleibt, wo sie war. Ein Cloud-Konto gibt es nicht und die App kündigt auch keines an.
 
 ## Deine Daten
 
 Deine Einträge bleiben auf dem Gerät. Es gibt kein Konto, keinen eigenen Server und keine Übertragung deiner Einträge. Das hat eine Kehrseite, die du kennen solltest: **Wenn du die App löschst, sind die Daten weg.** Ein Backup gibt es nur, wenn du es selbst anlegst.
 
-Dafür ist der Export da. Er schreibt deine Einträge, die Medien deiner Tagebuchmomente und deine Anzeigeeinstellungen in eine Datei, die du speichern oder weitergeben kannst. Der Import liest so eine Datei wieder ein — **er ergänzt, was da ist, und überschreibt nie**. Einträge, die es schon gibt, werden übersprungen.
+Dafür ist das Backup da. Es schreibt deine Einträge, die Medien deiner Momente und deine Anzeigeeinstellungen in eine Datei, die du speichern oder weitergeben kannst. Sie enthält auch Gesundheitsdaten; gibst du sie aus der Hand, schützt du sie auf Wunsch mit einem Passwort. Vergisst du das Passwort, lässt sich die Datei nicht mehr öffnen. Gespeicherte Trainingsorte sind nicht enthalten.
+
+Das Laden eines Backups liest so eine Datei wieder ein — **es ergänzt, was da ist, und überschreibt nie**. Einträge, die es schon gibt, werden übersprungen. Bricht das Laden mittendrin ab, stellt die App den Stand von vorher wieder her und sagt dir, dass auf deinem Handy nichts verändert wurde. Fotos und Videos sind begrenzt: je Datei höchstens 50 MB, zusammen höchstens 200 MB. Was darüber liegt, wird übersprungen und gezählt; deine Einträge bleiben, und die Dateien bleiben in der Backup-Datei.
 
 Zwei Stellen verlassen das Gerät, und nur diese:
 

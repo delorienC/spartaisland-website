@@ -22,9 +22,11 @@ Für jeden Eintrag siehst du auf einen Blick, wie er zu heute steht: heute fäll
 
 ## Eine Einheit planen
 
-Ein Eintrag braucht wenig: einen Namen und ein Datum. Zwei Dinge kannst du zusätzlich angeben.
+Ein Eintrag besteht aus einem Workout, einem Namen und einem Starttag.
 
-**Ein verknüpftes Workout.** Verknüpfst du den Termin mit einem deiner Workouts, kannst du es am Trainingstag direkt aus dem Eintrag heraus öffnen und starten. Ohne Verknüpfung bleibt der Eintrag eine Notiz — auch das ist zulässig, etwa für Schwimmen oder eine Laufrunde, die die App nicht protokolliert.
+**Das Workout** wählst du zuerst. Am Trainingstag öffnest und startest du es direkt aus dem Eintrag heraus. Gibt es noch keins, legst du es gleich beim Planen an. Hat das Workout schon einen Termin, zeigt die App ihn dir und fragt, ob du trotzdem einen weiteren anlegen willst.
+
+**Name und Starttag.** Den Namen übernimmt die App vom Workout; du kannst ihn ändern. Liegt der Starttag in der Vergangenheit, sagt dir die App vorab, dass der Termin sofort als verpasst erscheint.
 
 **Eine Wiederholung.** Statt jeden Termin einzeln anzulegen, wählst du ein Muster:
 
@@ -40,7 +42,7 @@ Die beiden monatlichen Muster sind nicht dasselbe: Der Dritte fällt jeden Monat
 
 ## Abhaken und aufräumen
 
-Erledigte Einheiten hakst du ab; ein Haken lässt sich auch wieder zurücknehmen. Wiederkehrende Einträge sind an einem eigenen Symbol erkennbar.
+Erledigte Einheiten hakst du ab; ein Haken lässt sich auch wieder zurücknehmen. Ein erledigter Einzeltermin ist danach als erledigt gekennzeichnet. Wiederkehrende Einträge sind an einem eigenen Symbol erkennbar.
 
 Beim Löschen einer wiederkehrenden Einheit fragt die App, was gemeint ist:
 
@@ -51,7 +53,7 @@ Wichtig, und beabsichtigt: **Ein gelöschter Termin nimmt nichts mit.** Weder de
 
 ## Wenn etwas nicht klappt
 
-- **Beim Planen ist kein Workout zur Auswahl.** Dann gibt es noch keins. Leg zuerst eines im [Training]({{ "/handbuch/training/" | relative_url }}) an; danach steht es hier zur Verknüpfung bereit.
+- **Beim Planen ist kein Workout zur Auswahl.** Dann gibt es noch keins. Du legst eines direkt beim Planen an oder vorher im [Training]({{ "/handbuch/training/" | relative_url }}); ohne Workout lässt sich kein Termin anlegen.
 - **Ein Termin steht auf einem Tag, an dem du nicht kannst.** Verschieben ist kein eigener Vorgang: Bei einer Serie löschst du den einzelnen Termin und legst den Ersatz an, bei einem Einzeltermin änderst du ihn direkt.
 
 ## Zusammenspiel
