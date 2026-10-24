@@ -10,6 +10,20 @@ permalink: /en/changes/
 
 The newest version is at the top. This describes what you notice in the app — not what happened in the code.
 
+## 2.3.1 — October 2026
+
+**Training.** A workout can no longer be saved empty when it could not be loaded at the start. The app tells you and lets you load it again. Finishing a workout made the app crash on Android; this is fixed, and the workout was saved before as well. After a pause, continue with "Resume" or a tap on the clock. If you want to save a set during a pause, the app asks first. While a weight warning waits for your decision, the workout does not pause by itself. For an exercise you already did today, the weight wheel suggests no values. A link to an open workout no longer opens a second copy.
+
+**Nutrition.** The focus tile shows its own symbol for protein, carbohydrates and fat. "Enter manually" has a name field, and hints appear only after you leave a field. When you scan a barcode, the app only takes over a product from Open Food Facts if it matches the scanned code. That service's data is unchecked; compare important values with the packaging. Several display errors in the nutrient chart and in input fields are fixed.
+
+**Backups.** If "Load backup" stops partway, the app restores the state from before. Photos and videos of a backup may add up to 200 MB at most; anything above that is skipped, your entries stay.
+
+**Training places.** After a workout the app asks whether to save the place as your training place. If you arrive there on foot around your usual time for that weekday, a message comes, and a tap on it starts the workout. If you leave for more than 10 minutes, the workout ends by itself and counts until 5 minutes after your last saved set. For this the app asks for location and motion; place and steps stay on your phone.
+
+**Use.** Questions and notices appear in matching app windows. "Your moment" closes with the back button and asks before you discard it. Recipes, planner, first setup and record cards are clearer in many places: buttons say why they are grey, important buttons stay visible at the bottom, delete questions list "Cancel" first. Under the colour schemes, a note explains that Sparta stays dark even with "Light".
+
+**Texts.** Many texts in the app are shorter and simpler, and the dashboard spells out protein, carbohydrates and fat.
+
 ## 2.3.0 — October 2026
 
 In the App Store, 2.3.0 follows straight on from 2.1.0. This describes everything added since then.

@@ -28,13 +28,13 @@ At the bottom sits a bar with four destinations and a round button in the middle
 
 | Destination | What happens there | Chapter |
 |---|---|---|
-| **Home** | Start screen: your personal bests, the way into training, your next planned session | this one |
+| **Home** | Start screen: your records, the way into training, your next planned session | this one |
 | **Training** | Your workouts: create, change, start | [Training]({{ "/en/manual/training/" | relative_url }}) |
 | **Plan** | Calendar of the sessions still ahead | [Planner]({{ "/en/manual/planner/" | relative_url }}) |
 | **Nutrition** | The day with everything you ate | [Nutrition]({{ "/en/manual/nutrition/" | relative_url }}) |
-| **Round button** | Quick add — quick workout, meal, body weight, journal entry | — |
+| **Round button** | Quick add — quick workout, meal, recipe, body measurements, moment | — |
 
-The quick add button in the middle is the shortcut for everything that happens in passing: you want to train *now*, you have *just* eaten, you are *standing* on the scale. It drops you straight where you can enter the value instead of making you navigate there. The *Health* entry is already visible but not yet filled in — it is reserved for later values such as blood pressure and pulse.
+The quick add button in the middle is the shortcut for everything that happens in passing: you want to train *now*, you have *just* eaten, you are *standing* on the scale. It drops you straight where you can enter the value instead of making you navigate there.
 
 From the start screen two further areas are reachable as tiles: **Dashboard** leads to the numbers across longer periods, **Log** to what already happened. The body area sits behind the quick add button and behind the body tile on the dashboard.
 
@@ -69,16 +69,19 @@ Units have left the profile and now sit with the other settings — they apply t
 
 ## The settings
 
-*Options* holds six groups:
+*Options* holds these groups:
 
-- **Colour palette and display mode** — several palettes plus light, dark or following the system.
+- **Colour palette and display mode** — several palettes plus light, dark or following the system. A palette can stay dark in every mode (Sparta); the app says so there, so that "light" does not look like a fault.
 - **Language** — German or English, switchable at any time.
-- **Units** — kilograms and centimetres, or pounds and feet. Applies to training weights, body measurements and food amounts.
+- **Units** — kilograms and centimetres, or pounds and feet. Applies to training weights and body measurements; food amounts stay in grams and millilitres.
 - **Date and time** — the day-first spelling with a 24-hour clock, or the American one with the month first and AM/PM.
 - **Start of the week** — Monday or Sunday. The setting only decides which days the dashboard treats as "this week". Your plans and appointments do not move.
-- **Data** — export, import and full deletion.
+- **Training** — automatic pause, equipment, training places and the reminder at the gym (see [Training]({{ "/en/manual/training/" | relative_url }})).
+- **Data** — create backup, load backup and full deletion; plus, if you like, a reminder when your last backup is 30 days old.
 
-The first four do **not** depend on each other. English with day-first dates is a perfectly sensible combination, German with pounds just as much, and switching the language changes neither your units nor your date format.
+{% include figure.html src="2.3.1/optionen-sparta-hinweis-en.png" alt="Options with colour palette, display mode and the note that Sparta stays dark in every mode" caption="The Sparta palette stays dark in every mode; “Light” takes effect with the other palettes." height=1165 %}
+
+The first four settings do **not** depend on each other. English with day-first dates is a perfectly sensible combination, German with pounds just as much, and switching the language changes neither your units nor your date format.
 
 ## Why switching changes nothing
 
@@ -88,13 +91,17 @@ That applies backwards too: switch to pounds today and last year's record reads 
 
 There is one exception, and it is not really one: what you type **in** pounds or inches is converted when it is saved. That one is your own entry.
 
-Below them sit privacy and the cloud account that does not exist yet. Both used to be on the start screen; they do not answer the question of where you stand right now, and so they live with the rest of the settings. The consent asked on the very first start stays where it was.
+Below them sits privacy. It used to be on the start screen; it does not answer the question of where you stand right now, and so it lives with the rest of the settings. The consent asked on the very first start stays where it was. There is no cloud account, and the app does not announce one.
 
 ## Your data
 
 Your entries stay on the device. There is no account, no server of our own and no transfer of your entries. That has a downside worth knowing: **if you delete the app, the data is gone.** A backup exists only if you make one.
 
-That is what the export is for. It writes your entries, the media of your journal moments and your display settings into a file you can store or pass on. The import reads such a file back in — **it adds to what is there and never overwrites**. Entries that already exist are skipped.
+That is what the backup is for. It writes your entries, the media of your moments and your display settings into a file you can store or pass on. It also contains health data; if it leaves your hands, you can protect it with a password if you like. If you forget the password, the file can no longer be opened. Saved training places are not included.
+
+{% include figure.html src="2.3.1/optionen-daten-en.png" alt="Options, Data section, with the explanation of the backup and the reminder every 30 days" caption="The Data section explains what a backup contains and, if you like, reminds you every 30 days." height=1165 %}
+
+Loading a backup reads such a file back in — **it adds to what is there and never overwrites**. Entries that already exist are skipped. If loading stops partway, the app restores the state from before and tells you that nothing on your phone was changed. Photos and videos are limited: 50 MB per file at most, 200 MB together. Anything above that is skipped and counted; your entries stay, and the files stay in the backup file.
 
 Two things leave the device, and only these:
 

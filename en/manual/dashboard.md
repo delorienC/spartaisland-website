@@ -25,17 +25,19 @@ And one peculiarity that is not a malfunction: **on the first day of a week ther
 | Area | What it answers |
 |---|---|
 | **Active days** | On how many days of the period anything happened at all — and what |
-| **Streak** | How many days in a row you were active |
-| **Volume** | How much weight you moved in total during the period |
+| **Days in a row** | How many days in a row you were active, counted up to today |
+| **Weight moved** | Weight times reps, added up for the period |
 | **Nutrition** | Intake per day against your target, and your rhythm |
-| **Macro trend** | How protein, carbs and fat develop across the days |
+| **Nutrient trend** | How protein, carbs and fat develop across the days |
 | **Strength** | Your development across the exercises |
-| **Records** | Your personal bests and when they fell |
+| **Records** | Your records and when they fell |
 | **Body** | Weight and waist with their change over the period |
+
+{% include figure.html src="2.3.1/dashboard-kacheln-en.png" alt="Dashboard with the tiles “Days in a row” and “Weight moved”" caption="Two tiles of the dashboard: days in a row and the weight moved this week." height=1088 %}
 
 The strength, records and body areas only appear once there is something to show. An empty dashboard with eight zeros would not be a report but a reproach.
 
-**Active days count more than workouts.** A day is active when anything happened in the app — a session, a meal, a body measurement, a journal moment. That is why the app has exactly **one** streak, and it counts every kind of activity rather than finished workouts alone.
+**Active days count more than workouts.** A day is active when anything happened in the app — a session, a meal, a body measurement, a journal moment. That is why the app counts days in a row in exactly **one** way, and it counts every kind of activity rather than finished workouts alone.
 
 ## The rhythm
 
@@ -43,7 +45,7 @@ The nutrition area shows something no other part of the app shows: **when** you 
 
 This analysis lives on the times of your entries. If you log your lunch in the evening, correct the time there — otherwise the rhythm will claim you ate five meals after eight at night.
 
-## The macro trend
+## The nutrient trend
 
 The curve of the three macronutrients can be read in two ways:
 
@@ -58,7 +60,7 @@ The chart can be enlarged and opened sideways in full screen. Two fingers zoom, 
 
 Sparta Island ships a widget you can put on your iPhone's home screen. It is called **Quick access** and it does two things.
 
-It **shows** your streak and the calories you have left today. And it **opens** the app at four places directly: start a workout, scan food, log a meal, weight and size.
+It **shows** your days in a row and the calories you have left today. And it **opens** the app at four places directly: start a workout, scan food, log a meal, weight and size.
 
 A widget does not calculate anything itself. It reads a snapshot the app has left for it — written every time you leave the app and every time you come back. That is precisely the right moment, because a widget is only ever looked at while the app is closed. It is also why the widget prints how old its snapshot is. If a number looks stale: open the app briefly and close it again.
 
@@ -75,7 +77,7 @@ flowchart LR
 ## When something does not work
 
 - **An area is missing.** It appears as soon as the matching data exists — body, for instance, after your first measurement.
-- **"Not enough data to compare."** A comparison needs two periods. After the second month the yearly comparison says more.
+- **"Not enough data to compare yet."** A comparison needs two periods. After the second month the yearly comparison says more.
 - **The week looks wrongly cut.** Check the start of the week under Options.
 - **The widget shows old numbers.** Open the app once; on leaving it writes the new snapshot.
 
