@@ -41,6 +41,8 @@ You can share these cards if you like — they are designed for it. None of it h
 
 Next to the calculated part sits what no number captures. A moment consists of a note, optionally a photo or video, and a feeling. You can pick media from your library, take a photo or record a video. Tapping it opens it full screen. If you have already entered something and leave the moment without saving, the app asks first whether it should really be thrown away — also when you close it with your phone's back button or with a tap outside. That way nothing gets lost by accident.
 
+{% include figure.html src="2.3.1/verlauf-moment-verwerfen-en.png" alt="Question “Discard this moment?” above the entry of a moment" caption="Before a moment you have started is thrown away, the app asks once more." height=1165 %}
+
 Moments are the reason the log is more than a statistic: why a session went well is in no curve.
 
 ## Deleting — and what that does
