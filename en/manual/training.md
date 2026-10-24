@@ -70,6 +70,8 @@ That is the difference between "I do this regularly" and "this is what today loo
 
 After a workout the app asks whether to save the place as your training place. It is optional and takes nothing away from the rest of the app. If you say no, it saves nothing and asks again after the next workout; you can also switch the question off altogether and back on later. What it is for: the app learns for each weekday when you usually start there — five on Mondays, perhaps, six on Saturdays. To do that it keeps, per place and weekday, the start times of your last ten workouts; it deletes older ones.
 
+{% include figure.html src="2.3.1/training-ort-frage-en.png" alt="Summary after a workout with the question whether to save the place as a training place" caption="After a workout the app asks once whether this place should become a training place." height=1085 %}
+
 If you say yes, the app switches the reminder on at the same time. When you then arrive on foot around that time (up to an hour and a half before or after), it reminds you with a message, at most once a day and not if you have already trained today. A tap on it starts the planned workout straight away, otherwise a quick workout. On days you never train there it stays quiet; driving past or waiting at a red light brings no message either.
 
 So that this works with the app closed, your phone asks when you switch it on for your location in the background, for motion and for notifications. The location is used only to recognise whether you reach or leave a saved place; the app does not record your path. It needs the motion permission for the step counter, which recognises that you are on foot. Positioning is not exact, so a message can occasionally come at the wrong time or not at all.
