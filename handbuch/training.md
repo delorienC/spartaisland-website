@@ -68,11 +68,15 @@ Das ist der Unterschied zwischen „das mache ich öfter" und „das war heute s
 
 ## Trainingsorte und Erinnerung im Studio
 
-Nach einem Training fragt die App, ob sie den Ort als Trainingsort speichern soll. Das ist freiwillig und kostet nichts von der übrigen App. Wozu es gut ist: Die App lernt für jeden Wochentag, wann du dort üblicherweise anfängst — montags vielleicht um fünf, samstags um sechs. Kommst du ungefähr zu dieser Zeit zu Fuß an, erinnert sie dich mit einer Nachricht, und ein Tipp darauf startet gleich das geplante Training, sonst ein Quick Workout. An Tagen, an denen du dort nie trainierst, bleibt sie still; auch wer nur vorbeifährt oder an der Ampel steht, bekommt keine Nachricht.
+Nach einem Training fragt die App, ob sie den Ort als Trainingsort speichern soll. Das ist freiwillig und kostet nichts von der übrigen App. Sagst du nein, speichert sie nichts und fragt nach dem nächsten Training noch einmal; du kannst die Frage auch ganz abstellen und später wieder einschalten. Wozu es gut ist: Die App lernt für jeden Wochentag, wann du dort üblicherweise anfängst — montags vielleicht um fünf, samstags um sechs. Dafür behält sie je Ort und Wochentag die Startzeiten deiner letzten zehn Trainings; ältere löscht sie.
+
+Sagst du ja, schaltet die App zugleich die Erinnerung ein. Kommst du dann ungefähr zu dieser Zeit zu Fuß an (bis anderthalb Stunden davor oder danach), erinnert sie dich mit einer Nachricht, höchstens einmal am Tag und nicht, wenn du heute schon trainiert hast. Ein Tipp darauf startet gleich das geplante Training, sonst ein Quick Workout. An Tagen, an denen du dort nie trainierst, bleibt sie still; auch wer nur vorbeifährt oder an der Ampel steht, bekommt keine Nachricht.
+
+Damit das auch bei geschlossener App klappt, fragt dein Telefon beim Einschalten nach dem Standort auch im Hintergrund, nach Bewegung und nach Benachrichtigungen. Der Standort dient nur dazu, zu erkennen, ob du einen gespeicherten Ort erreichst oder verlässt; deinen Weg zeichnet die App nicht auf. Die Bewegung braucht sie für den Schrittzähler, der erkennt, dass du zu Fuß bist. Ortung ist nicht genau, deshalb kann eine Nachricht auch einmal zur falschen Zeit kommen oder ausbleiben.
 
 Gehst du während des Trainings weg und kommst nicht innerhalb von zehn Minuten zurück, endet das Training von selbst. Es zählt bis fünf Minuten nach deinem letzten gespeicherten Satz — so stimmt die Dauer auch dann, wenn du die App erst am Abend wieder öffnest. Ein Training ohne gespeicherten Satz behält die App nicht; eine Nachricht sagt dir das.
 
-Ort und Schritte bleiben auf deinem Handy. Was genau gespeichert wird, steht in der [Datenschutzerklärung]({{ "/datenschutz/" | relative_url }}).
+Ort, Startzeiten und Schritte bleiben auf deinem Handy; die Schrittzahl speichert die App gar nicht. Gespeicherte Orte kannst du jederzeit umbenennen oder löschen, dann verschwinden auch ihre Startzeiten. Sie sind weder in der Sicherung deines Geräts noch in einer Backup-Datei enthalten; auf einem neuen Handy fragt die App deshalb von vorn. Was genau gespeichert wird, steht in der [Datenschutzerklärung]({{ "/datenschutz/" | relative_url }}).
 
 ## Rekorde und Fortschritt
 

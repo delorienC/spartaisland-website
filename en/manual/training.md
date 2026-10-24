@@ -68,11 +68,15 @@ That is the difference between "I do this regularly" and "this is what today loo
 
 ## Training places and the reminder at the gym
 
-After a workout the app asks whether to save the place as your training place. It is optional and takes nothing away from the rest of the app. What it is for: the app learns for each weekday when you usually start there — five on Mondays, perhaps, six on Saturdays. If you arrive on foot around that time, it reminds you with a message, and a tap on it starts the planned workout straight away, otherwise a quick workout. On days you never train there it stays quiet; driving past or waiting at a red light brings no message either.
+After a workout the app asks whether to save the place as your training place. It is optional and takes nothing away from the rest of the app. If you say no, it saves nothing and asks again after the next workout; you can also switch the question off altogether and back on later. What it is for: the app learns for each weekday when you usually start there — five on Mondays, perhaps, six on Saturdays. To do that it keeps, per place and weekday, the start times of your last ten workouts; it deletes older ones.
+
+If you say yes, the app switches the reminder on at the same time. When you then arrive on foot around that time (up to an hour and a half before or after), it reminds you with a message, at most once a day and not if you have already trained today. A tap on it starts the planned workout straight away, otherwise a quick workout. On days you never train there it stays quiet; driving past or waiting at a red light brings no message either.
+
+So that this works with the app closed, your phone asks when you switch it on for your location in the background, for motion and for notifications. The location is used only to recognise whether you reach or leave a saved place; the app does not record your path. It needs the motion permission for the step counter, which recognises that you are on foot. Positioning is not exact, so a message can occasionally come at the wrong time or not at all.
 
 If you leave during a workout and do not come back within ten minutes, the workout ends by itself. It counts until five minutes after your last saved set — so the duration is right even if you only open the app again in the evening. A workout without a saved set is not kept; a message tells you so.
 
-Place and steps stay on your phone. What exactly is stored is in the [privacy policy]({{ "/en/privacy/" | relative_url }}).
+Place, start times and steps stay on your phone; the app does not store the step count at all. You can rename or delete saved places at any time, and their start times go with them. They are in neither your device's backup nor a backup file; on a new phone the app therefore starts from scratch. What exactly is stored is in the [privacy policy]({{ "/en/privacy/" | relative_url }}).
 
 ## Records and progress
 
