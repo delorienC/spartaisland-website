@@ -1,0 +1,10 @@
+{%- comment -%}
+  A screenshot from the Android emulator with a one-sentence caption. The text
+  around it explains what it is for; it never names a control (the tour in the
+  app shows where). Parameters: src (path below assets/handbuch/), alt,
+  caption, height (pixel height of the 540 px wide file).
+{%- endcomment -%}
+<figure style="margin: 1.5rem auto; max-width: 300px; text-align: center;">
+  <img src="{{ include.src | prepend: '/assets/handbuch/' | relative_url }}" alt="{{ include.alt | escape }}" width="540" height="{{ include.height }}" loading="lazy" style="width: 100%; height: auto; border-radius: 12px; border: 1px solid rgba(128, 128, 128, 0.4);">
+  <figcaption style="font-size: 0.9em; margin-top: 0.4rem;">{{ include.caption }}</figcaption>
+</figure>
