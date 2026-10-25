@@ -8,7 +8,7 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung
 
-**Stand: 24. Oktober 2026**
+**Stand: 25. Oktober 2026**
 
 ## 1. Verantwortlicher
 
@@ -25,7 +25,7 @@ E-Mail: [contact@spartaisland.de](mailto:contact@spartaisland.de)
 Sparta Island ist bewusst als **lokale App** gestaltet. Alle Daten, die du in der App eingibst — Workouts, persönliche Rekorde, Körper- und Gesundheitsdaten (Gewicht, Bauchumfang, Körpergröße), Ernährungseinträge, Pläne —, werden **lokal auf deinem Gerät** gespeichert (SQLite-Datenbank). Deine Einträge überträgt die App nicht an uns — auch Körper- und Gesundheitsdaten nicht.
 
 - Es gibt **keine Registrierung und kein Benutzerkonto**.
-- Deine Einträge werden **nicht an uns übertragen**. Online geht die App seit Version 2.3.0 nur an einer Stelle: beim optionalen Barcode-Scan (Abschnitt 3); deine Einträge gehören nicht dazu. Versionen bis 2.2.0 fragten außerdem beim Start bei Expo nach Updates (Abschnitt 3a).
+- Deine Einträge werden **nicht an uns übertragen**. Online geht die App seit Version 2.3.1 nur an einer Stelle: beim optionalen Barcode-Scan (Abschnitt 3); deine Einträge gehören nicht dazu. Versionen bis 2.2.0 fragten außerdem beim Start bei Expo nach Updates (Abschnitt 3a).
 - Nutzt du ein Backup deines Geräts (iCloud bei Apple oder Google), kann es auch die Daten dieser App enthalten — in deinem eigenen Konto, nicht bei uns. Das passiert nur, wenn du dieses Geräte-Backup eingeschaltet hast. Ausgenommen sind die Trainingsorte (Abschnitt 4a) und auf Android die Fotos und Videos aus deinen Momenten (Abschnitt 2a).
 - Die App enthält **kein Tracking, keine Analyse-Dienste und kein Crash-Reporting**. Versionen bis 2.2.0 schickten bei der Update-Abfrage nach einem Absturz die Fehlermeldung der App an Expo mit (Abschnitt 3a).
 - Sparta Island richtet sich an Menschen ab 16 Jahren. Die App fragt nicht nach deinem Alter.
@@ -55,7 +55,7 @@ Die abgerufenen Nährwertdaten werden anschließend lokal auf deinem Gerät gesp
 
 ## 3a. Versionen bis 2.2.0: Update-Abfrage bei Expo
 
-Versionen bis 2.2.0 fragten beim Start bei Expo (650 Industries, USA) nach Updates; dabei gingen deine IP-Adresse, eine zufällige Nummer ohne Namen, die App-Version und das System deines Geräts dorthin (beim iPhone mit Versionsnummer). Zweck war, nachzusehen, ob es ein neueres Update für die App gibt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse war, dir Fehlerbehebungen schnell zu liefern. Du kannst dem nach Art. 21 DSGVO widersprechen, indem du auf 2.3.0 aktualisierst oder die App löschst. Expo sitzt in den USA. Nach eigenen Angaben ist Expo unter dem EU-US Data Privacy Framework zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO). Wie lange Expo die Daten aufbewahrt, nennt Expo nicht als feste Frist; maßgeblich sind die Datenschutzhinweise von Expo. Nach einem Absturz kam die Fehlermeldung der App dazu. Seit 2.3.0 fragt die App nicht mehr. Was Expo von Versionen bis 2.2.0 bekommen hat, bleibt dort nach Expos eigenen Regeln (https://expo.dev/privacy); Auskunft und Löschung dazu beantragst du direkt bei Expo. Die zufällige Nummer verschwindet, wenn du die App löschst; aus einem Geräte-Backup kann auch sie zurückkommen.
+Versionen bis 2.2.0 fragten beim Start bei Expo (650 Industries, USA) nach Updates; dabei gingen deine IP-Adresse, eine zufällige Nummer ohne Namen, die App-Version und das System deines Geräts dorthin (beim iPhone mit Versionsnummer). Zweck war, nachzusehen, ob es ein neueres Update für die App gibt. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO; unser berechtigtes Interesse war, dir Fehlerbehebungen schnell zu liefern. Du kannst dem nach Art. 21 DSGVO widersprechen, indem du auf 2.3.1 aktualisierst oder die App löschst. Expo sitzt in den USA. Nach eigenen Angaben ist Expo unter dem EU-US Data Privacy Framework zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO). Wie lange Expo die Daten aufbewahrt, nennt Expo nicht als feste Frist; maßgeblich sind die Datenschutzhinweise von Expo. Nach einem Absturz kam die Fehlermeldung der App dazu. Seit 2.3.1 fragt die App nicht mehr. Was Expo von Versionen bis 2.2.0 bekommen hat, bleibt dort nach Expos eigenen Regeln (https://expo.dev/privacy); Auskunft und Löschung dazu beantragst du direkt bei Expo. Die zufällige Nummer verschwindet, wenn du die App löschst; aus einem Geräte-Backup kann auch sie zurückkommen.
 
 ## 4. Kamera und Mikrofon
 

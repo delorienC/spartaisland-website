@@ -8,7 +8,7 @@ permalink: /en/privacy/
 
 # Privacy Policy
 
-**Last updated: October 24, 2026**
+**Last updated: October 25, 2026**
 
 ## 1. Controller
 
@@ -25,7 +25,7 @@ Email: [contact@spartaisland.de](mailto:contact@spartaisland.de)
 Sparta Island is deliberately designed as a **local app**. All data you enter — workouts, personal records, body and health data (weight, waist circumference, height), nutrition entries, plans — is stored **locally on your device** (SQLite database). The app does not transmit your entries to us — this includes body and health data.
 
 - There is **no registration and no user account**.
-- Your entries are **not transmitted to us**. Since version 2.3.0 the app goes online in one place only: the optional barcode scan (section 3); your entries are not part of that. Versions up to 2.2.0 also asked Expo for updates at start-up (section 3a).
+- Your entries are **not transmitted to us**. Since version 2.3.1 the app goes online in one place only: the optional barcode scan (section 3); your entries are not part of that. Versions up to 2.2.0 also asked Expo for updates at start-up (section 3a).
 - If you use a backup of your device (iCloud at Apple or Google), it may also contain this app's data — in your own account, not with us. That only happens if you have switched that device backup on. The training places (section 4a) and, on Android, the photos and videos from your moments (section 2a) are the exception.
 - The app contains **no tracking, no analytics services, and no crash reporting**. Versions up to 2.2.0 sent the app's error message to Expo with the update check after a crash (section 3a).
 - Sparta Island is meant for people aged 16 and over. The app does not ask for your age.
@@ -55,7 +55,7 @@ The retrieved nutrition facts are then stored locally on your device. They come 
 
 ## 3a. Versions up to 2.2.0: update check with Expo
 
-Versions up to 2.2.0 asked Expo (650 Industries, USA) for updates at start-up; your IP address, a random number without a name, the app version and your device's operating system (on iPhone with its version number) went there. The purpose was to check whether a newer update of the app is available. The legal basis is Art. 6(1)(f) GDPR; our legitimate interest was to deliver bug fixes to you quickly. You can object under Art. 21 GDPR by updating to 2.3.0 or deleting the app. Expo is based in the USA. According to its own statements, Expo is certified under the EU-US Data Privacy Framework, which is covered by an adequacy decision of the European Commission (Art. 45 GDPR). Expo does not state a fixed retention period; its own privacy notice applies. After a crash, the app's error message was sent too. Since 2.3.0 the app no longer asks. What Expo received from versions up to 2.2.0 stays there under Expo's own rules (https://expo.dev/privacy); you request access and erasure directly from Expo. The random number disappears when you delete the app; a device backup can bring it back too.
+Versions up to 2.2.0 asked Expo (650 Industries, USA) for updates at start-up; your IP address, a random number without a name, the app version and your device's operating system (on iPhone with its version number) went there. The purpose was to check whether a newer update of the app is available. The legal basis is Art. 6(1)(f) GDPR; our legitimate interest was to deliver bug fixes to you quickly. You can object under Art. 21 GDPR by updating to 2.3.1 or deleting the app. Expo is based in the USA. According to its own statements, Expo is certified under the EU-US Data Privacy Framework, which is covered by an adequacy decision of the European Commission (Art. 45 GDPR). Expo does not state a fixed retention period; its own privacy notice applies. After a crash, the app's error message was sent too. Since 2.3.1 the app no longer asks. What Expo received from versions up to 2.2.0 stays there under Expo's own rules (https://expo.dev/privacy); you request access and erasure directly from Expo. The random number disappears when you delete the app; a device backup can bring it back too.
 
 ## 4. Camera and microphone
 
