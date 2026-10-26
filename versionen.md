@@ -10,6 +10,20 @@ permalink: /versionen/
 
 Die neueste Version steht oben. Beschrieben ist, was du in der App merkst — nicht, was im Code passiert ist.
 
+## 2.3.1 — Oktober 2026
+
+**Training.** Ein Workout wird nicht mehr leer gespeichert, wenn es beim Start nicht geladen werden konnte. Die App sagt das und lässt dich noch einmal laden. Beim Beenden eines Trainings stürzte die App auf Android ab; das ist behoben, das Training war auch vorher gespeichert. Nach einer Pause setzt du mit „Fortsetzen“ oder einem Tipp auf die Uhr fort. Willst du während einer Pause einen Satz speichern, fragt die App zuerst. Solange eine Gewichtswarnung auf deine Entscheidung wartet, pausiert das Training nicht von selbst. Für eine Übung, die du heute schon gemacht hast, schlägt das Gewichtsrad keine Werte vor. Ein Link auf ein offenes Workout öffnet keine zweite Kopie mehr.
+
+**Ernährung.** Die Fokus-Kachel zeigt für Eiweiß, Kohlenhydrate und Fett je ein eigenes Symbol. Beim manuellen Eintrag gibt es ein Namensfeld, und Hinweise erscheinen erst, wenn du ein Feld verlässt. Beim Scannen übernimmt die App ein Produkt von Open Food Facts nur, wenn es zum gescannten Strichcode passt. Die Daten dieses Dienstes sind ungeprüft; kontrolliere wichtige Werte auf der Verpackung. Mehrere Darstellungsfehler im Nährwert-Verlauf und in den Eingabefeldern sind behoben.
+
+**Backups.** Bricht „Backup laden“ ab, stellt die App den Stand von vorher wieder her. Fotos und Videos eines Backups dürfen zusammen höchstens 200 MB groß sein; was darüber liegt, wird übersprungen, deine Einträge bleiben.
+
+**Trainingsorte.** Nach dem Training fragt die App, ob sie den Ort als Trainingsort speichern soll. Kommst du ungefähr zu deiner üblichen Zeit für diesen Wochentag zu Fuß dort an, kommt eine Nachricht, und ein Tipp darauf startet das Training. Gehst du mehr als 10 Minuten weg, endet das Training von selbst und zählt bis 5 Minuten nach deinem letzten gespeicherten Satz. Dafür fragt die App nach Standort und Bewegung; Ort und Schritte bleiben auf deinem Handy.
+
+**Bedienung.** Fragen und Hinweise erscheinen in einheitlichen Fenstern der App. „Dein Moment“ schließt mit der Zurück-Taste und fragt vor dem Verwerfen nach. Rezepte, Planer, Ersteinrichtung und Rekord-Karten sind an vielen Stellen übersichtlicher: Knöpfe sagen, warum sie grau sind, wichtige Knöpfe bleiben am unteren Rand sichtbar, Fragen zum Löschen nennen zuerst „Abbrechen“. Unter den Farbschemata erklärt ein Hinweis, dass Sparta auch bei „Hell“ dunkel bleibt.
+
+**Texte.** Viele Texte in der App sind kürzer und einfacher formuliert, im Dashboard stehen Eiweiß, Kohlenhydrate und Fett ausgeschrieben.
+
 ## 2.3.0 — Oktober 2026
 
 Im App Store folgt 2.3.0 direkt auf 2.1.0. Beschrieben ist alles, was seither dazugekommen ist.

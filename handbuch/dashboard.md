@@ -25,17 +25,19 @@ Und eine Eigenheit, die keine Fehlfunktion ist: **Am ersten Tag einer Woche gibt
 | Bereich | Was er beantwortet |
 |---|---|
 | **Aktive Tage** | An wie vielen Tagen des Zeitraums überhaupt etwas passiert ist — und was |
-| **Serie** | Wie viele Tage in Folge du aktiv warst |
-| **Volumen** | Wie viel Gewicht du im Zeitraum insgesamt bewegt hast |
+| **Tage in Folge** | Wie viele Tage in Folge du aktiv warst, gezählt bis heute |
+| **Bewegtes Gewicht** | Gewicht mal Wiederholungen, zusammengezählt für den Zeitraum |
 | **Ernährung** | Aufnahme pro Tag gegen dein Ziel, und dein Rhythmus |
-| **Makro-Trend** | Wie sich Protein, Kohlenhydrate und Fett über die Tage entwickeln |
+| **Nährwert-Verlauf** | Wie sich Eiweiß, Kohlenhydrate und Fett über die Tage entwickeln |
 | **Kraft** | Deine Entwicklung über die Übungen hinweg |
-| **Rekorde** | Die Bestleistungen und wann sie fielen |
-| **Körper** | Gewicht und Taille mit ihrer Veränderung im Zeitraum |
+| **Rekorde** | Deine Rekorde und wann sie fielen |
+| **Körper** | Gewicht und Bauchumfang mit ihrer Veränderung im Zeitraum |
+
+{% include figure.html src="2.3.1/dashboard-kacheln-de.png" alt="Dashboard mit den Kacheln „Tage in Folge“ und „Bewegtes Gewicht“" caption="Zwei Kacheln des Dashboards: die Tage in Folge und das bewegte Gewicht der Woche." height=1088 %}
 
 Die Kraft-, Rekord- und Körper-Bereiche erscheinen erst, wenn es etwas zu zeigen gibt. Ein leeres Dashboard mit acht Nullen wäre kein Bericht, sondern eine Aufforderung.
 
-**Aktive Tage zählen mehr als Workouts.** Ein Tag ist aktiv, wenn irgendetwas in der App passiert ist — ein Training, eine Mahlzeit, ein Körpermaß, ein Tagebuchmoment. Deshalb steht in der App genau **eine** Serie, und sie zählt jede Bewegung, nicht nur beendete Workouts.
+**Aktive Tage zählen mehr als Workouts.** Ein Tag ist aktiv, wenn irgendetwas in der App passiert ist — ein Training, eine Mahlzeit, ein Körpermaß, ein Tagebuchmoment. Deshalb gibt es in der App genau **eine** Zählung der Tage in Folge, und sie zählt jede Bewegung, nicht nur beendete Workouts.
 
 ## Der Rhythmus
 
@@ -43,14 +45,14 @@ Der Ernährungsbereich zeigt etwas, das keine andere Stelle der App zeigt: **wan
 
 Diese Auswertung lebt von den Uhrzeiten deiner Einträge. Wenn du abends nachträgst, was du mittags gegessen hast, korrigiere dort die Uhrzeit — sonst behauptet der Rhythmus, du hättest fünf Mahlzeiten nach acht Uhr abends gegessen.
 
-## Der Makro-Trend
+## Der Nährwert-Verlauf
 
 Die Kurve der drei Makronährstoffe lässt sich auf zwei Arten lesen:
 
 - **In Gramm.** Jeder Nährstoff bekommt seine eigene gestrichelte Grenze in seiner eigenen Farbe. Über der Linie heißt: über dem Ziel.
 - **In Prozent.** Jeder Nährstoff wird als Anteil seines *eigenen* Ziels gezeichnet. 100 heißt genau getroffen — so lassen sich Nährstoffe vergleichen, deren Zahlen sonst nichts miteinander zu tun haben.
 
-Kalorien sind nie eine Linie, sondern rote Balken: 2200 gegen 150 Gramm Protein in einem Bild würde jede andere Kurve flach drücken. Die roten Balken zeigen, um wie viele Kalorien du an diesem Tag über deinem Ziel lagst.
+Kalorien sind nie eine Linie, sondern rote Balken: 2200 gegen 150 Gramm Eiweiß in einem Bild würde jede andere Kurve flach drücken. Die roten Balken zeigen, um wie viele Kalorien du an diesem Tag über deinem Ziel lagst.
 
 Das Diagramm lässt sich vergrößern und quer im Vollbild öffnen. Mit zwei Fingern zoomst du, mit einem ziehst du durch deine Geschichte.
 
@@ -58,7 +60,7 @@ Das Diagramm lässt sich vergrößern und quer im Vollbild öffnen. Mit zwei Fin
 
 Sparta Island bringt ein Widget mit, das du auf den Startbildschirm deines iPhones legen kannst. Es heißt **Schnellzugriff** und hat zwei Aufgaben.
 
-Es **zeigt** deine Serie und die Kalorien, die dir heute noch bleiben. Und es **öffnet** die App an vier Stellen direkt: Workout starten, Essen scannen, Essen eintragen, Gewicht und Umfang.
+Es **zeigt** deine Tage in Folge und die Kalorien, die dir heute noch bleiben. Und es **öffnet** die App an vier Stellen direkt: Workout starten, Essen scannen, Essen eintragen, Gewicht und Umfang.
 
 Ein Widget rechnet nicht selbst. Es liest einen Stand, den die App hinterlegt hat — immer dann, wenn du die App verlässt oder zu ihr zurückkehrst. Genau das ist der richtige Moment, denn angeschaut wird ein Widget nur, während die App geschlossen ist. Deshalb steht auf dem Widget auch dazu, von wann sein Stand ist. Erscheint dir eine Zahl veraltet: App kurz öffnen und wieder schließen.
 
@@ -75,7 +77,7 @@ flowchart LR
 ## Wenn etwas nicht klappt
 
 - **Ein Bereich fehlt.** Er erscheint, sobald die zugehörigen Daten da sind — Körper etwa nach der ersten Messung.
-- **„Nicht genug Daten für einen Vergleich."** Ein Vergleich braucht zwei Zeiträume. Nach dem zweiten Monat sagt der Jahresvergleich mehr.
+- **„Noch zu wenige Daten zum Vergleichen."** Ein Vergleich braucht zwei Zeiträume. Nach dem zweiten Monat sagt der Jahresvergleich mehr.
 - **Die Woche wirkt falsch abgegrenzt.** Prüfe den Wochenbeginn in den Optionen.
 - **Das Widget zeigt alte Zahlen.** Öffne die App einmal; beim Verlassen schreibt sie den neuen Stand.
 

@@ -56,4 +56,4 @@ Below the charts the measurements are listed. Individual entries can be deleted,
 
 ## How it fits together
 
-The weight from here feeds the targets under [Nutrition]({{ "/en/manual/nutrition/" | relative_url }}) and the body tile on the [dashboard]({{ "/en/manual/dashboard/" | relative_url }}). Every measurement also makes the day an active one and so counts towards your streak in the [log]({{ "/en/manual/diary/" | relative_url }}).
+The weight from here feeds the targets under [Nutrition]({{ "/en/manual/nutrition/" | relative_url }}) and the body tile on the [dashboard]({{ "/en/manual/dashboard/" | relative_url }}). Every measurement also makes the day an active one and so counts towards your days in a row in the [log]({{ "/en/manual/diary/" | relative_url }}).
