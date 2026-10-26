@@ -25,7 +25,7 @@ Darunter liegen Karten, die niemand einträgt. Die App erzeugt sie, wenn ein Ere
 | Persönlicher Rekord | Du hast in einer Übung mehr Gewicht bewegt als je zuvor |
 | Wiederholungsrekord | So viele Wiederholungen in einem Satz gab es noch nie |
 | Monatsbilanz | Der Monat ist zusammengerechnet |
-| Tage in Folge | Deine Serie aktiver Tage hat eine Marke erreicht |
+| Tage in Folge | Deine Tage in Folge haben eine Marke erreicht |
 | Meilenstein | Dein zehntes, fünfzigstes, hundertstes Workout |
 | Gesamtvolumen | Was du seit dem ersten Tag insgesamt bewegt hast |
 | Comeback | Du warst länger weg und bist zurück |
@@ -39,7 +39,9 @@ Diese Karten kannst du teilen, wenn du magst — sie sind dafür gestaltet. Nich
 
 ## Deine eigenen Momente
 
-Neben dem Errechneten steht das, was keine Zahl abbildet. Ein Moment besteht aus einer Notiz, wahlweise einem Foto oder Video, und einem Gefühl. Du kannst ein Medium aus deiner Mediathek wählen, ein Foto aufnehmen oder ein Video drehen. Angetippt öffnet es sich im Vollbild.
+Neben dem Errechneten steht das, was keine Zahl abbildet. Ein Moment besteht aus einer Notiz, wahlweise einem Foto oder Video, und einem Gefühl. Du kannst ein Medium aus deiner Mediathek wählen, ein Foto aufnehmen oder ein Video drehen. Angetippt öffnet es sich im Vollbild. Hast du schon etwas eingegeben und willst den Moment ohne Speichern verlassen, fragt die App vorher, ob er wirklich weg soll – auch dann, wenn du mit der Zurück-Taste des Telefons oder mit einem Tippen daneben schließt. So geht nichts aus Versehen verloren.
+
+{% include figure.html src="2.3.1/verlauf-moment-verwerfen-de.png" alt="Frage „Moment verwerfen?“ über der Eingabe eines Moments" caption="Bevor ein angefangener Moment verworfen wird, fragt die App noch einmal nach." height=1165 %}
 
 Momente sind der Grund, warum der Verlauf mehr ist als eine Statistik: Warum ein Training gut lief, steht in keiner Kurve.
 
@@ -62,14 +64,14 @@ flowchart TD
   Streak --> Feed
 ```
 
-*Die Serie zählt jede Bewegung in der App, nicht nur beendete Workouts — auch eine erfasste Mahlzeit oder ein Körpermaß macht den Tag aktiv.*
+*Die Tage in Folge zählen jede Bewegung in der App, nicht nur beendete Workouts — auch eine erfasste Mahlzeit oder ein Körpermaß macht den Tag aktiv.*
 
 ## Wenn etwas nicht klappt
 
 - **Der Verlauf ist leer.** Er füllt sich mit dem ersten beendeten Workout. Vorher gibt es nichts zu erzählen.
 - **Ein Foto lässt sich nicht auswählen.** Die Freigabe für die Mediathek fehlt; sie lässt sich in den Systemeinstellungen nachholen.
-- **Nach einem Import fehlen Bilder.** Eine Sicherung enthält die Medien, aber sie kann sie auslassen, wenn Dateien zu groß waren oder nicht mehr auf dem Gerät lagen. Der Bericht nach dem Import sagt, wie viele betroffen sind.
+- **Nach dem Laden eines Backups fehlen Bilder.** Ein Backup enthält die Medien, lässt aber Dateien aus, die zu groß waren (über 50 MB je Datei oder zusammen über 200 MB) oder nicht mehr auf dem Gerät lagen. Die Meldung danach sagt, wie viele betroffen sind; die Dateien bleiben in der Backup-Datei.
 
 ## Zusammenspiel
 
-Die Karten entstehen aus dem [Training]({{ "/handbuch/training/" | relative_url }}), die Serie zusätzlich aus [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}) und [Körper]({{ "/handbuch/koerper/" | relative_url }}). Einen neuen Moment legst du am schnellsten über die Schnelleingabe in der Mitte der unteren Leiste an.
+Die Karten entstehen aus dem [Training]({{ "/handbuch/training/" | relative_url }}), die Tage in Folge zusätzlich aus [Ernährung]({{ "/handbuch/ernaehrung/" | relative_url }}) und [Körper]({{ "/handbuch/koerper/" | relative_url }}). Einen neuen Moment legst du am schnellsten über die Schnelleingabe in der Mitte der unteren Leiste an.

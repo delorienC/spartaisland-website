@@ -22,9 +22,13 @@ For every entry you can see at a glance where it stands relative to today: due t
 
 ## Planning a session
 
-An entry needs little: a name and a date. Two things can be added.
+An entry consists of a workout, a name and a start day.
 
-**A linked workout.** Link the appointment to one of your workouts and you can open and start it straight from the entry on training day. Without a link the entry stays a note — which is fine too, for a swim or a run the app does not log.
+**The workout** you pick first. On training day you open and start it straight from the entry. If there is none yet, you create it right there while planning. If the workout already has an appointment, the app shows it and asks whether you still want to add another.
+
+{% include figure.html src="2.3.1/planer-termin-anlegen-en.png" alt="Window “Plan workout” with the choice of workouts, the start day and the repeat" caption="When planning you pick the workout first, then the start day and whether the appointment repeats." height=1165 %}
+
+**Name and start day.** The app takes the name over from the workout; you can change it. If the start day lies in the past, the app tells you beforehand that the appointment will show as missed at once.
 
 **A repeat.** Instead of creating every appointment by hand, pick a pattern:
 
@@ -40,7 +44,7 @@ The two monthly patterns are not the same thing: the third falls on a different 
 
 ## Ticking off and tidying up
 
-Completed sessions get ticked off; a tick can be taken back. Recurring entries carry a symbol of their own.
+Completed sessions get ticked off; a tick can be taken back. A completed one-off appointment is marked as completed afterwards. Recurring entries carry a symbol of their own.
 
 When you delete a recurring session, the app asks what you mean:
 
@@ -51,7 +55,7 @@ Important, and intentional: **a deleted appointment takes nothing with it.** Nei
 
 ## When something does not work
 
-- **There is no workout to choose when planning.** Then there is none yet. Create one under [Training]({{ "/en/manual/training/" | relative_url }}) first; it will be available to link afterwards.
+- **There is no workout to choose when planning.** Then there is none yet. You create one right while planning, or beforehand under [Training]({{ "/en/manual/training/" | relative_url }}); without a workout no appointment can be created.
 - **An appointment sits on a day that does not suit you.** Moving is not a separate operation: in a series you delete the single date and create the replacement, and a one-off appointment you simply edit.
 
 ## How it fits together

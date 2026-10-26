@@ -25,7 +25,7 @@ Below it are cards nobody enters. The app creates them when something happens:
 | Personal record | You moved more weight in an exercise than ever before |
 | Rep record | Never before that many reps in a single set |
 | Monthly balance | The month has been added up |
-| Days in a row | Your streak of active days hit a mark |
+| Days in a row | Your days in a row hit a mark |
 | Milestone | Your tenth, fiftieth, hundredth workout |
 | Lifetime volume | What you have moved in total since day one |
 | Comeback | You were away for a while and came back |
@@ -39,7 +39,9 @@ You can share these cards if you like — they are designed for it. None of it h
 
 ## Your own moments
 
-Next to the calculated part sits what no number captures. A moment consists of a note, optionally a photo or video, and a feeling. You can pick media from your library, take a photo or record a video. Tapping it opens it full screen.
+Next to the calculated part sits what no number captures. A moment consists of a note, optionally a photo or video, and a feeling. You can pick media from your library, take a photo or record a video. Tapping it opens it full screen. If you have already entered something and leave the moment without saving, the app asks first whether it should really be thrown away — also when you close it with your phone's back button or with a tap outside. That way nothing gets lost by accident.
+
+{% include figure.html src="2.3.1/verlauf-moment-verwerfen-en.png" alt="Question “Discard this moment?” above the entry of a moment" caption="Before a moment you have started is thrown away, the app asks once more." height=1165 %}
 
 Moments are the reason the log is more than a statistic: why a session went well is in no curve.
 
@@ -62,14 +64,14 @@ flowchart TD
   Streak --> Feed
 ```
 
-*The streak counts every kind of activity in the app, not only finished workouts — a logged meal or a body measurement makes the day active too.*
+*The days in a row count every kind of activity in the app, not only finished workouts — a logged meal or a body measurement makes the day active too.*
 
 ## When something does not work
 
 - **The log is empty.** It fills up with your first finished workout. Before that there is nothing to tell.
 - **A photo cannot be picked.** Permission for the media library is missing; you can grant it in your system settings.
-- **Images are missing after an import.** A backup contains the media, but it can leave files out when they were too large or no longer on the device. The report after the import tells you how many are affected.
+- **Images are missing after loading a backup.** A backup contains the media, but it leaves files out when they were too large (over 50 MB per file, or over 200 MB together) or no longer on the device. The message afterwards tells you how many are affected; the files stay in the backup file.
 
 ## How it fits together
 
-The cards grow out of [Training]({{ "/en/manual/training/" | relative_url }}), the streak additionally out of [Nutrition]({{ "/en/manual/nutrition/" | relative_url }}) and [Body]({{ "/en/manual/body/" | relative_url }}). The quickest way to add a new moment is the quick add button in the middle of the bottom bar.
+The cards grow out of [Training]({{ "/en/manual/training/" | relative_url }}), the days in a row additionally out of [Nutrition]({{ "/en/manual/nutrition/" | relative_url }}) and [Body]({{ "/en/manual/body/" | relative_url }}). The quickest way to add a new moment is the quick add button in the middle of the bottom bar.
