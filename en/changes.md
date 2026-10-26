@@ -12,31 +12,21 @@ The newest version is at the top. This describes what you notice in the app — 
 
 ## 2.3.1 — October 2026
 
-**Training.** A workout can no longer be saved empty when it could not be loaded at the start. The app tells you and lets you load it again. Finishing a workout made the app crash on Android; this is fixed, and the workout was saved before as well. After a pause, continue with "Resume" or a tap on the clock. If you want to save a set during a pause, the app asks first. While a weight warning waits for your decision, the workout does not pause by itself. For an exercise you already did today, the weight wheel suggests no values. A link to an open workout no longer opens a second copy.
+In the App Store, 2.3.1 follows 2.1.0 directly; 2.2.0 and 2.3.0 were never released. This describes everything added since then.
 
-**Nutrition.** The focus tile shows its own symbol for protein, carbohydrates and fat. "Enter manually" has a name field, and hints appear only after you leave a field. When you scan a barcode, the app only takes over a product from Open Food Facts if it matches the scanned code. That service's data is unchecked; compare important values with the packaging. Several display errors in the nutrient chart and in input fields are fixed.
+**Training places.** After a workout, the app asks whether to save the place as your training place. If you arrive there on foot around your usual time for that weekday, you get a notification, and tapping it starts the workout. If you leave for more than 10 minutes, the workout ends by itself and counts until 5 minutes after your last saved set. For this, the app asks for access to location and motion; place and steps stay on your phone. If the device reports no step counter, the reminder is not available on it, and the app tells you so.
 
-**Backups.** If "Load backup" stops partway, the app restores the state from before. Photos and videos of a backup may add up to 200 MB at most; anything above that is skipped, your entries stay.
+**Training.** A workout is no longer saved empty when it could not be loaded at the start. The app tells you and lets you load it again. After a pause, continue with “Resume” or by tapping the clock. If you save a set during a pause, the app asks first. While a weight warning is waiting for your decision, the workout does not pause by itself. For an exercise you already did today, the weight wheel suggests no values. On the dashboard, each workout now counts once for the week, month and year instead of twice.
 
-**Training places.** After a workout the app asks whether to save the place as your training place. If you arrive there on foot around your usual time for that weekday, a message comes, and a tap on it starts the workout. If you leave for more than 10 minutes, the workout ends by itself and counts until 5 minutes after your last saved set. For this the app asks for location and motion; place and steps stay on your phone.
+**Backups.** You can protect a backup with a password. Before a backup without a password leaves your phone, the app asks first. Before an update reshapes your stored data, the app makes a safety copy and puts everything back if something goes wrong. If “Load backup” stops partway, the app restores the state from before. Photos and videos in a backup may add up to 200 MB at most; anything above that is skipped, your entries stay.
 
-**Use.** Questions and notices appear in matching app windows. "Your moment" closes with the back button and asks before you discard it. Recipes, planner, first setup and record cards are clearer in many places: buttons say why they are grey, important buttons stay visible at the bottom, delete questions list "Cancel" first. Under the colour schemes, a note explains that Sparta stays dark even with "Light".
+**Nutrition.** You can scan recipe ingredients by barcode. The app only takes a product from Open Food Facts if it matches the scanned barcode, and shows where it comes from. That service’s data is not verified; check important values on the packaging. Missing nutrients show as “?” instead of 0, and you can enter your own values. Numbers with a decimal point such as 12.5 g are read correctly. “Enter manually” has a name field, and hints appear only after you leave a field. The focus tile shows its own symbol for protein, carbohydrates and fat. The app does not save a daily goal below 1,200 kcal. Several display errors in the nutrient chart and in input fields are fixed.
 
-**Texts.** Many texts in the app are shorter and simpler, and the dashboard spells out protein, carbohydrates and fat.
+**Using the app.** Questions and notices appear in consistent app windows. “Your moment” closes with the back button and asks before discarding. Recipes, planner, first setup and record cards are clearer in many places: buttons say why they are grey, important buttons stay visible at the bottom, and delete questions list “Cancel” first. “Delete all data” also removes photos and videos and asks clearly first. VoiceOver reaches the buttons in windows such as “Delete all data”. Under the colour schemes, a note explains that Sparta stays dark even with “Light”.
 
-## 2.3.0 — October 2026
+**Texts.** The app’s texts are shorter and in plain language. Export, Streak and Macros are now “Create backup”, “Days in a row” and “Nutrients”, and the dashboard spells out protein, carbohydrates and fat.
 
-In the App Store, 2.3.0 follows straight on from 2.1.0. This describes everything added since then.
-
-**Training places.** After a workout, the app can remember the place and the start time. If you like, it reminds you when you enter your gym and asks when you leave. Your location stays on your phone. Before these features, there is a note for anyone under 16.
-
-**Easier to read.** The app speaks plain language. "Export" and "Import" are now "Create backup" and "Load backup", "Streak" is "Days in a row", and "Nutrients" replaces "Macros" for protein, carbs and fat. Explanations in the settings are open on your first visit; after that, you open them with an info button when you need them.
-
-**Better protected.** You can protect a backup with a password, and before a backup without a password leaves your phone, the app asks first. When you load a backup someone passed on to you, the app takes no outside addresses and no unsafe file names from it. Before an update reshapes your stored data, the app makes a safety copy and puts everything back if something goes wrong. "Delete all local data" also removes photos and videos and asks clearly first. At start-up the app no longer checks with Expo, a service for app updates; new versions only come through the App Store.
-
-**Nutrition.** You can scan recipe ingredients by barcode. Products from Open Food Facts show where they come from and are marked as unchecked; missing nutrients show as "?" instead of 0, and you can enter your own values. The app checks nutrition facts before storing them. The app does not save a daily goal below 1,200 kcal, and an older goal below that line no longer keeps dropping with your weight.
-
-**Fixed.** Numbers with a decimal point such as 12.5 g are taken over correctly instead of being cut short; amounts that are too small or too large are refused visibly. Dates and numbers follow your format settings, including on the exercise page and in the history charts. A scanned product shows its picture, name and number, so you can see whether it is yours. The records card gives every number its unit, history cards no longer show a made-up time, workout cards show a single "last" date, and long texts fit on small phones with large text too. VoiceOver and TalkBack reach the buttons in windows such as "Delete all data". Two workouts on the same day show up as two rows on the exercise page.
+At start-up the app does not check with Expo, a service for app updates. New versions now only come through the App Store.
 
 ## 2.1.0 — October 2026
 
