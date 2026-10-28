@@ -61,7 +61,7 @@ Auf den meisten Bildschirmen sitzt oben ein Fragezeichen. Es startet eine kurze 
 
 ## Dein Profil
 
-Im Profil stehen Name, Größe, Geburtstag, Geschlecht und dein Aktivitätslevel. Diese Angaben sind keine Pflicht, aber sie haben eine Aufgabe: Aus ihnen berechnet die App deinen geschätzten Tagesbedarf an Kalorien, den du in den Ernährungszielen mit einem Tippen übernehmen kannst.
+Im Profil stehen Name, Größe, Geburtstag, Geschlecht und deine Aktivität im Alltag. Diese Angaben sind keine Pflicht, aber sie haben eine Aufgabe: Aus ihnen berechnet die App deinen geschätzten Tagesbedarf an Kalorien, den du in den Ernährungszielen mit einem Tippen übernehmen kannst.
 
 Eines ist dort wichtig: **Dein Gewicht** trägst du nicht im Profil ein, sondern im Bereich [Körper]({{ "/handbuch/koerper/" | relative_url }}). Dort ist es ein Verlauf statt eines einzelnen Werts, und genau diesen Verlauf brauchen die Auswertungen.
 

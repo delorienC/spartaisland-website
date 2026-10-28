@@ -61,7 +61,7 @@ Most screens carry a question mark at the top. It starts a short tour showing wh
 
 ## Your profile
 
-The profile holds your name, height, birthday, gender and activity level. None of it is mandatory, but it has a job: from these values the app estimates your daily calorie need, which you can adopt in the nutrition targets with a single tap.
+The profile holds your name, height, birthday, gender and daily activity. None of it is mandatory, but it has a job: from these values the app estimates your daily calorie need, which you can adopt in the nutrition targets with a single tap.
 
 One thing matters there: **your weight** is not entered in the profile but under [Body]({{ "/en/manual/body/" | relative_url }}). There it is a history rather than a single value, and that history is exactly what the analyses need.
 

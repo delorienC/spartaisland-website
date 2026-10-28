@@ -70,7 +70,7 @@ What you eat often, you create once as a recipe: with ingredients and amounts an
 You set the targets yourself, and there are three ways to get there:
 
 1. **By hand.** Enter calories and the three macronutrients, done.
-2. **From your profile.** The app estimates your daily need with the Mifflin-St Jeor formula from age, height, weight, gender and activity level. One tap adopts the value. It remains an estimate — a calculation, not a measurement.
+2. **From your profile.** The app estimates your daily need with the Mifflin-St Jeor formula from age, height, weight, gender and daily activity. One tap adopts the value. It remains an estimate — a calculation, not a measurement.
 3. **Via grams per kilogram of body weight.** You pick a pattern as your starting point — muscle gain, fat loss or maintenance — and the app converts the factors against your current weight into grams.
 
 The third way has a property that saves you work: **when your weight changes, the targets change with it.** Log a new weight under [Body]({{ "/en/manual/body/" | relative_url }}) and the macro targets are recalculated without you opening the targets screen again. Without a stored weight this way does not work — you are then left with the factors and no gram totals.
