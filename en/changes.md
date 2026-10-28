@@ -10,6 +10,16 @@ permalink: /en/changes/
 
 The newest version is at the top. This describes what you notice in the app — not what happened in the code.
 
+## 2.3.2 — October 2026
+
+**Windows and input.** If the app asks a question while a window is already open, the question appears in that window, and the app keeps responding. Fields you type into and the notes below them stay visible above the keyboard. The windows for moment, plan workout, edit exercise and recipes end above the keyboard and can always be closed. When you correct a time, the first digit replaces the old value.
+
+**Numbers and texts.** Decimal numbers follow the language of the app: in English you see 2.8 and 1,084 kcal, in German 2,8 and 1.084 kcal. The screen reader reads amounts the same way. With exactly one item, the singular is used, for example 1 workout.
+
+**Sharing.** A tap beside the share window no longer opens the card underneath. Shared images have a readable name with date and time.
+
+**Display.** The introductions show their targets fully above the bottom bar. Each date format stands on its own line, and the chosen option stays highlighted. With a large system font, buttons, lines and labels wrap instead of being cut off. When planning a workout, the field takes the name of the chosen suggestion. In a workout the button now reads “Finish workout”, and a note explains how to change saved sets, also in Quick Workout. The exercise list is sorted by the name shown. In the profile, the movement entry is now called “Daily activity”.
+
 ## 2.3.1 — October 2026
 
 In the App Store, 2.3.1 follows 2.1.0 directly; 2.2.0 and 2.3.0 were never released. This describes everything added since then.

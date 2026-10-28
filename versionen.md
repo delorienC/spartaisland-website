@@ -10,6 +10,16 @@ permalink: /versionen/
 
 Die neueste Version steht oben. Beschrieben ist, was du in der App merkst — nicht, was im Code passiert ist.
 
+## 2.3.2 — Oktober 2026
+
+**Fenster und Eingabe.** Öffnet die App eine Frage, während schon ein Fenster offen ist, erscheint sie in diesem Fenster, und die App reagiert weiter. Felder, in die du tippst, und die Hinweise darunter bleiben über der Tastatur sichtbar. Die Fenster für Moment, Workout planen, Übung bearbeiten und Rezepte enden über der Tastatur und lassen sich immer schließen. Beim Korrigieren der Uhrzeit ersetzt die erste Ziffer den alten Wert.
+
+**Zahlen und Texte.** Kommazahlen folgen der Sprache der App: Auf Deutsch steht 2,8 und 1.084 kcal, auf Englisch 2.8 und 1,084 kcal. Der Bildschirmleser liest Mengen genauso vor. Bei genau einem Eintrag steht die Einzahl, etwa 1 Workout.
+
+**Teilen.** Ein Tipp neben das Teilen-Fenster öffnet nicht mehr die Karte darunter. Geteilte Bilder tragen einen lesbaren Namen mit Datum und Uhrzeit.
+
+**Darstellung.** Die Einführungen zeigen ihre Ziele vollständig über der unteren Leiste. Jedes Datumsformat steht in einer eigenen Zeile, und die gewählte Auswahl bleibt markiert. Bei großer Systemschrift brechen Knöpfe, Zeilen und Beschriftungen um, statt abgeschnitten zu werden. Beim Planen eines Workouts übernimmt das Feld den Namen des gewählten Vorschlags. Im Training heißt der Knopf jetzt „Workout beenden“, und ein Hinweis sagt, wie du gespeicherte Sätze änderst, auch im Schnell-Workout. Die Übungsliste ist nach dem angezeigten Namen sortiert. Im Profil heißt die Angabe zur Bewegung jetzt „Aktivität im Alltag“.
+
 ## 2.3.1 — Oktober 2026
 
 Im App Store folgt 2.3.1 direkt auf 2.1.0; 2.2.0 und 2.3.0 wurden nie veröffentlicht. Beschrieben ist alles, was seither dazugekommen ist.
