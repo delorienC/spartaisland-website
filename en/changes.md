@@ -10,6 +10,24 @@ permalink: /en/changes/
 
 The newest version is at the top. This describes what you notice in the app — not what happened in the code.
 
+## 2.3.2 — October 2026
+
+**Reminder at the gym (iPhone).** Up to version 2.3.1, the location feature did not work on iPhone: there was neither a reminder when you arrived at a saved training place nor an automatic end of a running workout when you leave the place for more than 10 minutes. This is fixed. For this, the app must be allowed to use your location in the background. iOS asks for this; the choice Always is needed. Your location stays on your device, and the app only watches the saved places. You are reminded only on weekdays when you have already trained there, around your usual time.
+
+**Warning about too heavy weights.** In version 2.3.1 the warning did not appear if you had already trained the same exercise earlier the same day. This is fixed. The warning now also appears if the last workout of the exercise had only sets without weight; it then compares with the last workout that had weight. It does not replace your own judgement: keep paying attention to how the weight feels for you.
+
+**Quick Workout.** It pauses by itself after the waiting time you set, like the planned workout. A tap on the clock resumes the workout. If you start a new set during the pause, the app asks first.
+
+**Windows and input.** If the app asks a question while a window is already open, the question appears in that window, and the app keeps responding. Fields you type into and the notes below them stay visible above the keyboard. The windows for moment, plan workout, edit exercise and recipes end above the keyboard and can be closed. When you correct a time, the first digit replaces the old value. On iPhone, tapping the bin in the history sometimes did nothing, and the app could seem frozen until you restarted it. This is fixed: deleting asks for confirmation again.
+
+**Numbers and texts.** Decimal numbers follow the language of the app: in English you see 2.8 and 1,084 kcal, in German 2,8 and 1.084 kcal. The screen reader reads amounts the same way. With exactly one item, the singular is used, for example 1 workout. The app says “record” everywhere instead of “PR”.
+
+**Sharing.** A tap beside the share window no longer opens the card underneath. Shared images have a readable name with date and time.
+
+**Display.** The introductions show their targets fully above the bottom bar. Each date format stands on its own line, and the chosen option stays highlighted. With a large system font, buttons, lines and labels wrap instead of being cut off. When planning a workout, the field takes the name of the chosen suggestion. In a workout the button now reads “Finish workout”, and a note explains how to change saved sets, also in Quick Workout. The exercise list is sorted by the name shown. In the profile, the movement entry is now called “Daily activity”.
+
+**Introductions.** A tap beside an introduction card ends the introduction, as does the back arrow. Before, it quietly moved on to the next card. This applies on all pages.
+
 ## 2.3.1 — October 2026
 
 In the App Store, 2.3.1 follows 2.1.0 directly; 2.2.0 and 2.3.0 were never released. This describes everything added since then.

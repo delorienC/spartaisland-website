@@ -70,7 +70,7 @@ Was du öfter isst, legst du einmal als Rezept an: mit Zutaten und Mengen und, w
 Die Ziele setzt du selbst, und du kommst auf drei Wegen dorthin:
 
 1. **Von Hand.** Kalorien und die drei Makronährstoffe eintragen, fertig.
-2. **Aus dem Profil.** Die App schätzt deinen Tagesbedarf nach der Mifflin-St-Jeor-Formel aus Alter, Größe, Gewicht, Geschlecht und Aktivitätslevel. Ein Tippen übernimmt den Wert. Es bleibt eine Schätzung — ein Rechenweg, keine Messung.
+2. **Aus dem Profil.** Die App schätzt deinen Tagesbedarf nach der Mifflin-St-Jeor-Formel aus Alter, Größe, Gewicht, Geschlecht und deiner Aktivität im Alltag. Ein Tippen übernimmt den Wert. Es bleibt eine Schätzung — ein Rechenweg, keine Messung.
 3. **Über Gramm je Kilogramm Körpergewicht.** Du wählst ein Muster als Ausgangspunkt — Muskelaufbau, Fettabbau oder Erhalt — und die App rechnet die Faktoren gegen dein aktuelles Gewicht in Gramm um.
 
 Der dritte Weg hat eine Eigenschaft, die dir Arbeit spart: **Wenn sich dein Gewicht ändert, ändern sich die Zielwerte mit.** Trägst du im [Körper]({{ "/handbuch/koerper/" | relative_url }}) ein neues Gewicht ein, werden die Makroziele neu gerechnet, ohne dass du die Zielseite noch einmal öffnen musst. Ohne hinterlegtes Gewicht funktioniert dieser Weg nicht — dann bleibt es bei den Faktoren ohne Gramm-Angabe.
