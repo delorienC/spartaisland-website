@@ -10,6 +10,24 @@ permalink: /versionen/
 
 Die neueste Version steht oben. Beschrieben ist, was du in der App merkst — nicht, was im Code passiert ist.
 
+## 2.3.2 — Oktober 2026
+
+**Erinnerung im Studio (iPhone).** Bis Version 2.3.1 funktionierte die Ortsfunktion auf dem iPhone nicht: Weder kam die Erinnerung beim Betreten eines gespeicherten Trainingsorts, noch endete ein laufendes Training von selbst, wenn du den Ort länger als 10 Minuten verlässt. Das ist behoben. Dafür muss die App den Standort auch im Hintergrund nutzen dürfen; iOS fragt danach, nötig ist die Auswahl „Immer“. Der Standort bleibt auf deinem Gerät, die App überwacht nur die gespeicherten Orte. Erinnert wird nur an Wochentagen, an denen du dort schon trainiert hast, rund um die übliche Zeit.
+
+**Warnung vor zu hohem Gewicht.** In Version 2.3.1 erschien die Warnung nicht, wenn du dieselbe Übung am selben Tag schon einmal trainiert hattest. Das ist behoben. Die Warnung kommt jetzt auch, wenn das letzte Training der Übung nur Sätze ohne Gewicht hatte; sie vergleicht dann mit dem letzten Training mit Gewicht. Sie ersetzt keine eigene Einschätzung: Achte weiter darauf, wie sich das Gewicht für dich anfühlt.
+
+**Schnell-Workout.** Es pausiert nach der eingestellten Wartezeit von selbst, wie das geplante Workout. Ein Tipp auf die Uhr setzt das Training fort. Beginnst du in der Pause einen neuen Satz, fragt die App zuerst nach.
+
+**Fenster und Eingabe.** Öffnet die App eine Frage, während schon ein Fenster offen ist, erscheint sie in diesem Fenster, und die App reagiert weiter. Felder, in die du tippst, und die Hinweise darunter bleiben über der Tastatur sichtbar. Die Fenster für Moment, Workout planen, Übung bearbeiten und Rezepte enden über der Tastatur und lassen sich schließen. Beim Korrigieren der Uhrzeit ersetzt die erste Ziffer den alten Wert. Auf dem iPhone geschah beim Antippen des Eimers im Verlauf manchmal nichts, und die App konnte wie eingefroren wirken, bis du sie neu gestartet hast. Das ist behoben: Löschen fragt wieder nach.
+
+**Zahlen und Texte.** Kommazahlen folgen der Sprache der App: Auf Deutsch steht 2,8 und 1.084 kcal, auf Englisch 2.8 und 1,084 kcal. Der Bildschirmleser liest Mengen genauso vor. Bei genau einem Eintrag steht die Einzahl, etwa 1 Workout. Die App sagt überall „Rekord“ statt „PR“.
+
+**Teilen.** Ein Tipp neben das Teilen-Fenster öffnet nicht mehr die Karte darunter. Geteilte Bilder tragen einen lesbaren Namen mit Datum und Uhrzeit.
+
+**Darstellung.** Die Einführungen zeigen ihre Ziele vollständig über der unteren Leiste. Jedes Datumsformat steht in einer eigenen Zeile, und die gewählte Auswahl bleibt markiert. Bei großer Systemschrift brechen Knöpfe, Zeilen und Beschriftungen um, statt abgeschnitten zu werden. Beim Planen eines Workouts übernimmt das Feld den Namen des gewählten Vorschlags. Im Training heißt der Knopf jetzt „Workout beenden“, und ein Hinweis sagt, wie du gespeicherte Sätze änderst, auch im Schnell-Workout. Die Übungsliste ist nach dem angezeigten Namen sortiert. Im Profil heißt die Angabe zur Bewegung jetzt „Aktivität im Alltag“.
+
+**Einführungen.** Ein Tipp neben eine Einführungskarte beendet die Einführung, auch der Zurück-Pfeil. Zuvor schaltete er still zur nächsten Karte weiter. Das gilt auf allen Seiten.
+
 ## 2.3.1 — Oktober 2026
 
 Im App Store folgt 2.3.1 direkt auf 2.1.0; 2.2.0 und 2.3.0 wurden nie veröffentlicht. Beschrieben ist alles, was seither dazugekommen ist.
