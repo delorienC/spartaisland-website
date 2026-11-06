@@ -10,6 +10,16 @@ permalink: /en/changes/
 
 The newest version is at the top. This describes what you notice in the app — not what happened in the code.
 
+## 2.4.0 — November 2026
+
+With 2.4.0, Sparta Island also appears for Android in the Play Store for the first time. On iPhone, the version follows 2.3.2. What is described below applies on both devices unless noted.
+
+**Reminder at the gym.** The reminder no longer needs steps. If you stay at a saved training place for a while after arriving, the message “Start a workout now?” appears. You choose the time in Options under “Remind me after”: 1, 3, 5, 10 or 15 minutes, 5 is preselected. If you leave the place earlier, start a workout or switch the reminder off, no message comes. Whether the message reliably appears while the app is closed also depends on the device. If you only pass a place but stay in its area longer than the chosen time, for example in a traffic jam, you may get a reminder you do not need. (iPhone: The app no longer asks for Motion & Fitness. If you granted the motion permission in 2.3.2, the app no longer uses it; you can withdraw it in your device settings.)
+
+**View training places.** A tap on a place in Options under “Training places” opens a view with its name, the usual times and a sketch. The sketch is drawn on your device and is not a map. With “Open in Maps”, the app passes the coordinates of the place, never the name, to a maps app when you tap. That app’s own rules apply there. If no maps app is installed, a note appears. The privacy text now says this.
+
+**Fixes.** A newly saved place is watched for the reminder at once, not only the next time you open the app. A workout you have left ends after 10 minutes even if you later arrive at a different saved place. After a workout ended this way, the window “Unfinished Workout” no longer appears in addition at the start. The question “Save this place as your training place?” now appears only right after you finish a workout and up to 15 minutes after the last saved set.
+
 ## 2.3.2 — October 2026
 
 **Reminder at the gym (iPhone).** Up to version 2.3.1, the location feature did not work on iPhone: there was neither a reminder when you arrived at a saved training place nor an automatic end of a running workout when you leave the place for more than 10 minutes. This is fixed. For this, the app must be allowed to use your location in the background. iOS asks for this; the choice Always is needed. Your location stays on your device, and the app only watches the saved places. You are reminded only on weekdays when you have already trained there, around your usual time.
