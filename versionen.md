@@ -18,7 +18,7 @@ Mit 2.4.0 erscheint Sparta Island erstmals auch für Android im Play Store. Für
 
 **Trainingsorte ansehen.** Ein Tipp auf einen Ort in den Optionen unter „Trainingsorte“ öffnet eine Ansicht mit Namen, üblichen Zeiten und einer Skizze. Die Skizze wird auf deinem Gerät gezeichnet und ist keine Karte. Mit „In Karten öffnen“ übergibt die App auf deinen Tipp die Koordinaten des Orts, nie den Namen, an eine Karten-App. Dort gelten deren Regeln. Ist keine Karten-App installiert, erscheint ein Hinweis. Der Datenschutztext nennt das jetzt.
 
-**Fehlerbehebungen.** Ein neu gespeicherter Ort wird sofort für die Erinnerung beachtet, nicht erst beim nächsten Öffnen der App. Ein Workout, das du verlassen hast, endet nach 10 Minuten auch dann, wenn du später an einem anderen gespeicherten Ort ankommst. Nach einem so beendeten Workout erscheint beim Start nicht mehr zusätzlich das Fenster „Nicht abgeschlossenes Workout“. Die Frage „Diesen Ort als Trainingsort speichern?“ kommt nur noch direkt nach dem Beenden eines Workouts und bis 15 Minuten nach dem letzten gespeicherten Satz.
+**Fehlerbehebungen.** Ein neu gespeicherter Ort wird sofort für die Erinnerung beachtet, nicht erst beim nächsten Öffnen der App. Ein Workout, das du verlassen hast, wird beendet, sobald die App das bemerkt, auch wenn du später an einem anderen gespeicherten Ort ankommst; es zählt bis 5 Minuten nach deinem letzten gespeicherten Satz. Wann die App das bemerkt, hängt vom Gerät ab. Nach einem so beendeten Workout erscheint beim Start nicht mehr zusätzlich das Fenster „Nicht abgeschlossenes Workout“. Die Frage „Diesen Ort als Trainingsort speichern?“ kommt nur noch direkt nach dem Beenden eines Workouts und bis 15 Minuten nach dem letzten gespeicherten Satz.
 
 ## 2.3.2 — Oktober 2026
 
