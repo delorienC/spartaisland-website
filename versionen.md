@@ -10,6 +10,16 @@ permalink: /versionen/
 
 Die neueste Version steht oben. Beschrieben ist, was du in der App merkst — nicht, was im Code passiert ist.
 
+## 2.4.0 — November 2026
+
+Mit 2.4.0 erscheint Sparta Island erstmals auch für Android im Play Store. Für das iPhone folgt die Version auf 2.3.2. Was unten steht, gilt auf beiden Geräten, außer wo es dabeisteht.
+
+**Erinnerung im Studio.** Die Erinnerung braucht keine Schritte mehr. Bleibst du nach der Ankunft an einem gespeicherten Trainingsort eine Zeit lang, kommt die Nachricht „Jetzt Workout starten?“. Die Zeit wählst du in den Optionen unter „Erinnern nach“: 1, 3, 5, 10 oder 15 Minuten, voreingestellt sind 5. Verlässt du den Ort vorher, startest du ein Workout oder schaltest die Erinnerung aus, kommt keine Nachricht. Ob die Nachricht bei geschlossener App zuverlässig erscheint, hängt auch vom Gerät ab. Wer an einem Ort nur vorbeikommt, aber länger als die gewählte Zeit im Bereich bleibt, etwa im Stau, kann eine Erinnerung bekommen, die er nicht braucht. Die App fragt nicht mehr nach Bewegung und Fitness. (iPhone: Hast du die Bewegungs-Erlaubnis in 2.3.2 erteilt, nutzt die App sie nicht mehr; zurücknehmen kannst du sie in den Einstellungen deines Geräts.)
+
+**Trainingsorte ansehen.** Ein Tipp auf einen Ort in den Optionen unter „Trainingsorte“ öffnet eine Ansicht mit Namen, üblichen Zeiten und einer Skizze. Die Skizze wird auf deinem Gerät gezeichnet und ist keine Karte. Mit „In Karten öffnen“ übergibt die App auf deinen Tipp die Koordinaten des Orts, nie den Namen, an eine Karten-App. Dort gelten deren Regeln. Ist keine Karten-App installiert, erscheint ein Hinweis. Der Datenschutztext nennt das jetzt.
+
+**Fehlerbehebungen.** Ein neu gespeicherter Ort wird sofort für die Erinnerung beachtet, nicht erst beim nächsten Öffnen der App. Ein Workout, das du verlassen hast, endet nach 10 Minuten auch dann, wenn du später an einem anderen gespeicherten Ort ankommst. Nach einem so beendeten Workout erscheint beim Start nicht mehr zusätzlich das Fenster „Nicht abgeschlossenes Workout“. Die Frage „Diesen Ort als Trainingsort speichern?“ kommt nur noch direkt nach dem Beenden eines Workouts und bis 15 Minuten nach dem letzten gespeicherten Satz.
+
 ## 2.3.2 — Oktober 2026
 
 **Erinnerung im Studio (iPhone).** Bis Version 2.3.1 funktionierte die Ortsfunktion auf dem iPhone nicht: Weder kam die Erinnerung beim Betreten eines gespeicherten Trainingsorts, noch endete ein laufendes Training von selbst, wenn du den Ort länger als 10 Minuten verlässt. Das ist behoben. Dafür muss die App den Standort auch im Hintergrund nutzen dürfen; iOS fragt danach, nötig ist die Auswahl „Immer“. Der Standort bleibt auf deinem Gerät, die App überwacht nur die gespeicherten Orte. Erinnert wird nur an Wochentagen, an denen du dort schon trainiert hast, rund um die übliche Zeit.
