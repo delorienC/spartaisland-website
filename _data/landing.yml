@@ -15,7 +15,7 @@ de:
       text: Sätze, Wiederholungen und Gewichte in Sekunden erfassen. Bestleistungen erkennt die App von selbst.
     - icon: plan
       title: Planen
-      text: Eigene Routinen bauen, Trainingstage festlegen und an fällige Einheiten erinnert werden.
+      text: Eigene Routinen bauen, Trainingstage festlegen und im Planer sehen, was heute fällig ist. Auf Wunsch erinnert dich die App, wenn du im Studio bist.
     - icon: food
       title: Ernährung
       text: Mahlzeiten und Makros im Blick, Ziele pro Kilo Körpergewicht, Lebensmittel per Barcode-Scan.
@@ -81,7 +81,7 @@ en:
       text: Log sets, reps and weights in seconds. The app spots your personal bests on its own.
     - icon: plan
       title: Planning
-      text: Build your own routines, set training days and get reminded of sessions that are due.
+      text: Build your own routines, set training days and see in the planner what is due today. If you like, the app reminds you when you are at the gym.
     - icon: food
       title: Nutrition
       text: Meals and macros at a glance, goals per kilogram of body weight, foods via barcode scan.
