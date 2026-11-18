@@ -74,7 +74,7 @@ Unter *Optionen* liegen diese Gruppen:
 - **Farbschema und Anzeigemodus** — mehrere Paletten sowie hell, dunkel oder der Systemvorgabe folgend. Ein Farbschema kann in jedem Modus dunkel bleiben (Sparta); die App sagt das dort, damit „hell“ nicht wie ein Fehler wirkt.
 - **Sprache** — Deutsch oder Englisch, jederzeit umschaltbar.
 - **Einheiten** — Kilogramm und Zentimeter, oder Pfund und Fuß. Gilt für Trainingsgewichte und Körpermaße; Mengen beim Essen bleiben in Gramm und Millilitern.
-- **Datum und Uhrzeit** — die deutsche Schreibweise mit 24-Stunden-Uhr, oder die amerikanische mit Monat zuerst und AM/PM.
+- **Datum und Uhrzeit** — die deutsche Schreibweise mit 24-Stunden-Uhr, oder die amerikanische mit Monat zuerst und AM/PM. Die Uhrzeit selbst folgt der Zeitzone deines Geräts: Wechselst du sie, etwa auf Reisen, zeigt die App die neue Zeit. Dazu lädt sie sich einmal neu; ein laufendes Workout wartet damit. Gespeicherte Einträge bleiben unverändert.
 - **Wochenbeginn** — Montag oder Sonntag. Die Einstellung entscheidet nur, welche Tage das Dashboard als „diese Woche" zusammenfasst. Deine Pläne und Termine verschieben sich dadurch nicht.
 - **Training** — automatische Pause, Ausrüstung, Trainingsorte und die Erinnerung im Studio (siehe [Training]({{ "/handbuch/training/" | relative_url }})).
 - **Daten** — Backup erstellen, Backup laden und das vollständige Löschen; dazu auf Wunsch eine Erinnerung, wenn das letzte Backup 30 Tage her ist.

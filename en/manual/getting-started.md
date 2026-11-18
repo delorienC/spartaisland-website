@@ -74,7 +74,7 @@ Units have left the profile and now sit with the other settings — they apply t
 - **Colour palette and display mode** — several palettes plus light, dark or following the system. A palette can stay dark in every mode (Sparta); the app says so there, so that "light" does not look like a fault.
 - **Language** — German or English, switchable at any time.
 - **Units** — kilograms and centimetres, or pounds and feet. Applies to training weights and body measurements; food amounts stay in grams and millilitres.
-- **Date and time** — the day-first spelling with a 24-hour clock, or the American one with the month first and AM/PM.
+- **Date and time** — the day-first spelling with a 24-hour clock, or the American one with the month first and AM/PM. The time itself follows your device’s time zone: if you change it, for example while travelling, the app shows the new time. To do this it reloads once; a running workout waits. Saved entries stay unchanged.
 - **Start of the week** — Monday or Sunday. The setting only decides which days the dashboard treats as "this week". Your plans and appointments do not move.
 - **Training** — automatic pause, equipment, training places and the reminder at the gym (see [Training]({{ "/en/manual/training/" | relative_url }})).
 - **Data** — create backup, load backup and full deletion; plus, if you like, a reminder when your last backup is 30 days old.

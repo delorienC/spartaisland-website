@@ -61,7 +61,7 @@ Ein eigenes Lebensmittel bekommt einen Namen, und zwar in der Sprache, in der du
 
 ## Rezepte
 
-Was du öfter isst, legst du einmal als Rezept an: mit Zutaten und Mengen und, wenn du magst, einer kurzen Zubereitung. Die App rechnet die Nährwerte zusammen. Beim Eintragen einer Mahlzeit nimmst du das Rezept samt Mengen und passt sie an, wenn es heute anders war. Hast du Mengen geändert, fragt die App genau einmal, ob das nur für diese Mahlzeit gilt oder ob das Rezept künftig so bleibt. Ein angefangenes Rezept verwirft sie erst nach Rückfrage.
+Was du öfter isst, legst du einmal als Rezept an: mit Zutaten und Mengen und, wenn du magst, einer kurzen Zubereitung. Die App rechnet die Nährwerte zusammen. Beim Eintragen einer Mahlzeit nimmst du das Rezept samt Mengen und passt sie an, wenn es heute anders war. Hast du Mengen geändert, fragt die App genau einmal, ob das nur für diese Mahlzeit gilt oder ob das Rezept künftig so bleibt. Ein angefangenes Rezept verwirft sie erst nach Rückfrage. Beim Eintragen findest du Rezepte auch über die Suche: Sie zeigt die Rezepte, in deren Namen jedes eingegebene Wort vorkommt, gleich in welcher Groß- und Kleinschreibung. Hast du ein Rezept geplant oder als gegessen eingetragen, landest du danach wieder auf der Seite des Tages, auf der du es siehst.
 
 {% include figure.html src="2.3.1/ernaehrung-rezept-angepasst-de.png" alt="Frage „Rezept angepasst“ nach einer geänderten Menge, mit zwei Möglichkeiten zum Speichern" caption="Wurde eine Menge geändert, fragt die App, ob die Änderung nur für diese Mahlzeit oder für das Rezept gelten soll." height=1168 %}
 
