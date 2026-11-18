@@ -77,18 +77,7 @@ Der dritte Weg hat eine Eigenschaft, die dir Arbeit spart: **Wenn sich dein Gewi
 
 Zusätzlich legst du einen **Makro-Fokus** fest: den Nährstoff, auf den es dir vor allem ankommt. Er entscheidet, was auf der Tagesseite hervorgehoben wird.
 
-```mermaid
-flowchart LR
-  Profil["Profil: Alter, Groesse, Geschlecht, Aktivitaet"] --> TDEE["Geschaetzter Tagesbedarf"]
-  TDEE --> Ziele["Tagesziele"]
-  Koerper["Koerper: aktuelles Gewicht"] --> ProKg["Gramm je Kilogramm"]
-  ProKg --> Ziele
-  Hand["Eigene Eingabe"] --> Ziele
-  Ziele --> Tag["Tagesbilanz"]
-  Mahlzeiten["Erfasste Mahlzeiten"] --> Tag
-```
-
-*Die Ziele haben drei Quellen, aber nur eine gilt: die zuletzt gespeicherte.*
+Die Ziele haben also drei Quellen, aber nur eine gilt: die zuletzt gespeicherte.
 
 ## Wenn etwas nicht klappt
 

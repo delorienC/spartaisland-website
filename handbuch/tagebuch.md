@@ -37,6 +37,8 @@ Darunter liegen Karten, die niemand einträgt. Die App erzeugt sie, wenn ein Ere
 
 Diese Karten kannst du teilen, wenn du magst — sie sind dafür gestaltet. Nichts davon geschieht automatisch: Geteilt wird nur, was du selbst herausgibst.
 
+Die Tage in Folge zählen jede Bewegung in der App, nicht nur beendete Workouts: Auch eine erfasste Mahlzeit oder ein Körpermaß macht den Tag aktiv.
+
 Karten zu einem beendeten Training sind mehr als eine Überschrift: Angetippt zeigen sie die Zusammenfassung genau dieses Trainings, mit Dauer, Sätzen und bewegtem Gewicht. Das gilt auch, wenn du das Workout, nach dem die Karte benannt ist, später gelöscht hast oder es nur im Verlauf gespeichert wurde. Das Training bleibt im Verlauf, auch wenn die Vorlage fehlt.
 
 {% include figure.html src="2.4.1/verlauf-training-zusammenfassung-de.png" alt="Zusammenfassung eines beendeten Trainings mit Dauer, Sätzen, Übungen und bewegtem Gewicht" caption="Die Zusammenfassung zeigt genau das Training, dessen Karte du geöffnet hast." height=1212 %}
@@ -57,18 +59,6 @@ Momente entfernst du direkt an der Karte. Bei einem Trainingseintrag fragt die A
 - **Auch aus den Aufzeichnungen entfernen** — die protokollierten Sätze werden ebenfalls entfernt und zählen künftig nicht mehr für Rekorde und Statistiken.
 
 Die zweite Wahl ist die richtige, wenn du dich vertippt hast. Die erste, wenn nur die Karte stört.
-
-```mermaid
-flowchart TD
-  Training["Beendete Einheit"] --> Karten["Automatische Karten"]
-  Ernaehrung["Erfasste Mahlzeiten"] --> Streak["Tage in Folge"]
-  Koerper["Koerpermasse"] --> Streak
-  Moment["Eigener Moment"] --> Feed["Verlauf"]
-  Karten --> Feed
-  Streak --> Feed
-```
-
-*Die Tage in Folge zählen jede Bewegung in der App, nicht nur beendete Workouts — auch eine erfasste Mahlzeit oder ein Körpermaß macht den Tag aktiv.*
 
 ## Wenn etwas nicht klappt
 

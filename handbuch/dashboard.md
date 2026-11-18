@@ -64,15 +64,7 @@ Es **zeigt** deine Tage in Folge und die Kalorien, die dir heute noch bleiben. U
 
 Ein Widget rechnet nicht selbst. Es liest einen Stand, den die App hinterlegt hat — immer dann, wenn du die App verlässt oder zu ihr zurückkehrst. Genau das ist der richtige Moment, denn angeschaut wird ein Widget nur, während die App geschlossen ist. Deshalb steht auf dem Widget auch dazu, von wann sein Stand ist. Erscheint dir eine Zahl veraltet: App kurz öffnen und wieder schließen.
 
-```mermaid
-flowchart LR
-  App["App wird verlassen"] --> Stand["Stand wird hinterlegt"]
-  Stand --> Widget["Widget zeigt den Stand"]
-  Widget --> Tippen["Tippen oeffnet die App an der passenden Stelle"]
-  Tippen --> App
-```
-
-*Deshalb ist das Widget aktuell, obwohl es selbst nichts rechnet.*
+Ein Tipp auf das Widget öffnet die App an der passenden Stelle.
 
 ## Wenn etwas nicht klappt
 

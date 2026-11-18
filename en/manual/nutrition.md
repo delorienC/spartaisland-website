@@ -77,18 +77,7 @@ The third way has a property that saves you work: **when your weight changes, th
 
 On top of that you set a **macro focus**: the nutrient that matters most to you. It decides what gets emphasised on the daily screen.
 
-```mermaid
-flowchart LR
-  Profile["Profile: age, height, gender, activity"] --> TDEE["Estimated daily need"]
-  TDEE --> Targets["Daily targets"]
-  Body["Body: current weight"] --> PerKg["Grams per kilogram"]
-  PerKg --> Targets
-  Manual["Your own input"] --> Targets
-  Targets --> Day["Daily balance"]
-  Meals["Logged meals"] --> Day
-```
-
-*The targets have three sources, but only one applies: the one saved last.*
+The targets thus have three sources, but only one applies: the one saved last.
 
 ## When something does not work
 

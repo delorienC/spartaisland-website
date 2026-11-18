@@ -37,6 +37,8 @@ Below it are cards nobody enters. The app creates them when something happens:
 
 You can share these cards if you like — they are designed for it. None of it happens automatically: only what you hand over yourself ever leaves the device.
 
+The days in a row count every kind of activity in the app, not only finished workouts: a logged meal or a body measurement makes the day active too.
+
 Cards for a finished workout are more than a headline: tapped, they show the summary of exactly that workout, with duration, sets and weight moved. This also holds if you later deleted the workout the card is named after, or if it was saved to the Log only. The workout stays in your Log even when its template is gone.
 
 {% include figure.html src="2.4.1/verlauf-training-zusammenfassung-en.png" alt="Summary of a finished workout with duration, sets, exercises and weight moved" caption="The summary shows exactly the workout whose card you opened." height=1212 %}
@@ -57,18 +59,6 @@ Moments are removed right on the card. For a training entry the app asks more pr
 - **Remove from the records too** — the logged sets go as well and no longer count towards records and statistics.
 
 The second choice is the right one when you mistyped. The first, when only the card is in the way.
-
-```mermaid
-flowchart TD
-  Training["Finished session"] --> Cards["Automatic cards"]
-  Nutrition["Logged meals"] --> Streak["Days in a row"]
-  Body["Body measurements"] --> Streak
-  Moment["Your own moment"] --> Feed["Log"]
-  Cards --> Feed
-  Streak --> Feed
-```
-
-*The days in a row count every kind of activity in the app, not only finished workouts — a logged meal or a body measurement makes the day active too.*
 
 ## When something does not work
 

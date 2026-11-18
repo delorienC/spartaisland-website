@@ -40,21 +40,6 @@ Von der Startseite aus erreichst du zwei weitere Bereiche als Kacheln: **Dashboa
 
 Das Training hat die Leiste erst spät bekommen — es ist der Kern der App, war aber der einzige große Bereich ohne festen Platz unten. Dafür ist der Verlauf auf die Startseite gerückt.
 
-```mermaid
-flowchart TD
-  Home["Home"] --> Dash["Dashboard"]
-  Home --> Log["Verlauf"]
-  Quick["Schnelleingabe"] --> QW["Quick Workout"]
-  Quick --> Meal["Mahlzeit"]
-  Quick --> Body["Koerper"]
-  Quick --> Note["Tagebucheintrag"]
-  Tabs["Untere Leiste"] --> Home
-  Tabs --> Strength["Training"]
-  Tabs --> Plan["Plan"]
-  Tabs --> Nutri["Ernaehrung"]
-  Tabs --> Quick
-```
-
 ## Die Touren
 
 Auf den meisten Bildschirmen sitzt oben ein Fragezeichen. Es startet eine kurze Tour, die dir zeigt, wo auf *diesem* Bildschirm was liegt. Die Touren sind der schnellere Weg zur Bedienung; dieses Handbuch erklärt dafür die Zusammenhänge zwischen den Bildschirmen. Du kannst jede Tour beliebig oft wieder aufrufen — sie merkt sich nur, ob sie beim ersten Besuch schon einmal von selbst erschienen ist.

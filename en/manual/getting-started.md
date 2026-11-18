@@ -40,21 +40,6 @@ From the start screen two further areas are reachable as tiles: **Dashboard** le
 
 Training only got its place in the bar late: it is the core of the app, yet it was the one large area without a fixed spot at the bottom. The log moved up to the start screen in exchange.
 
-```mermaid
-flowchart TD
-  Home["Home"] --> Dash["Dashboard"]
-  Home --> Log["Log"]
-  Quick["Quick add"] --> QW["Quick workout"]
-  Quick --> Meal["Meal"]
-  Quick --> Body["Body"]
-  Quick --> Note["Journal entry"]
-  Tabs["Bottom bar"] --> Home
-  Tabs --> Strength["Training"]
-  Tabs --> Plan["Plan"]
-  Tabs --> Nutri["Nutrition"]
-  Tabs --> Quick
-```
-
 ## The tours
 
 Most screens carry a question mark at the top. It starts a short tour showing where things are on *that* screen. The tours are the faster route to operating the app; this manual explains how the screens relate to each other instead. You can replay any tour as often as you like — it only remembers whether it has appeared by itself once on your first visit.
