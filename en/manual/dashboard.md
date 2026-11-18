@@ -64,15 +64,7 @@ It **shows** your days in a row and the calories you have left today. And it **o
 
 A widget does not calculate anything itself. It reads a snapshot the app has left for it — written every time you leave the app and every time you come back. That is precisely the right moment, because a widget is only ever looked at while the app is closed. It is also why the widget prints how old its snapshot is. If a number looks stale: open the app briefly and close it again.
 
-```mermaid
-flowchart LR
-  App["You leave the app"] --> Snap["Snapshot is stored"]
-  Snap --> Widget["Widget shows the snapshot"]
-  Widget --> Tap["A tap opens the app at the matching place"]
-  Tap --> App
-```
-
-*That is why the widget is current although it computes nothing itself.*
+A tap on the widget opens the app at the matching place.
 
 ## When something does not work
 

@@ -24,10 +24,9 @@ German and English are both there. `./scripts/check-manual.sh` checks that, plus
 internal links and leftover "under construction" notices — run it before opening
 a pull request.
 
-Chapter pages use `layout: manual`, which loads `assets/js/mermaid.min.js` from
-this repository so ```mermaid blocks render. The script is served locally on
-purpose: the site promises that nothing is sent anywhere, and a CDN would
-contradict that.
+Chapter pages use `layout: manual`. The manual carries no models: no UML, no
+Mermaid, no other diagrams. `check-manual.sh` fails on a diagram block in
+`handbuch/` or `en/`.
 
 ## Workflow
 

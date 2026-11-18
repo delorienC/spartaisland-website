@@ -10,6 +10,20 @@ permalink: /en/changes/
 
 The newest version is at the top. This describes what you notice in the app — not what happened in the code.
 
+## 2.4.1 — November 2026
+
+Version 2.4.1 has been in the App Store since 18 November 2026 and follows 2.4.0. This describes what has changed compared with 2.4.0.
+
+**Input.** In the “New food” sheet all fields stay in view while the keyboard is open. Above the iPhone number pad there is now a “Done” key that closes the keyboard.
+
+**Time and date.** If your device changes time zone while the app is open, the app shows the new time. To do this it reloads once; a running workout waits. Saved entries stay unchanged. “Last edited” of a workout no longer changes when you start, cancel or finish it.
+
+**Recipes and nutrition.** “Plan” and “Eaten” take you back to the daily nutrition page. The search field on “Log a meal” also filters the recipes. Tapping a workout in your Log shows the summary of exactly that session.
+
+**Privacy.** “Choose from library” no longer asks for access to all photos. The picker hands the app only the picture or video you tap.
+
+**Display.** Buttons, numbers and texts that were hidden or cut off on small screens or at the edge are corrected: the warning and wheels in “New Workout”, end values in the chart “Change since start”, the axis label in the nutrition history, the workout timer, “Save changes”, the selection mark of your own exercises, the welcome page and the add sheet. Screen readers now read “Help” and “Profile” aloud in the app’s language.
+
 ## 2.4.0 — November 2026
 
 Version 2.4.0 follows 2.3.2. This describes what has changed compared with 2.3.2.

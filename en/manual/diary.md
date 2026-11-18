@@ -37,9 +37,15 @@ Below it are cards nobody enters. The app creates them when something happens:
 
 You can share these cards if you like — they are designed for it. None of it happens automatically: only what you hand over yourself ever leaves the device.
 
+The days in a row count every kind of activity in the app, not only finished workouts: a logged meal or a body measurement makes the day active too.
+
+Cards for a finished workout are more than a headline: tapped, they show the summary of exactly that workout, with duration, sets and weight moved. This also holds if you later deleted the workout the card is named after, or if it was saved to the Log only. The workout stays in your Log even when its template is gone.
+
+{% include figure.html src="2.4.1/verlauf-training-zusammenfassung-en.png" alt="Summary of a finished workout with duration, sets, exercises and weight moved" caption="The summary shows exactly the workout whose card you opened." height=1212 %}
+
 ## Your own moments
 
-Next to the calculated part sits what no number captures. A moment consists of a note, optionally a photo or video, and a feeling. You can pick media from your library, take a photo or record a video. Tapping it opens it full screen. If you have already entered something and leave the moment without saving, the app asks first whether it should really be thrown away — also when you close it with your phone's back button or with a tap outside. That way nothing gets lost by accident.
+Next to the calculated part sits what no number captures. A moment consists of a note, optionally a photo or video, and a feeling. You can pick media from your library, take a photo or record a video. Picking from the library is a window of your phone: the app receives only the picture or video you tap, so it does not ask for access to all your photos. Tapping it opens it full screen. If you have already entered something and leave the moment without saving, the app asks first whether it should really be thrown away — also when you close it with your phone's back button or with a tap outside. That way nothing gets lost by accident.
 
 {% include figure.html src="2.3.1/verlauf-moment-verwerfen-en.png" alt="Question “Discard this moment?” above the entry of a moment" caption="Before a moment you have started is thrown away, the app asks once more." height=1165 %}
 
@@ -54,22 +60,10 @@ Moments are removed right on the card. For a training entry the app asks more pr
 
 The second choice is the right one when you mistyped. The first, when only the card is in the way.
 
-```mermaid
-flowchart TD
-  Training["Finished session"] --> Cards["Automatic cards"]
-  Nutrition["Logged meals"] --> Streak["Days in a row"]
-  Body["Body measurements"] --> Streak
-  Moment["Your own moment"] --> Feed["Log"]
-  Cards --> Feed
-  Streak --> Feed
-```
-
-*The days in a row count every kind of activity in the app, not only finished workouts — a logged meal or a body measurement makes the day active too.*
-
 ## When something does not work
 
 - **The log is empty.** It fills up with your first finished workout. Before that there is nothing to tell.
-- **A photo cannot be picked.** Permission for the media library is missing; you can grant it in your system settings.
+- **A photo or video cannot be taken.** Permission for the camera is missing; you can grant it in your system settings. Picking from the library needs no permission from the app.
 - **Images are missing after loading a backup.** A backup contains the media, but it leaves files out when they were too large (over 50 MB per file, or over 200 MB together) or no longer on the device. The message afterwards tells you how many are affected; the files stay in the backup file.
 
 ## How it fits together

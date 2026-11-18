@@ -40,21 +40,6 @@ From the start screen two further areas are reachable as tiles: **Dashboard** le
 
 Training only got its place in the bar late: it is the core of the app, yet it was the one large area without a fixed spot at the bottom. The log moved up to the start screen in exchange.
 
-```mermaid
-flowchart TD
-  Home["Home"] --> Dash["Dashboard"]
-  Home --> Log["Log"]
-  Quick["Quick add"] --> QW["Quick workout"]
-  Quick --> Meal["Meal"]
-  Quick --> Body["Body"]
-  Quick --> Note["Journal entry"]
-  Tabs["Bottom bar"] --> Home
-  Tabs --> Strength["Training"]
-  Tabs --> Plan["Plan"]
-  Tabs --> Nutri["Nutrition"]
-  Tabs --> Quick
-```
-
 ## The tours
 
 Most screens carry a question mark at the top. It starts a short tour showing where things are on *that* screen. The tours are the faster route to operating the app; this manual explains how the screens relate to each other instead. You can replay any tour as often as you like — it only remembers whether it has appeared by itself once on your first visit.
@@ -74,7 +59,7 @@ Units have left the profile and now sit with the other settings — they apply t
 - **Colour palette and display mode** — several palettes plus light, dark or following the system. A palette can stay dark in every mode (Sparta); the app says so there, so that "light" does not look like a fault.
 - **Language** — German or English, switchable at any time.
 - **Units** — kilograms and centimetres, or pounds and feet. Applies to training weights and body measurements; food amounts stay in grams and millilitres.
-- **Date and time** — the day-first spelling with a 24-hour clock, or the American one with the month first and AM/PM.
+- **Date and time** — the day-first spelling with a 24-hour clock, or the American one with the month first and AM/PM. The time itself follows your device’s time zone: if you change it, for example while travelling, the app shows the new time. To do this it reloads once; a running workout waits. Saved entries stay unchanged.
 - **Start of the week** — Monday or Sunday. The setting only decides which days the dashboard treats as "this week". Your plans and appointments do not move.
 - **Training** — automatic pause, equipment, training places and the reminder at the gym (see [Training]({{ "/en/manual/training/" | relative_url }})).
 - **Data** — create backup, load backup and full deletion; plus, if you like, a reminder when your last backup is 30 days old.

@@ -10,6 +10,20 @@ permalink: /versionen/
 
 Die neueste Version steht oben. Beschrieben ist, was du in der App merkst — nicht, was im Code passiert ist.
 
+## 2.4.1 — November 2026
+
+Die Version 2.4.1 ist seit dem 18.11.2026 im App Store und folgt auf 2.4.0. Beschrieben ist, was sich gegenüber 2.4.0 geändert hat.
+
+**Eingabe.** Im Blatt „Neues Lebensmittel“ bleiben alle Felder sichtbar, auch wenn die Tastatur offen ist. Über dem Zahlenblock des iPhones gibt es die Taste „Fertig“, mit der du die Tastatur schließt.
+
+**Zeit und Datum.** Wechselt dein Gerät die Zeitzone, während die App offen ist, zeigt die App die neue Uhrzeit. Dazu lädt sie sich einmal neu, ein laufendes Workout wartet damit. Gespeicherte Einträge bleiben unverändert. „Zuletzt geändert“ eines Workouts ändert sich nicht mehr durch Starten, Abbrechen oder Beenden.
+
+**Rezepte und Ernährung.** „Planen“ und „Gegessen“ bringen dich auf die Tagesseite Ernährung zurück. Das Suchfeld auf „Mahlzeit eintragen“ filtert auch die Rezepte. Ein Tipp auf ein Training im Verlauf zeigt die Zusammenfassung genau dieses Trainings.
+
+**Datenschutz.** „Aus der Mediathek wählen“ fragt nicht mehr nach Zugriff auf alle Fotos. Die Auswahl übergibt der App nur das Bild oder Video, das du antippst.
+
+**Darstellung.** Knöpfe, Zahlen und Texte, die auf kleinen Bildschirmen oder am Rand verdeckt oder abgeschnitten waren, sind korrigiert: Warnung und Räder in „Neues Workout“, Endwerte im Diagramm „Veränderung seit Beginn“, Achsenbeschriftung im Nährwert-Verlauf, Laufzeit im Workout, „Änderungen speichern“, Auswahlzeichen eigener Übungen, Willkommensseite und das Fenster zum Hinzufügen. Bildschirmleser lesen „Hilfe“ und „Profil“ jetzt in der Sprache der App vor.
+
 ## 2.4.0 — November 2026
 
 Die Version 2.4.0 folgt auf 2.3.2. Beschrieben ist, was sich gegenüber 2.3.2 geändert hat.

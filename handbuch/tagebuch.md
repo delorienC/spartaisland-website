@@ -37,9 +37,15 @@ Darunter liegen Karten, die niemand einträgt. Die App erzeugt sie, wenn ein Ere
 
 Diese Karten kannst du teilen, wenn du magst — sie sind dafür gestaltet. Nichts davon geschieht automatisch: Geteilt wird nur, was du selbst herausgibst.
 
+Die Tage in Folge zählen jede Bewegung in der App, nicht nur beendete Workouts: Auch eine erfasste Mahlzeit oder ein Körpermaß macht den Tag aktiv.
+
+Karten zu einem beendeten Training sind mehr als eine Überschrift: Angetippt zeigen sie die Zusammenfassung genau dieses Trainings, mit Dauer, Sätzen und bewegtem Gewicht. Das gilt auch, wenn du das Workout, nach dem die Karte benannt ist, später gelöscht hast oder es nur im Verlauf gespeichert wurde. Das Training bleibt im Verlauf, auch wenn die Vorlage fehlt.
+
+{% include figure.html src="2.4.1/verlauf-training-zusammenfassung-de.png" alt="Zusammenfassung eines beendeten Trainings mit Dauer, Sätzen, Übungen und bewegtem Gewicht" caption="Die Zusammenfassung zeigt genau das Training, dessen Karte du geöffnet hast." height=1212 %}
+
 ## Deine eigenen Momente
 
-Neben dem Errechneten steht das, was keine Zahl abbildet. Ein Moment besteht aus einer Notiz, wahlweise einem Foto oder Video, und einem Gefühl. Du kannst ein Medium aus deiner Mediathek wählen, ein Foto aufnehmen oder ein Video drehen. Angetippt öffnet es sich im Vollbild. Hast du schon etwas eingegeben und willst den Moment ohne Speichern verlassen, fragt die App vorher, ob er wirklich weg soll – auch dann, wenn du mit der Zurück-Taste des Telefons oder mit einem Tippen daneben schließt. So geht nichts aus Versehen verloren.
+Neben dem Errechneten steht das, was keine Zahl abbildet. Ein Moment besteht aus einer Notiz, wahlweise einem Foto oder Video, und einem Gefühl. Du kannst ein Medium aus deiner Mediathek wählen, ein Foto aufnehmen oder ein Video drehen. Die Auswahl aus der Mediathek ist ein Fenster deines Telefons: Die App bekommt nur das Bild oder Video, das du antippst, und fragt deshalb nicht nach dem Zugriff auf alle deine Fotos. Angetippt öffnet es sich im Vollbild. Hast du schon etwas eingegeben und willst den Moment ohne Speichern verlassen, fragt die App vorher, ob er wirklich weg soll – auch dann, wenn du mit der Zurück-Taste des Telefons oder mit einem Tippen daneben schließt. So geht nichts aus Versehen verloren.
 
 {% include figure.html src="2.3.1/verlauf-moment-verwerfen-de.png" alt="Frage „Moment verwerfen?“ über der Eingabe eines Moments" caption="Bevor ein angefangener Moment verworfen wird, fragt die App noch einmal nach." height=1165 %}
 
@@ -54,22 +60,10 @@ Momente entfernst du direkt an der Karte. Bei einem Trainingseintrag fragt die A
 
 Die zweite Wahl ist die richtige, wenn du dich vertippt hast. Die erste, wenn nur die Karte stört.
 
-```mermaid
-flowchart TD
-  Training["Beendete Einheit"] --> Karten["Automatische Karten"]
-  Ernaehrung["Erfasste Mahlzeiten"] --> Streak["Tage in Folge"]
-  Koerper["Koerpermasse"] --> Streak
-  Moment["Eigener Moment"] --> Feed["Verlauf"]
-  Karten --> Feed
-  Streak --> Feed
-```
-
-*Die Tage in Folge zählen jede Bewegung in der App, nicht nur beendete Workouts — auch eine erfasste Mahlzeit oder ein Körpermaß macht den Tag aktiv.*
-
 ## Wenn etwas nicht klappt
 
 - **Der Verlauf ist leer.** Er füllt sich mit dem ersten beendeten Workout. Vorher gibt es nichts zu erzählen.
-- **Ein Foto lässt sich nicht auswählen.** Die Freigabe für die Mediathek fehlt; sie lässt sich in den Systemeinstellungen nachholen.
+- **Ein Foto oder Video lässt sich nicht aufnehmen.** Die Freigabe für die Kamera fehlt; sie lässt sich in den Systemeinstellungen nachholen. Für die Auswahl aus der Mediathek braucht die App keine Freigabe.
 - **Nach dem Laden eines Backups fehlen Bilder.** Ein Backup enthält die Medien, lässt aber Dateien aus, die zu groß waren (über 50 MB je Datei oder zusammen über 200 MB) oder nicht mehr auf dem Gerät lagen. Die Meldung danach sagt, wie viele betroffen sind; die Dateien bleiben in der Backup-Datei.
 
 ## Zusammenspiel

@@ -61,7 +61,7 @@ A food of your own gets one name, in the language you are using the app in at th
 
 ## Recipes
 
-What you eat often, you create once as a recipe: with ingredients and amounts and, if you like, a short preparation. The app adds up the nutrition values. When you log a meal you take the recipe with its amounts and adjust them if today was different. If you changed amounts, the app asks exactly once whether that applies to this meal only or whether the recipe should stay that way from now on. It discards a recipe you have started only after asking.
+What you eat often, you create once as a recipe: with ingredients and amounts and, if you like, a short preparation. The app adds up the nutrition values. When you log a meal you take the recipe with its amounts and adjust them if today was different. If you changed amounts, the app asks exactly once whether that applies to this meal only or whether the recipe should stay that way from now on. It discards a recipe you have started only after asking. When you log a meal you can also find recipes by search: it shows the recipes whose name contains every word you typed, in any capitalisation. After you have planned a recipe or logged it as eaten, you land back on the page of that day, where you see it.
 
 {% include figure.html src="2.3.1/ernaehrung-rezept-angepasst-en.png" alt="Question “Recipe adjusted” after an amount was changed, with two ways to save" caption="If an amount was changed, the app asks whether the change applies to this meal only or to the recipe." height=1168 %}
 
@@ -77,18 +77,7 @@ The third way has a property that saves you work: **when your weight changes, th
 
 On top of that you set a **macro focus**: the nutrient that matters most to you. It decides what gets emphasised on the daily screen.
 
-```mermaid
-flowchart LR
-  Profile["Profile: age, height, gender, activity"] --> TDEE["Estimated daily need"]
-  TDEE --> Targets["Daily targets"]
-  Body["Body: current weight"] --> PerKg["Grams per kilogram"]
-  PerKg --> Targets
-  Manual["Your own input"] --> Targets
-  Targets --> Day["Daily balance"]
-  Meals["Logged meals"] --> Day
-```
-
-*The targets have three sources, but only one applies: the one saved last.*
+The targets thus have three sources, but only one applies: the one saved last.
 
 ## When something does not work
 
