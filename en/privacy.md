@@ -8,7 +8,7 @@ permalink: /en/privacy/
 
 # Privacy Policy
 
-**Last updated: November 3, 2026**
+**Last updated: November 20, 2026**
 
 ## 1. Controller
 
