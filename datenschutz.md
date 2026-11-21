@@ -8,7 +8,7 @@ permalink: /datenschutz/
 
 # Datenschutzerklärung
 
-**Stand: 3. November 2026**
+**Stand: 20. November 2026**
 
 ## 1. Verantwortlicher
 
